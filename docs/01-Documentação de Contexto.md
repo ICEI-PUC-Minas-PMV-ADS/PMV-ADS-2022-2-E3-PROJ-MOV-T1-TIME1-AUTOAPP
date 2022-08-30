@@ -1,46 +1,36 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Para manter um bom funcionamento, é recomendável que todo veículo realize a manutenção preventiva ou revisão. Cada fabricante ou oficina especializada possui o seu próprio esquema de checagem, entretanto, existem alguns procedimentos que são padrão em todos os casos, como verificar o estado dos pneus, suspensão, fluido de freios, filtros, óleo de motor e demais líquidos. A revisão serve, nesse sentido, para evitar problemas como avarias, desgastes e quebras (PORTAL AUTO SHOPPING, 2017).
+
+A frequência dessas verificações é definida pelo manual do proprietário do veículo e se baseia em estudos de durabilidades das peças com referência na média de utilização de determinado tipo de veículo.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Negligenciar a manutenção preventiva pode causar defeitos ao veículo, prejuízo financeiro e aumento da insegurança do proprietário. Segundo uma pesquisa realizada pela Globo e MindMiners, dentre 400 pessoas entrevistadas, 88% declararam que costumam fazer revisões veiculares e apenas 42% seguem as datas programadas. Uma das razões para isso pode ser a dificuldade em acompanhar as datas recomendadas, já que nem sempre essa informação é de fácil acesso no dia a dia. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Considerando o problema apresentado, o objetivo do projeto é desenvolver o MyCar, uma aplicação móvel prática e intuitiva, que oferece aos usuários um meio para armazenar os dados referentes ao seu veículo e receber alertas referentes às próximas manutenções e, também, de mecânicos e lojas especializadas mais próximas. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Com o MyCar, será possível:
+
+- Inserir e consultar dados sobre o veículo e as revisões realizadas.
+- Receber notificações quanto as datas recomendadas pelo fabricante.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Manter a manutenção preventiva em dia traz diversas vantagens ao proprietário, tais como:
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+- Econômica: um defeito não previsto provavelmente terá um custo de reparo bem maior do que se o problema fosse identificado previamente. 
+- Segurança: evitar falhas mecânicas que podem resultar em acidentes graves. 
+- Eficiência: manter o veículo dentro de suas normas de funcionamento ideais aumenta seu desempenho e reduz o consumo de combustível. 
+- Valorização: em caso de venda, manter um histórico de revisões é um diferencial importante para um potencial comprador.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Portanto, ter um local de fácil acesso dessas informações é indispensável para um motorista consciente. Além disso, a aplicação também poderá auxiliar mecânicos e seguradoras já que permite a visualização do histórico do veículo e de seu estado atual.
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo da aplicação são pessoas que possuem algum veículo (carro ou moto) e gostariam de ser notificadas quanto às revisões pelo celular, assim como manter um histórico organizado desses dados.
