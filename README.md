@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# MyCar
 
-`CURSO`
+CURSO DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
-`DISCIPLINA`
+DISCIPLINA PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO INTERARIVA MÓVEL - TURMA 01 - EIXO 3
 
-`SEMESTRE`
+2º 2022
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O MyCar é uma aplicação móvel que permite o acesso dos dados de veículos por seu proprietário de qualquer lugar que esteja. A aplicação também permite que o mecânico ou que a loja automobilística acompanhe e ofereça serviços a seus clientes. O sistema foi pensado para ser prático, intuitivo e de fácil navegação, proporcionando aos usuários um melhor acompanhamento das revisões e das manutenções passadas, além das previsões destas enquanto o veículo em questão estiver em sua posse. Além disso, a aplicação também pode auxiliar mecânicos, seguradoras e lojistas já que o MyCar permite acompanhamento e a visualização do histórico da manutenção e da situação atual do veículo.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+- Cristiano Garcia Ridolfi
+- Kelly Cesário de Oliveira
+- Luís Galdino de Almeida da Silva
+- Michelle Leal Rodrigues
+- Pedro Daniel Jardim
+- Renata Diniz Guimarães de Oliveira
 
 ## Orientador
 
-* Nome completo do professor 1
+- Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
 
