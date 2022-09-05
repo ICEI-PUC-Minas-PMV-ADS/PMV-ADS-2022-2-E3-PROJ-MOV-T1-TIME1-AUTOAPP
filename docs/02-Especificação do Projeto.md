@@ -95,15 +95,15 @@ Ao longo do projeto, os requisitos podem mudar e o impacto desta mudança deve s
 
 ## Gerenciamento de Projeto
 
-"Projeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade." (VARGAS, 2018).
+De acordo com Vargas (2018), "[p]rojeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade." (VARGAS, 2018). Com essa definição em mente, desenvolvemos a documentação e o aplicativo MyCar, tomando como base, também, os pressupostos sumarizados no PMBoK. 
 
-De acordo com o PMBoK 6.ed. as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e relacionam-se, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+De acordo com a sexta edição do PMBoK, as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos, um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e relacionam-se de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
 
-Todo o projeto antes de iniciado, deve ser avaliado sob uma perspectiva financeira, algumas técnicas que podem ser utilizadas: valor presente líquido, Taxa interna de retorno, Análise de custo-benefício, Payback ou cost of delay. Além disso, ter a visão do produto é de extrema importância para o início e fim do projeto. 
+Todo projeto, antes de iniciado, deve ser avaliado sob uma perspectiva financeira. Há algumas técnicas que podem ser utilizadas para fornecer tal perspectiva: valor presente líquido, taxa interna de retorno, análise de custo-benefício, payback ou cost of delay. Além disso, ter a visão do produto é de extrema importância para o início e o fim do projeto. 
 
 ## Divisão de Papéis
 
-A equipe MyCar utiliza metodologias àgeis como metodologia de trabalho de acompanhamento do projeto, o método Scrum foi definido como base do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+A equipe MyCar utiliza métodos ágeis como metodologia de trabalho de acompanhamento do projeto. O método Scrum foi definido como base do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
 -	Product Owner (P.O.): Will Ricardo dos Santos Machado;
 -	Scrum Master: Renata Diniz Guimarães de Oliveira;
@@ -111,34 +111,34 @@ A equipe MyCar utiliza metodologias àgeis como metodologia de trabalho de acomp
 Renata Diniz Guimarães de Oliveira;
 -	Equipe de Design: Kelly Cesário de Oliveira, Luís Galdino de Almeida da Silva, Michelle Leal Rodrigues.
 
-A equipe trabalhará com divisões de tarefas com encontros semanais após encontro com o P.O. para planejar e tirar dúvidas das tarefas divididas.
-Na primeira reunião de cada etapa, as tarefas serão divididas para esta etapa.
-E, na última segunda-feira, antes da entrega da etapa, a equipe reunir-se-a para revisar e alinhar se o que foi solicitado está pronto para ser entregue.
-O Scrum Master acompanhará estas sprints (tarefas) semanalamente.
+A equipe trabalhará com divisões de tarefas e com encontros semanais após reunião com o P.O. para planejar e tirar dúvidas a respeito das tarefas delegadas.
+Na primeira reunião de cada etapa, as tarefas serão organizadas e distribuídas.
+Na segunda-feira que precede a entrega da etapa, a equipe irá se se reunir para revisar e alinhar se o que foi solicitado está pronto para ser entregue.
+A Scrum Master acompanhará estas sprints (tarefas) semanalamente.
 
 O projeto seguirá o seguinte fluxo de metodologia:
 
 ![Scrum](img/SCRUM.png)
 
-Utilizando essa metodologia prevê-se ter uma maior produtividade, melhoria na comunicação, maior qualidade, integração entre os integrantes, respostas a imprevistos.
+Utilizando essa metodologia, prevê-se ter uma maior produtividade, melhoria na comunicação, maior qualidade, integração entre os integrantes, respostas a imprevistos.
 
 
 ## Gerenciamento de Tempo
 
-egundo Vargas (2018), o gerenciamento do cronograma tem como principal objetivo, garantir que o projeto seja concluído dentro do prazo determinado.
+Segundo Vargas (2018), o gerenciamento do cronograma tem como principal objetivo garantir que o projeto seja concluído dentro do prazo determinado.
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+Com diagramas bem organizados, que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
-Para construir um bom diagrama deve-se partir de um conjunto de atividades definidas, sequenciando-as de acordo com as dependências conhecidas entre si, estimando as durações das atividades individualmente e desenvolvendo a estrutura do projeto, em termos das tarefas e suas interações. É preciso também definir uma abordagem de ciclo de vida mais adequada ao projeto em questão.
+Para construir um bom diagrama, deve-se partir de um conjunto de atividades definidas, sequenciando-as de acordo com as dependências conhecidas entre si, estimando as durações das atividades individualmente e desenvolvendo a estrutura do projeto, em termos das tarefas e suas interações. É preciso, ademais, definir uma abordagem de ciclo de vida mais adequada ao projeto em questão.
 
 O diagrama de rede pode ser entendido como um gráfico que mostra as tarefas que precisam ser realizadas para a finalização de um projeto. Além de mostrar as relações contínuas de atividades, mostra como fazer as atividades e o cronograma determina quando fazer as tarefas do projeto.
 
-A seguir encontra-se o diagrama de redes do projeto MyCar mobile.
+A seguir, encontra-se o diagrama de redes do projeto MyCar.
 
 ![Diagrama de Redes](img/Diagramaderedes.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-A seguir o diagrama de Gantt do projeto Topa Trem mobile, utilizado como ferramenta de gerenciamento do cronograma do projeto.
+O gráfico de Gantt, ou diagrama de Gantt, também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+A seguir, encontra-se o diagrama de Gantt do projeto MyCar, utilizado como ferramenta de gerenciamento do cronograma do projeto.
 
 
 ![Gráfico de Gantt](img/graficoganttMyCar.png)
@@ -157,7 +157,6 @@ A seguir, é descrito o planejamento que auxiliará e direcionará a gestão de 
 -	Obter documentações necessárias para o desenvolvimento do projeto;
 -	Atribuir funções às pessoas da equipe;
 -	Planejar o cronograma de trabalho.
-
 
 >**Estimar os recursos das atividades**
 -	Analisar quais os recursos necessários para realização das atividades e quantificar;
@@ -195,9 +194,9 @@ Segue timeline do MyCar mobile
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo. “É o processo que agrega os custos estimados de atividades individuais ou pacotes de trabalho para estabelecer uma linha de base dos custos autorizada.” (VARGAS, 2018).
+O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo. Afinal, “[é] o processo que agrega os custos estimados de atividades individuais ou pacotes de trabalho para estabelecer uma linha de base dos custos autorizada.” (VARGAS, 2018).
 
-Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do MyCar mobile.
+Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do MyCar.
 
 
 ![Orçamento](img/orcamentoMyCar.png)
@@ -207,4 +206,3 @@ Memória de Cálculo
 -	Hardware = 6 Computadores, monitores, teclados, mouses e headphones x R$ 2455,00 = R$ 14.730,00
 -	Rede = 6 internet banda larga x R$ 100,00/Mês x 5 Meses = R$ 3.000,00
 -	Serviços = 6 despesas (energia, hospedagem) x R$ 50,00/Mês x 5 Meses = R$ 1.500,00
-
