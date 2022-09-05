@@ -11,9 +11,9 @@ Negligenciar a manutenção preventiva pode causar defeitos ao veículo, prejuí
 
 ## Objetivos
 
-Considerando o problema apresentado, o objetivo do projeto é desenvolver o MyCar, uma aplicação móvel prática e intuitiva, que oferece aos usuários um meio para armazenar os dados referentes ao seu veículo e receber alertas referentes às próximas manutenções e, também, de mecânicos e lojas especializadas mais próximas. 
+Considerando o problema apresentado, o objetivo do projeto é desenvolver o AutoApp, uma aplicação móvel prática e intuitiva, que oferece aos usuários um meio para armazenar os dados referentes ao seu veículo e receber alertas referentes às próximas manutenções e, também, de mecânicos e lojas especializadas mais próximas. 
 
-Com o MyCar, será possível:
+Com o AutoApp, será possível:
 
 - Inserir e consultar dados sobre o veículo e as revisões realizadas.
 - Receber notificações quanto as datas recomendadas pelo fabricante.
