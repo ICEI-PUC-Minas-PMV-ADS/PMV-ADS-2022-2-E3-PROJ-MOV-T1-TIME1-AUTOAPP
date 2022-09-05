@@ -1,4 +1,4 @@
-# MyCar
+# AutoApp
 
 CURSO DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
@@ -6,7 +6,7 @@ DISCIPLINA PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO INTERARIVA MÓVEL - TURM
 
 2º 2022
 
-O MyCar é uma aplicação móvel que permite o acesso dos dados de veículos por seu proprietário de qualquer lugar que esteja. A aplicação também permite que o mecânico ou que a loja automobilística acompanhe e ofereça serviços a seus clientes. O sistema foi pensado para ser prático, intuitivo e de fácil navegação, proporcionando aos usuários um melhor acompanhamento das revisões e das manutenções passadas, além das previsões destas enquanto o veículo em questão estiver em sua posse. Além disso, a aplicação também pode auxiliar mecânicos, seguradoras e lojistas já que o MyCar permite acompanhamento e a visualização do histórico da manutenção e da situação atual do veículo.
+O AutoApp é uma aplicação móvel que permite o acesso dos dados de veículos por seu proprietário de qualquer lugar que esteja. A aplicação também permite que o mecânico ou que a loja automobilística acompanhe e ofereça serviços a seus clientes. O sistema foi pensado para ser prático, intuitivo e de fácil navegação, proporcionando aos usuários um melhor acompanhamento das revisões e das manutenções passadas, além das previsões destas enquanto o veículo em questão estiver em sua posse. Além disso, a aplicação também pode auxiliar mecânicos, seguradoras e lojistas já que o AutoApp permite acompanhamento e a visualização do histórico da manutenção e da situação atual do veículo.
 
 ## Integrantes
 
