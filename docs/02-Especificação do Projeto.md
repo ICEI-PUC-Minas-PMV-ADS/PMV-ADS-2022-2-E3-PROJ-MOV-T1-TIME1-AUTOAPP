@@ -61,7 +61,7 @@ Nesse sentido, a ordem de importância das tarefas vai seguindo uma ordem decres
 | RF-003 | O sistema deverá permitir a inserção, a alteração e a exclusão dos dados de prestadores de serviços afiliados.   | ALTA | 
 | RF-004 | O sistema deverá permitir a criação de um perfil para o veículo (ano, modelo, cor...), permitindo a exibição de seus dados básicos.   | ALTA |
 | RF-005 | O sistema deverá armazenar os dados de revisões e de manutenções efetuadas no veículo. | ALTA |
-| RF-006 | O sistema deverá gerar relatórios sobre tais dados. | ALTA |
+| RF-006 | O sistema deverá gerar relatórios sobre tais dados, de forma vinculada às notas fiscais emitidas por oficinas conveniadas | ALTA |
 | RF-007 | O sistema deverá permitir a edição e exclusão dos dados do veículo.   | MÉDIA |
 | RF-008 | O sistema deve emitir lembretes para os usuários, com base nos dados informados no RF-005. | MÉDIA |
 | RF-009 | O sistema deverá permitir a busca de oficinas conveniadas próximas a sua localidade. | BAIXA |
