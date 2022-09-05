@@ -105,7 +105,7 @@ Nesse sentido, a ordem de importância das tarefas vai seguindo uma ordem decres
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em diversos dispositivos móveis | ALTA | 
 |RNF-002| O sistema deve ser implementado utilizando React Native. | ALTA |
-|RNF-003| A persistência dos dados será feita no banco MySQL. 
+|RNF-003| A persistência dos dados será feita no banco MySQL.  |  MEDIA |
 |RNF-004| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 
 ## Restrições
@@ -114,7 +114,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre. |
+|01| O projeto deverá ser entregue até 07/12/2022. |
 |02| Não pode ser desenvolvido um módulo de backend.        |
 |03| Proibida a terceirização de desenvolvimento do sistema em sua totalidade ou de módulos isolados.        |
 
