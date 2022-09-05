@@ -74,7 +74,7 @@ Nesse sentido, a ordem de importância das tarefas vai seguindo uma ordem decres
 | RNF-001 | O sistema deve ser responsivo para rodar em diversos dispositivos móveis | ALTA | 
 | RNF-002 | O sistema deve ser implementado utilizando React Native. | ALTA |
 | RNF-003 | A persistência dos dados será feita no banco MySQL.  |  MÉDIA |
-| RNF-004 | O sistema deve processar requisições do usuário em no máximo 3s |  BAIXA |
+| RNF-004 | O sistema deve processar requisições do usuário em no máximo 10s |  BAIXA |
 
 ## Restrições
 
@@ -187,7 +187,7 @@ A seguir, é descrito o planejamento que auxiliará e direcionará a gestão de 
 -	Informações sobre o desempenho e andamento do trabalho;
 -	Atualizações sobre o plano de gerenciamento de recursos.
 
-Segue timeline do MyCar mobile
+Segue timeline do AutoApp
 
 
 ![Simple Project Timeline](img/timelineMyCar.png)
@@ -196,7 +196,7 @@ Segue timeline do MyCar mobile
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo. Afinal, “[é] o processo que agrega os custos estimados de atividades individuais ou pacotes de trabalho para estabelecer uma linha de base dos custos autorizada.” (VARGAS, 2018).
 
-Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do MyCar.
+Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do AutoApp.
 
 
 ![Orçamento](img/orcamentoMyCar.png)
