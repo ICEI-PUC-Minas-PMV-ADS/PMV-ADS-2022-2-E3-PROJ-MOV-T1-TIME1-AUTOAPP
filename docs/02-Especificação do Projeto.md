@@ -88,25 +88,25 @@ Nesse sentido, a ordem de importância das tarefas vai seguindo uma ordem decres
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail. | ALTA | 
-|RF-002| O sistema deverá permitir a alteração e exclusão dos dados de usuários, neste caso, excluindo também qualquer veículo vinculado a ele.   | ALTA | 
-|RF-003| O sistema deverá permitir a inserção, alteração e exclusão dos dados de prestadores de serviços afiliados.   | ALTA | 
-|RF-004|  O sistema deverá permitir criar um perfil para o veículo (ano, modelo, cor...) permitindo a exibição de seus dados básicos.   | ALTA |
-|RF-005| O sistema deverá armazenar os dados de revisões e manutenções efetuadas no veículo e gerar relatórios sobre tais dados. | ALTA |
-|RF-006| O sistema deverá permitir a edição e exclusão dos dados do veículo.   | MÉDIA |
-|RF-007| O sistema deve emitir lembretes para os usuários, com base nos dados informados no RF-005. | MÉDIA |
-|RF-008| O sistema deve emitir lembretes para os usuários, com base nos dados informados no RF-005. | MÉDIA |
-|RF-009| O sistema deverá permitir a busca de oficinas conveniadas próximas a sua localidade. | BAIXA |
-|RF-010| O sistema deverá permitir a integração com portais do DETRAN para consulta de pendências do veículo cadastrado. | BAIXA |
+| RF-001 | O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail. | ALTA | 
+| RF-002 | O sistema deverá permitir a alteração e exclusão dos dados de usuários, neste caso, excluindo também qualquer veículo vinculado a ele.   | ALTA | 
+| RF-003 | O sistema deverá permitir a inserção, alteração e exclusão dos dados de prestadores de serviços afiliados.   | ALTA | 
+| RF-004 |  O sistema deverá permitir criar um perfil para o veículo (ano, modelo, cor...) permitindo a exibição de seus dados básicos.   | ALTA |
+| RF-005 | O sistema deverá armazenar os dados de revisões e manutenções efetuadas no veículo e gerar relatórios sobre tais dados. | ALTA |
+| RF-006 | O sistema deverá permitir a edição e exclusão dos dados do veículo.   | MÉDIA |
+| RF-007 | O sistema deve emitir lembretes para os usuários, com base nos dados informados no RF-005. | MÉDIA |
+| RF-008 | O sistema deve emitir lembretes para os usuários, com base nos dados informados no RF-005. | MÉDIA |
+| RF-009 | O sistema deverá permitir a busca de oficinas conveniadas próximas a sua localidade. | BAIXA |
+| RF-010 | O sistema deverá permitir a integração com portais do DETRAN para consulta de pendências do veículo cadastrado. | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em diversos dispositivos móveis | ALTA | 
-|RNF-002| O sistema deve ser implementado utilizando React Native. | ALTA |
-|RNF-003| A persistência dos dados será feita no banco MySQL.  |  MEDIA |
-|RNF-004| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+| RNF-001 | O sistema deve ser responsivo para rodar em diversos dispositivos móveis | ALTA | 
+| RNF-002 | O sistema deve ser implementado utilizando React Native. | ALTA |
+| RNF-003 | A persistência dos dados será feita no banco MySQL.  |  MEDIA |
+| RNF-004 | Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 
 ## Restrições
 
