@@ -95,7 +95,7 @@ Ao longo do projeto, os requisitos podem mudar e o impacto desta mudança deve s
 
 ## Gerenciamento de Projeto
 
-De acordo com Vargas (2018), "[p]rojeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade." (VARGAS, 2018). Com essa definição em mente, desenvolvemos a documentação e o aplicativo MyCar, tomando como base, também, os pressupostos sumarizados no PMBoK. 
+De acordo com Vargas (2018), "[p]rojeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade." (VARGAS, 2018). Com essa definição em mente, desenvolvemos a documentação e o aplicativo AutoApp, tomando como base, também, os pressupostos sumarizados no PMBoK. 
 
 De acordo com a sexta edição do PMBoK, as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos, um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e relacionam-se de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
 
@@ -103,7 +103,7 @@ Todo projeto, antes de iniciado, deve ser avaliado sob uma perspectiva financeir
 
 ## Divisão de Papéis
 
-A equipe MyCar utiliza métodos ágeis como metodologia de trabalho de acompanhamento do projeto. O método Scrum foi definido como base do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+A equipe AutoApp utiliza métodos ágeis como metodologia de trabalho de acompanhamento do projeto. O método Scrum foi definido como base do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
 -	Product Owner (P.O.): Will Ricardo dos Santos Machado;
 -	Scrum Master: Renata Diniz Guimarães de Oliveira;
@@ -133,12 +133,12 @@ Para construir um bom diagrama, deve-se partir de um conjunto de atividades defi
 
 O diagrama de rede pode ser entendido como um gráfico que mostra as tarefas que precisam ser realizadas para a finalização de um projeto. Além de mostrar as relações contínuas de atividades, mostra como fazer as atividades e o cronograma determina quando fazer as tarefas do projeto.
 
-A seguir, encontra-se o diagrama de redes do projeto MyCar.
+A seguir, encontra-se o diagrama de redes do projeto AutoApp.
 
 ![Diagrama de Redes](img/Diagramaderedes.png)
 
 O gráfico de Gantt, ou diagrama de Gantt, também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-A seguir, encontra-se o diagrama de Gantt do projeto MyCar, utilizado como ferramenta de gerenciamento do cronograma do projeto.
+A seguir, encontra-se o diagrama de Gantt do projeto AutoApp, utilizado como ferramenta de gerenciamento do cronograma do projeto.
 
 
 ![Gráfico de Gantt](img/graficoganttMyCar.png)
