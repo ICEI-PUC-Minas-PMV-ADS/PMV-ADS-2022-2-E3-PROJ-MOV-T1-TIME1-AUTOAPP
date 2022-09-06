@@ -88,10 +88,30 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
+Faltando o diagrama de uso...
+
 
 ## Matriz de Rastreabilidade
 
 Ao longo do projeto, os requisitos podem mudar e o impacto desta mudança deve ser analisado e os riscos avaliados. "Para que a análise de impacto de uma mudança possa ser realizada de forma adequada, é necessário garantir que as ligações entre os requisitos ou entre os requisitos e outros elementos do sistema sejam conhecidas e possam ser utilizadas como base para essa análise." (REINEHR, 2020).
+
+| Importância   | Cod. EAP | Nome                                          | Tipo             | Critérios de Aceitação                                                | Descrição |
+|---------------|----------|-----------------------------------------------|------------------|-----------------------------------------------------------------------|------------|
+|   Must have   | RF-001   | Criação de Perfil                             | Funcional        | Criação de usuário sendo feita com sucesso                            | O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail |                       
+|   Must have   | RF-002   | Exclusão dos Dados                            | Funcional        | Exclusão de dados do usuário sendo feita com sucesso                  | O sistema deverá permitir a alteração e a exclusão dos dados de usuários, nesse caso, excluindo também qualquer veículo vinculado a ele.      |  
+|   Must have   | RF-003   | Inclusão de dados de Terceiros                | Funcional        | Operações CRUD com dados de terceiros                                 | O sistema deverá permitir a inserção, a alteração e a exclusão dos dados de prestadores de serviços afiliados.      |  
+|   Must have   | RF-004   | Inclusão de dados sobre o Veículo             | Funcional        | Inclusão de veículo sendo feita com sucesso                           | O sistema deverá permitir a criação de um perfil para o veículo (ano, modelo, cor...), permitindo a exibição de seus dados básicos. |        
+|   Must have   | RF-005   | Armazenamento de dados sobre o Veículo        | Funcional        | Inclusão de dados sobre o veículo sendo feita com sucesso             | O sistema deverá armazenar os dados de revisões e de manutenções efetuadas no veículo.      |  
+|   Must have   | RF-006   | Relatórios sobre o Veículo                    | Funcional        | Geração de relatórios sobre dados do carro sendo realizada com sucesso| O sistema deverá gerar relatórios sobre dados do veículo.        |
+|   Should have | RF-007   | Edição e Exclusão de dados                    | Funcional        | Edição e exclusão dos dados do veículo com sucesso                    | O sistema deverá permitir a edição e exclusão dos dados do veículo.|
+|   Should have | RF-008   | Emissão de lembretes para o usuário           | Funcional        | Emissão de lembretes para o usuário sendo feita com sucesso           | O sistema deve emitir lembretes para os usuários, com base nos dados informados no RF-005.|
+|   Could have  | RF-009   | Busca de Oficinas conveniadas                 | Funcional        | Busca de oficianas conveniadas feita com sucesso                      | O sistema deverá permitir a busca de oficinas conveniadas próximas a sua localidade.  |      
+|   Could have  | RF-010   | Integração com portais do DETRAN              | Funcional        | Integração com portais do DETRAN com sucesso                          | O sistema deverá permitir a integração com portais do DETRAN para consulta de pendências do veículo cadastrado.       | 
+|   Must have   | RNF-001  | Responsividade do Sistema em ambiente móveis  | Não-Funcional    | Responsividade do Sistema em ambiente móveis com sucesso              | O sistema deve ser responsivo para rodar em diversos dispositivos móveis        |
+|   Must have   | RNF-002  | Implementação de Framework                    | Não-Funcional    | Implementação do React Native feita com sucesso                       |  O sistema deve ser implementado utilizando React Native.        |
+|   Should have | RNF-003  | Uso de Banco do MySQL                         | Não-Funcional    | Implementação do banco de dados em MySQL                              | A persistência dos dados será feita no banco MySQL.        |
+|   Could have  | RNF-004  | Tempo de Requisição                           | Não-Funcional    | Tempo de Requisição deve atender á descrição                          | O sistema deve processar requisições do usuário em no máximo 11s        |
+
 
 ## Gerenciamento de Projeto
 
