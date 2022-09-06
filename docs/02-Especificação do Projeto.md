@@ -161,7 +161,9 @@ O gráfico de Gantt, ou diagrama de Gantt, também é uma ferramenta visual util
 A seguir, encontra-se o diagrama de Gantt do projeto AutoApp, utilizado como ferramenta de gerenciamento do cronograma do projeto.
 
 
-![Gráfico de Gantt](img/graficoganttMyCar.png)
+![Gráfico de Gantt](img/graficoganttAutoApp1.png)
+![Gráfico de Gantt](img/graficoganttAutoApp2.png)
+![Gráfico de Gantt](img/graficoganttAutoApp3.png)
 
 ## Gerenciamento de Equipe
 
@@ -210,7 +212,7 @@ A seguir, é descrito o planejamento que auxiliará e direcionará a gestão de 
 Segue timeline do AutoApp
 
 
-![Simple Project Timeline](img/timelineMyCar.png)
+![Simple Project Timeline](img/timelineAutoApp.png)
 
 ## Gestão de Orçamento
 
