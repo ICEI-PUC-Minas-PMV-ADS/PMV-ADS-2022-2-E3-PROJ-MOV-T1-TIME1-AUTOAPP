@@ -212,7 +212,7 @@ A seguir, é descrito o planejamento que auxiliará e direcionará a gestão de 
 Segue timeline do AutoApp
 
 
-![Simple Project Timeline](img/timelineAutoApp.png)
+![Simple Project Timeline](img/TimelineAutoApp.png)
 
 ## Gestão de Orçamento
 
