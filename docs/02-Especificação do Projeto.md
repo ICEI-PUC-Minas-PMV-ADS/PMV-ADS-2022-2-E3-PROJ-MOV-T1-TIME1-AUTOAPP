@@ -74,7 +74,7 @@ Nesse sentido, a ordem de importância das tarefas vai seguindo uma ordem decres
 | RNF-001 | O sistema deve ser responsivo para rodar em diversos dispositivos móveis | ALTA | 
 | RNF-002 | O sistema deve ser implementado utilizando React Native. | ALTA |
 | RNF-003 | A persistência dos dados será feita no banco MySQL.  |  MÉDIA |
-| RNF-004 | O sistema deve processar requisições do usuário em no máximo 10s |  BAIXA |
+| RNF-004 | O sistema deve processar requisições do usuário em no máximo 11 segundos. |  BAIXA |
 
 ## Restrições
 
@@ -97,7 +97,7 @@ Ao longo do projeto, os requisitos podem mudar e o impacto desta mudança deve s
 
 | Importância   | Cod. EAP | Nome                                          | Tipo             | Critérios de Aceitação                                                | Descrição |
 |---------------|----------|-----------------------------------------------|------------------|-----------------------------------------------------------------------|------------|
-|   Must have   | RF-001   | Criação de Perfil                             | Funcional        | Criação de usuário sendo feita com sucesso                            | O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail |                       
+|   Must have   | RF-001   | Criação de Perfil                             | Funcional        | Criação de usuário sendo feita com sucesso                            | O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail. |                       
 |   Must have   | RF-002   | Exclusão dos Dados                            | Funcional        | Exclusão de dados do usuário sendo feita com sucesso                  | O sistema deverá permitir a alteração e a exclusão dos dados de usuários, nesse caso, excluindo também qualquer veículo vinculado a ele.      |  
 |   Must have   | RF-003   | Inclusão de dados de Terceiros                | Funcional        | Operações CRUD com dados de terceiros                                 | O sistema deverá permitir a inserção, a alteração e a exclusão dos dados de prestadores de serviços afiliados.      |  
 |   Must have   | RF-004   | Inclusão de dados sobre o Veículo             | Funcional        | Inclusão de veículo sendo feita com sucesso                           | O sistema deverá permitir a criação de um perfil para o veículo (ano, modelo, cor...), permitindo a exibição de seus dados básicos. |        
@@ -107,10 +107,10 @@ Ao longo do projeto, os requisitos podem mudar e o impacto desta mudança deve s
 |   Should have | RF-008   | Emissão de lembretes para o usuário           | Funcional        | Emissão de lembretes para o usuário sendo feita com sucesso           | O sistema deve emitir lembretes para os usuários, com base nos dados informados no RF-005.|
 |   Could have  | RF-009   | Busca de Oficinas conveniadas                 | Funcional        | Busca de oficianas conveniadas feita com sucesso                      | O sistema deverá permitir a busca de oficinas conveniadas próximas a sua localidade.  |      
 |   Could have  | RF-010   | Integração com portais do DETRAN              | Funcional        | Integração com portais do DETRAN com sucesso                          | O sistema deverá permitir a integração com portais do DETRAN para consulta de pendências do veículo cadastrado.       | 
-|   Must have   | RNF-001  | Responsividade do Sistema em ambiente móveis  | Não-Funcional    | Responsividade do Sistema em ambiente móveis com sucesso              | O sistema deve ser responsivo para rodar em diversos dispositivos móveis        |
+|   Must have   | RNF-001  | Responsividade do Sistema em ambiente móveis  | Não-Funcional    | Responsividade do Sistema em ambiente móveis com sucesso              | O sistema deve ser responsivo para rodar em diversos dispositivos móveis.        |
 |   Must have   | RNF-002  | Implementação de Framework                    | Não-Funcional    | Implementação do React Native feita com sucesso                       |  O sistema deve ser implementado utilizando React Native.        |
 |   Should have | RNF-003  | Uso de Banco do MySQL                         | Não-Funcional    | Implementação do banco de dados em MySQL                              | A persistência dos dados será feita no banco MySQL.        |
-|   Could have  | RNF-004  | Tempo de Requisição                           | Não-Funcional    | Tempo de Requisição deve atender á descrição                          | O sistema deve processar requisições do usuário em no máximo 11s        |
+|   Could have  | RNF-004  | Tempo de Requisição                           | Não-Funcional    | Tempo de Requisição deve atender á descrição                          | O sistema deve processar requisições do usuário em no máximo 11 segundos.        |
 
 
 ## Gerenciamento de Projeto
