@@ -1,8 +1,14 @@
 # Introdução
 
-Para manter um bom funcionamento, é recomendável que todo veículo realize a manutenção preventiva ou revisão. Cada fabricante ou oficina especializada possui o seu próprio esquema de checagem, entretanto, existem alguns procedimentos que são padrão em todos os casos, como verificar o estado dos pneus, suspensão, fluido de freios, filtros, óleo de motor e demais líquidos. A revisão serve, nesse sentido, para evitar problemas como avarias, desgastes e quebras (PORTAL AUTO SHOPPING, 2017).
+O primeiro automóvel moderno foi registrado pelo alemão Karl Benz em 1886. O veículo possuía um motor a gasolina inventado por Gottlied Daimler, sistema de arranque a manivela, três rodas e velocidade de até 18 km/h. Essa invenção começou como uma resposta aos hábitos de locomoção humana e atualmente pode ser considerada um marco na história da humanidade (ALCOFORADO, 2022). Sua criação modificou as dinâmicas sociais, de tal forma que é quase inimaginável uma economia que não dependa de meios de transporte derivados diretamente de tal invento (SANTOS, 2007).
 
-A frequência dessas verificações é definida pelo manual do proprietário do veículo e se baseia em estudos de durabilidades das peças com referência na média de utilização de determinado tipo de veículo.
+Seja como meio de transporte ou ferramenta de trabalho, o automóvel que antes só poderia ser adquirido por uma esfera restrita da população, tem atingido um público cada vez maior. Segundo o IBGE, no Brasil são quase 60 milhões de automóveis registrados, e a frota total chegam a mais de 100 milhões (PAIXÃO, 2022).
+
+Para manter o funcionamento desses veículos de forma segura, é recomendável a realização da manutenção preventiva, ou revisão. Cada fabricante ou oficina especializada possui o seu próprio esquema de checagem, entretanto, existem alguns procedimentos que são padrão em todos os casos, como verificar o estado dos pneus, suspensão, fluido de freios, filtros, óleo de motor e demais líquidos (PORTAL AUTO SHOPPING, 2017).
+
+A frequência dessas verificações é definida pelo manual do proprietário do veículo, e se baseia em estudos de durabilidades das peças com referência na média de utilização de determinado tipo de veículo. Isso aumenta a duração do estado de conservação do veículo, evita problemas como avarias, desgastes e quebras, a realização de medidas corretivas que costumam ser mais caras e evita falhas mecânicas que podem causar graves acidentes. 
+
+Contudo, mesmo reconhecendo a importância de manter um carro em bom funcionamento, muitos proprietários acabam negligenciando os cuidados necessários para manter um veículo. Seja por falta de tempo durante a rotina, ou pela dificuldade em organizar os serviços necessários, o motorista acaba se colocando em risco. 
 
 
 ## Problema
@@ -33,4 +39,4 @@ Portanto, ter um local de fácil acesso dessas informações é indispensável p
 
 ## Público-Alvo
 
-O público-alvo da aplicação são pessoas que possuem algum veículo (carro ou moto) e gostariam de ser notificadas quanto às revisões pelo celular, assim como manter um histórico organizado desses dados.
+O público-alvo da aplicação são pessoas que possuem algum veículo e gostariam de ser notificadas quanto às revisões pelo celular, assim como manter um histórico organizado desses dados.
