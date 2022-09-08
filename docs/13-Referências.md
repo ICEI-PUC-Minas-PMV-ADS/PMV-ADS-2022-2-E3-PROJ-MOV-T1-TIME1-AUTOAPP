@@ -16,7 +16,3 @@ SANTOS, Claudinei Cardoso dos. **Análise Da Evolução Das Tecnologias Na Produ
 
 VARGAS, Ricardo Viana. **Manual prático de plano de projeto: utilizando o PMBOK guide.** 6.ed. Rio de Janeiro: Brasport, 2018. E-book.
 
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
