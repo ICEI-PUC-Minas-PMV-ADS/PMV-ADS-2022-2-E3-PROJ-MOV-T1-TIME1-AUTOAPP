@@ -13,7 +13,7 @@ Contudo, mesmo reconhecendo a importância de manter um carro em bom funcionamen
 
 ## Problema
 
-Negligenciar a manutenção preventiva pode causar defeitos ao veículo, prejuízo financeiro e aumento da insegurança do proprietário. Segundo uma pesquisa realizada pela Globo e MindMiners, dentre 400 pessoas entrevistadas, 88% declararam que costumam fazer revisões veiculares e apenas 42% seguem as datas programadas. Uma das razões para isso pode ser a dificuldade em acompanhar as datas recomendadas, já que nem sempre essa informação é de fácil acesso no dia a dia. 
+Negligenciar a manutenção preventiva pode causar defeitos ao veículo, prejuízo financeiro e aumento da insegurança do proprietário. Segundo uma pesquisa realizada pelo Grupo Globo (2021), dentre 400 pessoas entrevistadas, 88% declararam que costumam fazer revisões veiculares e apenas 42% seguem as datas programadas. Uma das razões para isso pode ser a dificuldade em acompanhar as datas recomendadas, já que nem sempre essa informação é de fácil acesso no dia a dia. 
 
 ## Objetivos
 
