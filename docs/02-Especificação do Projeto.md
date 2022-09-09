@@ -88,14 +88,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-Uma descrição de como vai funcionar nossa plataforma mobile.
-Os usuários/Proprietários farão seu cadastro editar os seus dados e também os dados do seu veículo.
-Quando houver necessidade através do aplicativo ele conseguirá localizar oficinas proximas a ele para solucionar devidos "problemas" em seu veículo.
-Se o usuário estiver em busca de um veículo, se o mesmo já possuir cadastro em nossos sistemas ele conseguirá visualizar possiveis revisões pertinentes ao veículo.
+Aqui está a descrição de como vai funcionar nossa plataforma mobile:
+Os usuários/Proprietários farão seu cadastro, editar os seus dados e também os dados do seu veículo.
+Quando houver necessidade, por meio do aplicativo, ele conseguirá localizar oficinas proximas a ele para solucionar devidos "problemas" em seu veículo.
+Se o usuário estiver em busca de um veículo, se este já possuir cadastro em nosso sistema, ele conseguirá visualizar possíveis revisões pertinentes ao veículo.
 
-Em relação aos Proprietários de oficinas eles farão seus cadastros.
-Com seus cadastros realizados eles conseguirão visualizar as solicitações de clientes para realizar agendamento do serviço.
-Após a realização do serviço o proprietário da oficina realiza o cadastro do serviço realizado. 
+Em relação aos proprietários de oficinas, eles também farão seus cadastros na AutoApp.
+Com o cadastro realizado, será possível visualizar as solicitações de clientes para realizar agendamento do serviço.
+Após a realização do serviço, o proprietário da oficina realiza o cadastro do serviço realizado. 
 
 ![](img/autoapp.drawio.png)
 
