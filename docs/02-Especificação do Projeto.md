@@ -91,11 +91,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 Aqui está a descrição de como vai funcionar nossa plataforma mobile:
 Os usuários/Proprietários farão seu cadastro, editar os seus dados e também os dados do seu veículo.
 Quando houver necessidade, por meio do aplicativo, ele conseguirá localizar oficinas proximas a ele para solucionar devidos "problemas" em seu veículo.
+Realizar avalições dos serviços prestados.
 Se o usuário estiver em busca de um veículo, se este já possuir cadastro em nosso sistema, ele conseguirá visualizar possíveis revisões pertinentes ao veículo.
 
 Em relação aos proprietários de oficinas, eles também farão seus cadastros na AutoApp.
 
-![](img/diagrama.drawio.png)
+![](img/autoapp.drawio.png)
 
 ## Matriz de Rastreabilidade
 
