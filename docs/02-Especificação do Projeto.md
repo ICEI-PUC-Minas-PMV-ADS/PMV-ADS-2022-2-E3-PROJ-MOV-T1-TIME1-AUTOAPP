@@ -94,10 +94,8 @@ Quando houver necessidade, por meio do aplicativo, ele conseguirá localizar ofi
 Se o usuário estiver em busca de um veículo, se este já possuir cadastro em nosso sistema, ele conseguirá visualizar possíveis revisões pertinentes ao veículo.
 
 Em relação aos proprietários de oficinas, eles também farão seus cadastros na AutoApp.
-Com o cadastro realizado, será possível visualizar as solicitações de clientes para realizar agendamento do serviço.
-Após a realização do serviço, o proprietário da oficina realiza o cadastro do serviço realizado. 
 
-![](img/autoapp.drawio.png)
+![](img/diagrama.drawio.png)
 
 ## Matriz de Rastreabilidade
 
