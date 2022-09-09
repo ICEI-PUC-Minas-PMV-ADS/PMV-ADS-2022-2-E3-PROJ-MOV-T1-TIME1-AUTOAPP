@@ -88,8 +88,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-Faltando o diagrama de uso...
-
+![](img/autoapp.drawio.png)
 
 ## Matriz de Rastreabilidade
 
