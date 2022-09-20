@@ -43,18 +43,19 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 ## Análise da Situação Atual
 
-Mesmo com o avanço da tecnologia, o processo de manutenção e reparo veicular pode gerar gastos desnecessários e apresentar riscos à segurança do condutor, uma vez que, atualmente, em grande parte, é realizado sem considerar datas preventivas. Informações e registros são coletados pelos mecânicos ou lojas especializadas de forma interna e não facilitam o acompanhamento do histórico veicular. 
+Mesmo com o avanço da tecnologia, o processo de manutenção e reparo veicular pode gerar gastos desnecessários e apresentar riscos à segurança do condutor, uma vez que, atualmente, em grande parte, é realizado sem considerar datas preventivas. Informações e registros são coletados pelos mecânicos ou lojas especializadas de forma interna e não facilitam o acompanhamento do histórico veicular, fazendo com que os proprietários acabam esquecendo ou até perderem o local que foi anotado em seu veículo.
 
 ## Análise do Ambiente Externo
 
-Entretanto, é necessário considerar alguns dificultadores que podem inviabilizar a elaboração e a aplicação da proposta supracitada. A restrição no prazo de planejamento e elaboração da aplicação mobile, bem como o curto período de testes dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o AutoApp no setor automotivo. 
-Essas plataformas oferecem serviços que emitem notificações, alertando o motorista sobre os cuidados preventivos e permitem acompanhar o histórico de manutenção do veículo.  De modo geral, é necessário realizar um cadastro do veículo com suas especificações para navegar pelo aplicativo.
+Entretanto, é necessário considerar alguns dificultadores que podem inviabilizar a elaboração e a aplicação da proposta supracitada. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem como o curto período de testes dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o AutoApp no setor automotivo. 
 
 ## Descrição Geral da Proposta
 
-Considerando o contexto elucidado nas seções anteriores, vários são os problemas existente que viabilizam a criação e a aplicação mobile AutoApp, tais como dificuldade dos proprietários de veículos de acompanhar as datas de manutenção recomendadas, a possibilidade de prevenir acidentes recorrentes, a falta de manutenção, bem como a dificuldade de encontrar mecânicos e lojas especializadas nas proximidades. 
+Considerando o contexto elucidado nas seções anteriores, vários são os problemas existente que viabilizam a criação e a aplicação móvel AutoApp, tais como dificuldade dos proprietários de veículos de acompanhar as datas de manutenção recomendadas, a possibilidade de prevenir acidentes recorrentes, a falta de manutenção, bem como a dificuldade de encontrar mecânicos e lojas especializadas nas proximidades. 
 
-Programar uma plataforma mobile em que o usuário/proprietário possa desfrutar da tecnologia em prol de si. Essas plataformas oferecem serviços que emitem notificações alertando o motorista sobre os cuidados preventivos e permitem acompanhar o histórico de manutenção do veículo.  De modo geral, é necessário realizar um cadastro do veículo com suas especificações para navegar pelo aplicativo. 
+Programar uma aplicação móvel  em que o usuário/proprietário possa desfrutar da tecnologia em prol de si e vai proporcionar um conforto e também uma segurança pra quem está conduzindo o veículo. 
+
+O AutoApp oferecem serviços que emitem notificações alertando o motorista sobre os cuidados preventivos e permitem acompanhar o histórico de manutenção do veículo.  De modo geral, é necessário realizar um cadastro do veículo com suas especificações para navegar pela aplicação móvel. 
 
 ## Requisitos
 
