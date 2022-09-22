@@ -45,6 +45,8 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 Mesmo com o avanço da tecnologia, o processo de manutenção e reparo veicular pode gerar gastos desnecessários e apresentar riscos à segurança do condutor, uma vez que, atualmente, em grande parte, é realizado sem considerar datas preventivas. Informações e registros são coletados pelos mecânicos ou lojas especializadas de forma interna e não facilitam o acompanhamento do histórico veicular, fazendo com que os proprietários acabam esquecendo ou até perderem o local que foi anotado em seu veículo.
 
+![](img/processo1.drawio.png)
+
 ## Análise do Ambiente Externo
 
 Entretanto, é necessário considerar alguns dificultadores que podem inviabilizar a elaboração e a aplicação da proposta supracitada. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem como o curto período de testes dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o AutoApp no setor automotivo. 
