@@ -61,6 +61,8 @@ O AutoApp oferecem serviços que emitem notificações alertando o motorista sob
 
 ## Indicadores de Desempenho
 
+Os indicadores estabelecidos para a avaliação do desempenho do aplicativo do AutoApp, após sua disponibilização na Play Store e na Apple Store, são detalhados a seguir:
+
 |Nº| Indicador | Objetivo | Descrição | Cálculo | Fonte de Dados | Perspectiva | Meta | Periodicidade |
 |--|-----------|--------|-----------|--------|-----------|--------|-----------|-----------|
 |01| Índice de avaliação na Play Store e Apple Store | Verificar a aceitação do aplicativo | Medir a média das avaliações dadas pelos usuários que baixaram e utilizaram o app  | Número de estrelas  | Play Store e Apple Store  | Qualidade do produto | Avaliação acima de 4 estrelas  | Semestral |
