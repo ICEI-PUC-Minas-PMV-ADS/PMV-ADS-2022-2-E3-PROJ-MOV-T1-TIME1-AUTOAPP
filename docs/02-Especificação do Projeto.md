@@ -59,6 +59,16 @@ Programar uma aplicação móvel  em que o usuário/proprietário possa desfruta
 
 O AutoApp oferecem serviços que emitem notificações alertando o motorista sobre os cuidados preventivos e permitem acompanhar o histórico de manutenção do veículo.  De modo geral, é necessário realizar um cadastro do veículo com suas especificações para navegar pela aplicação móvel. 
 
+## Indicadores de Desempenho
+
+|Nº| Indicador | Objetivo | Descrição | Cálculo | Fonte de Dados | Perspectiva | Meta | Periodicidade |
+|--|-----------|--------|-----------|--------|-----------|--------|-----------|-----------|
+|01| Índice de avaliação na Play Store e Apple Store | Verificar a aceitação do aplicativo | Medir a média das avaliações dadas pelos usuários que baixaram e utilizaram o app  | Número de estrelas  | Play Store e Apple Store  | Qualidade do produto | Avaliação acima de 4 estrelas  | Semestral |
+|02| Usuários cadastrados       | Mensurar a quantidade de cadastros efetuados no aplicativo  | Avaliar a taxa de cadastros realizados no aplicativo após download | nº de cadastro/período | Banco de Dados | Crescimento e Aprendizado | Chegar próximo à quantidade de downloadas efetuadas | Mensal |
+|03| Download      | Acompanhar crescimento do aplicativo  | Avaliar a taxa de downloads na Play Store e Apple Store | nº de downloads/período | Play Store e Apple Store  | Aumentar nº de usuários | Crescimento e Aprendizado| Mensal |
+|04| Reclamações    | Verificar as reclamações recebidas  | Verificar o índice de reclamações recebidas com relação ao app e respondê-las| nº de reclamações/download | Play Store e Apple Store  | Qualidade do Produto | índice 0% de reclamação| Mensal |
+
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicamos uma técnica de priorização de requisitos e detalhamos, em sequência, como a técnica foi aplicada.
