@@ -45,7 +45,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 Mesmo com o avanço da tecnologia, o processo de manutenção e reparo veicular pode gerar gastos desnecessários e apresentar riscos à segurança do condutor, uma vez que, atualmente, em grande parte, é realizado sem considerar datas preventivas. Informações e registros são coletados pelos mecânicos ou lojas especializadas de forma interna e não facilitam o acompanhamento do histórico veicular, fazendo com que os proprietários acabam esquecendo ou até perderem o local que foi anotado em seu veículo.
 
-![](img/processo1.drawio.png)
+![](img/modelo_de_processo.PNG)
 
 ## Análise do Ambiente Externo
 
