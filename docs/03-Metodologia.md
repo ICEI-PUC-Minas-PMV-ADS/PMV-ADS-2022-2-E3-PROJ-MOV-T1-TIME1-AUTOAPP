@@ -17,7 +17,7 @@ A gestão de código fonte ou controle de versões diz respeito ao monitoramento
 Com isso, para gestão do código fonte utilizaremos o Git Flow, um modelo de organização de branches, o qual dita que tipos de ramificações configurar e como fazer merge. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Main, Hotfix, Release, Develop e Feature, ou seja, um modelo de ramificação de manutenção que permite corrigir com rapidez lançamentos de produção mantendo uma linha de desenvolvimento dedicada para atualização de segurança, permitindo que a equipe trabalhe com problemas sem interromper o fluxo do trabalho ou esperar o próximo ciclo de lançamento. 
 
 <div align="center">
- <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/ccd161aa97c05e0679292ed27ad24e1ab9eab121/docs/img/134491247-67b5f225-afb2-4de2-a698-ff9bf310af3d.png" width="700px" />
+ <img src="img/controleversao.png" width="700px" />
  
  **Figura 1 - Fluxo de controle do código fonte no repositório github**  
 </div> 
@@ -86,6 +86,15 @@ Para organização e distribuição das tarefas do projeto, a equipe utilizará 
 
 **Done:** Tarefas concluídas e aprovadas no teste de qualidade.
 
+O quadro kanban do projeto no Github está disponível na [URL]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/projects/2](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/86) e é apresentado, no estado atual, na Figura 2.
+
+<div align="center">
+ <img src="img/kanban.png" width="700px" />
+ 
+ **Figura 2 - Quadro Kanban no dia 27/09/2022**  
+</div>
+
+
 ### Ferramentas
 
 Os artefatos do projeto serão desenvolvidos a partir de duas plataformas: GitHub e Figma. 
@@ -97,7 +106,7 @@ A relação dos ambientes com sua respectiva plataforma é apresentada na tabela
 |Documentos do projeto | [Github](https://github.com) |
 |Projeto de Interface e  Wireframes| [Figma](https://www.figma.com) |
 |Gerenciamento do Projeto | [Github](https://github.com) e [MSProject2013] |
-|Modelagem de Processos |  |
+|Modelagem de Processos | BPMN.iO |
 
 A relação das ferramentas empregadas no projeto e suas respectivas funções segue abaixo:
 
@@ -106,7 +115,7 @@ A relação das ferramentas empregadas no projeto e suas respectivas funções s
 |Editor de código |Github, Visual Studio Code, Expo | 
 |Ferramentas de comunicação |Github, WhatsApp |
 |Ferramentas de diagramação |Figma |
-|Ferramentas de modelagem de processos | |
+|Ferramentas de modelagem de processos | BPMN.iO |
 |Ferramentas de gestão de projetos |Github, MSProject2013 |
 
 Os editores de código foram escolhidos por possuírem uma integração com o sistema de versão e maior possibilidade de integração da equipe na elaboração dos códigos. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas, facilitando o contato interno entre os membros da equipe e o contato externo da equipe com o orientador do projeto. Por fim, para criar diagramas e executar a modelagem de processos, as ferramentas utilizada foram selecionadas por melhor captar as necessidades da solução e proporcionar uma melhor visualização do produto final, alémm de serem ambientes colaborativos para a atuação simultânea da equipe.
