@@ -16,6 +16,12 @@ A gestão de código fonte ou controle de versões diz respeito ao monitoramento
 
 Com isso, para gestão do código fonte utilizaremos o Git Flow, um modelo de organização de branches, o qual dita que tipos de ramificações configurar e como fazer merge. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Main, Hotfix, Release, Develop e Feature, ou seja, um modelo de ramificação de manutenção que permite corrigir com rapidez lançamentos de produção mantendo uma linha de desenvolvimento dedicada para atualização de segurança, permitindo que a equipe trabalhe com problemas sem interromper o fluxo do trabalho ou esperar o próximo ciclo de lançamento. 
 
+<div align="center">
+ <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/ccd161aa97c05e0679292ed27ad24e1ab9eab121/docs/img/134491247-67b5f225-afb2-4de2-a698-ff9bf310af3d.png" width="700px" />
+ 
+ **Figura 1 - Fluxo de controle do código fonte no repositório github**  
+</div> 
+
 **Main**: branch principal, somente versão de produção; 
 
 **Hotfix**:  branch de correção: responsável pela realização de alguma correção crítica encontrada em produção; 
@@ -32,12 +38,6 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `unstable`: versão já testada do software, porém instável
 - `stating`: versão em testes do software
 - `feature`: versão de desenvolvimento do software
-
-<div align="center">
- <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/ccd161aa97c05e0679292ed27ad24e1ab9eab121/docs/img/134491247-67b5f225-afb2-4de2-a698-ff9bf310af3d.png" width="700px" />
- 
- **Figura 1 - Fluxo de controle do código fonte no repositório github**  
-</div> 
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
