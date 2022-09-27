@@ -33,6 +33,12 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `stating`: versão em testes do software
 - `feature`: versão de desenvolvimento do software
 
+<div align="center">
+ <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/ccd161aa97c05e0679292ed27ad24e1ab9eab121/docs/img/134491247-67b5f225-afb2-4de2-a698-ff9bf310af3d.png" width="700px" />
+ 
+ **Figura 1 - Fluxo de controle do código fonte no repositório github**  
+</div> 
+
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
@@ -56,7 +62,7 @@ Renata Diniz Guimarães de Oliveira;
 A equipe trabalhará com divisões de tarefas e com encontros semanais após reunião com o P.O. para planejar e tirar dúvidas a respeito das tarefas delegadas.
 Na primeira reunião de cada etapa, as tarefas serão organizadas e distribuídas.
 Na segunda-feira que precede a entrega da etapa, a equipe irá se se reunir para revisar e alinhar se o que foi solicitado está pronto para ser entregue.
-A Scrum Master acompanhará estas sprints (tarefas) semanalamente.
+A Scrum Master acompanhará estas sprints (tarefas) diariamente.
 
 O projeto seguirá o seguinte fluxo de metodologia:
 
@@ -97,7 +103,7 @@ A relação das ferramentas empregadas no projeto e suas respectivas funções s
 
 |Função     |Ferramentas          |
 |-----------|---------------------|
-|Editor de código |Github, Visual Studio Code | 
+|Editor de código |Github, Visual Studio Code, Expo | 
 |Ferramentas de comunicação |Github, WhatsApp |
 |Ferramentas de diagramação |Figma |
 |Ferramentas de modelagem de processos | |
