@@ -1,6 +1,7 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="docs/1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/AutoApp/blob/6e8341aac6887998ec783beca8ce97995d7e896a/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md"> Documentação de Contexto</a></span>
+
 
 Nesta seção, apresentamos o diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições identificadas para o desenvolvimento deste projeto.
 
