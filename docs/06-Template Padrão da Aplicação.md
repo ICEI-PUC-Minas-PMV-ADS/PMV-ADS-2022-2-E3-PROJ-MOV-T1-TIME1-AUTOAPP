@@ -9,6 +9,6 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 
 ## Telas da Aplicação
 
-Na imagem a seguir, apresentamos as seis primeiras telas da aplicação.
+Na imagem a seguir, apresentamos as seis primeiras telas da aplicação. O arquivo será atualizado conforme desenvolvimento das demais telas.
 
-![Telas](img/Primeiras6Telas.png)
+![Telas](img/Telas1-6.png)
