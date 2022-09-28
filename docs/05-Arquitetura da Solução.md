@@ -46,6 +46,8 @@ Usamos o [React Native Paper](https://callstack.github.io/react-native-paper/), 
 
 O IDE de desenvolvimento será o [Visual Studio Code](https://code.visualstudio.com/).
 
+Para o design das telas, utilizamos o [Figma](https://www.figma.com/).
+
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
