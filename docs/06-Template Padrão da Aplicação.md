@@ -5,3 +5,10 @@
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 ![Template](img/TemplatePadrao.png)
+
+
+## Telas da Aplicação
+
+Na imagem a seguir, apresentamos as seis primeiras telas da aplicação.
+
+![Telas](img/Primeiras6Telas.png)
