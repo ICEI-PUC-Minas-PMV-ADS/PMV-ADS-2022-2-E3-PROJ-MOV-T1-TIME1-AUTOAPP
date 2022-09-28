@@ -17,4 +17,14 @@ Também é possível visualizar o [diagrama de fluxo em PDF](pdf/fluxograma.pdf)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
+### Wireframe Protótipo
+
+A imagem a seguir ilustra o wireframe protótipo da aplicação completa.
+
 ![Protótipo](img/Wireframe-Protótipo.png)
+
+### Wireframe Telas Reais
+
+A imagem a seguir ilustra o wireframe com imagens das telas reais das seis primeiras telas. O arquivo será atualizado conforme desenvolvimento das demais telas.
+
+![Telas Reais](img/Wireframe.png)
