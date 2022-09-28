@@ -60,6 +60,7 @@ Considerando o contexto elucidado nas seções anteriores, vários são os probl
 Programar uma aplicação móvel  em que o usuário/proprietário possa desfrutar da tecnologia em prol de si e vai proporcionar um conforto e também uma segurança pra quem está conduzindo o veículo. 
 
 O AutoApp oferecem serviços que emitem notificações alertando o motorista sobre os cuidados preventivos e permitem acompanhar o histórico de manutenção do veículo.  De modo geral, é necessário realizar um cadastro do veículo com suas especificações para navegar pela aplicação móvel. 
+![](img/capturar1.PNG)
 
 ## Indicadores de Desempenho
 
