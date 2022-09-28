@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<span style="color:red">Pré-requisitos: <a href="docs/1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
 Nesta seção, apresentamos o diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições identificadas para o desenvolvimento deste projeto.
 
@@ -18,7 +18,7 @@ Daniel tem 58 anos e é dono de uma oficina de carros e motos na região metropo
 
 ![3](img/Personas/3.png)
 
-William tem 47 anos, coleciona carros antigos e mora em Florianópolis. Tem o hábito de anotar, à mão, todas as modificações, manutenções e ajustes que faz de seus carros, além das características que tornam seus carros diferenciados. Com o passar dos anos, sentiu a necessidade de ter um melhor controle das manutenções realizadas como um melhor histórico de todas essas ações. Assim, busca um sistema que seja possível organizar os dados de seus carros.
+William tem 47 anos, coleciona carros antigos e mora em Florianópolis. Tem o hábito de anotar, à mão, todas as modificações, manutenções e ajustes que faz de seus carros, além das características que tornam seus carros diferenciados. Com o passar dos anos, sentiu a necessidade de ter um melhor controle das manutenções realizadas como um melhor histórico de todas essas ações. Assim, busca um sistema que seja possível organizar os dados de seus carros. Com o objetivo de verificar a precedência de seus automóveis, William também busca uma forma ágil de consultar, de maneira segura e integrada com o DETRAN, pendências dos seus veículos recém adquiridos.
 
 ![4](img/Personas/4.png)
 
@@ -36,7 +36,8 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Eu, Oliver, como usuário do aplicativo,   | quero receber indicação de mecânicos e/ou oficinas  | para realizar manutenções e consertos em meu carro independentemente de minha localização atual. |
 | Eu, Oliver, como usuário do aplicativo,   | quero ter um histórico de manutenções | para realizar revisões pontuais para viagens. |
 | Eu, Daniel, como usuário do aplicativo,   | preciso virtualizar meu negócio  | para aumentar o número de clientes em minha oficina. |
-| Eu, William, como usuário do aplicativo,  | quero modernizar o histórico de manutenções e demais ações de meus carros | Para ter um melhor controle de minhas aquisições automobilísticas. |
+| Eu, William, como usuário do aplicativo,  | quero modernizar o histórico de manutenções e demais ações de meus carros | para ter um melhor controle de minhas aquisições automobilísticas. |
+| Eu, William, como usuário do aplicativo,  | verificar, de maneira ágil, a precedência de meus automóveis junto ao DETRAN | para ter um melhor controle do histórico de minhas aquisições automobilísticas. |
 | Eu, Theodora, como usuária do aplicativo, | quero receber indicações de oficinas especializadas | para ter cuidados específicos com a manutenção de meu carro esportivo. |
 
 ## Modelagem do Processo de Negócio

@@ -36,7 +36,6 @@ Manter a manutenção preventiva em dia traz diversas vantagens ao proprietário
 
 Portanto, ter um local de fácil acesso dessas informações é indispensável para um motorista consciente. Além disso, a aplicação também poderá auxiliar mecânicos e seguradoras já que permite a visualização do histórico do veículo e de seu estado atual.
 
-
 ## Público-Alvo
 
 O público-alvo da aplicação são pessoas que possuem algum veículo e gostariam de ser notificadas quanto às revisões pelo celular, assim como manter um histórico organizado desses dados.
