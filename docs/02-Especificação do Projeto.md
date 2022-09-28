@@ -46,6 +46,8 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 Mesmo com o avanço da tecnologia, o processo de manutenção e reparo veicular pode gerar gastos desnecessários e apresentar riscos à segurança do condutor, uma vez que, atualmente, em grande parte, é realizado sem considerar datas preventivas. Informações e registros são coletados pelos mecânicos ou lojas especializadas de forma interna e não facilitam o acompanhamento do histórico veicular, fazendo com que os proprietários acabam esquecendo ou até perderem o local que foi anotado em seu veículo.
 
+![](img/modelo_de_processo.PNG)
+
 ## Análise do Ambiente Externo
 
 Entretanto, é necessário considerar alguns dificultadores que podem inviabilizar a elaboração e a aplicação da proposta supracitada. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem como o curto período de testes dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o AutoApp no setor automotivo. 
@@ -57,6 +59,18 @@ Considerando o contexto elucidado nas seções anteriores, vários são os probl
 Programar uma aplicação móvel  em que o usuário/proprietário possa desfrutar da tecnologia em prol de si e vai proporcionar um conforto e também uma segurança pra quem está conduzindo o veículo. 
 
 O AutoApp oferecem serviços que emitem notificações alertando o motorista sobre os cuidados preventivos e permitem acompanhar o histórico de manutenção do veículo.  De modo geral, é necessário realizar um cadastro do veículo com suas especificações para navegar pela aplicação móvel. 
+
+## Indicadores de Desempenho
+
+Os indicadores estabelecidos para a avaliação do desempenho do aplicativo do AutoApp, após sua disponibilização na Play Store e na Apple Store, são detalhados a seguir:
+
+|Nº| Indicador | Objetivo | Descrição | Cálculo | Fonte de Dados | Perspectiva | Meta | Periodicidade |
+|--|-----------|--------|-----------|--------|-----------|--------|-----------|-----------|
+|01| Índice de avaliação na Play Store e Apple Store | Verificar a aceitação do aplicativo | Medir a média das avaliações dadas pelos usuários que baixaram e utilizaram o app  | Número de estrelas  | Play Store e Apple Store  | Qualidade do produto | Avaliação acima de 4 estrelas  | Semestral |
+|02| Usuários cadastrados       | Mensurar a quantidade de cadastros efetuados no aplicativo  | Avaliar a taxa de cadastros realizados no aplicativo após download | nº de cadastro/período | Banco de Dados | Crescimento e Aprendizado | Chegar próximo à quantidade de downloadas efetuadas | Mensal |
+|03| Download      | Acompanhar crescimento do aplicativo  | Avaliar a taxa de downloads na Play Store e Apple Store | nº de downloads/período | Play Store e Apple Store  | Aumentar nº de usuários | Crescimento e Aprendizado| Mensal |
+|04| Reclamações    | Verificar as reclamações recebidas  | Verificar o índice de reclamações recebidas com relação ao app e respondê-las| nº de reclamações/download | Play Store e Apple Store  | Qualidade do Produto | índice 0% de reclamação| Mensal |
+
 
 ## Requisitos
 

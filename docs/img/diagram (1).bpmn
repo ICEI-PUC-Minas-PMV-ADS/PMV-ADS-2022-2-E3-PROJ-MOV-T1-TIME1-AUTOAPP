@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_0jv4x80" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="9.3.2">
+  <bpmn:collaboration id="Collaboration_1ca26eu">
+    <bpmn:participant id="Participant_1v4v2yc" processRef="Process_1sp53h8" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1sp53h8" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_01rm8mz" />
+    <bpmn:startEvent id="StartEvent_1gzqurl">
+      <bpmn:outgoing>Flow_0awsdsp</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_0gmzk75" name="cliente leva o carro no mecânico.">
+      <bpmn:incoming>Flow_0awsdsp</bpmn:incoming>
+      <bpmn:outgoing>Flow_1tlztn2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_0awsdsp" sourceRef="StartEvent_1gzqurl" targetRef="Activity_0gmzk75" />
+    <bpmn:task id="Activity_02x0tnj" name="mecânico recebe a solicitação do cliente">
+      <bpmn:incoming>Flow_1tlztn2</bpmn:incoming>
+      <bpmn:outgoing>Flow_0ikzk4k</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_1tlztn2" sourceRef="Activity_0gmzk75" targetRef="Activity_02x0tnj" />
+    <bpmn:task id="Activity_0i99rns" name="mecânico realiza a solicitação do cliente">
+      <bpmn:incoming>Flow_0ikzk4k</bpmn:incoming>
+      <bpmn:outgoing>Flow_0qkqlxs</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_0ikzk4k" sourceRef="Activity_02x0tnj" targetRef="Activity_0i99rns" />
+    <bpmn:task id="Activity_0fzpkd8" name="mecânico registra o serviço realizado em sua oficina.">
+      <bpmn:incoming>Flow_0qkqlxs</bpmn:incoming>
+      <bpmn:outgoing>Flow_0txqasa</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_0qkqlxs" sourceRef="Activity_0i99rns" targetRef="Activity_0fzpkd8" />
+    <bpmn:task id="Activity_00pytmp" name="cliente paga o serviço realizado, retira o veículo.">
+      <bpmn:incoming>Flow_0txqasa</bpmn:incoming>
+      <bpmn:outgoing>Flow_1dv3l4e</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_0txqasa" sourceRef="Activity_0fzpkd8" targetRef="Activity_00pytmp" />
+    <bpmn:endEvent id="Event_0oh12z9">
+      <bpmn:incoming>Flow_1dv3l4e</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1dv3l4e" sourceRef="Activity_00pytmp" targetRef="Event_0oh12z9" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1ca26eu">
+      <bpmndi:BPMNShape id="Participant_1v4v2yc_di" bpmnElement="Participant_1v4v2yc" isHorizontal="true">
+        <dc:Bounds x="156" y="81" width="934" height="179" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0awsdsp_di" bpmnElement="Flow_0awsdsp">
+        <di:waypoint x="248" y="170" />
+        <di:waypoint x="290" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1tlztn2_di" bpmnElement="Flow_1tlztn2">
+        <di:waypoint x="390" y="170" />
+        <di:waypoint x="440" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ikzk4k_di" bpmnElement="Flow_0ikzk4k">
+        <di:waypoint x="540" y="170" />
+        <di:waypoint x="580" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0qkqlxs_di" bpmnElement="Flow_0qkqlxs">
+        <di:waypoint x="680" y="170" />
+        <di:waypoint x="720" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0txqasa_di" bpmnElement="Flow_0txqasa">
+        <di:waypoint x="820" y="170" />
+        <di:waypoint x="860" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1dv3l4e_di" bpmnElement="Flow_1dv3l4e">
+        <di:waypoint x="960" y="170" />
+        <di:waypoint x="1002" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1gzqurl">
+        <dc:Bounds x="212" y="152" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0gmzk75_di" bpmnElement="Activity_0gmzk75">
+        <dc:Bounds x="290" y="130" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_02x0tnj_di" bpmnElement="Activity_02x0tnj">
+        <dc:Bounds x="440" y="130" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0i99rns_di" bpmnElement="Activity_0i99rns">
+        <dc:Bounds x="580" y="130" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0fzpkd8_di" bpmnElement="Activity_0fzpkd8">
+        <dc:Bounds x="720" y="130" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_00pytmp_di" bpmnElement="Activity_00pytmp">
+        <dc:Bounds x="860" y="130" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0oh12z9_di" bpmnElement="Event_0oh12z9">
+        <dc:Bounds x="1002" y="152" width="36" height="36" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
