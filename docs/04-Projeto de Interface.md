@@ -28,3 +28,9 @@ A imagem a seguir ilustra o wireframe protótipo da aplicação completa.
 A imagem a seguir ilustra o wireframe com imagens das telas reais das seis primeiras telas. O arquivo será atualizado conforme desenvolvimento das demais telas.
 
 ![Telas Reais](img/Wireframe.png)
+
+## Telas da Aplicação
+
+Na imagem a seguir, apresentamos as seis primeiras telas da aplicação. O arquivo será atualizado conforme desenvolvimento das demais telas.
+
+![Telas](img/Telas1-6.png)
