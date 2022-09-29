@@ -154,7 +154,7 @@ Ao longo do projeto, os requisitos podem mudar e o impacto desta mudança deve s
 |   Should have | RNF-003  | Uso de Banco do MySQL                         | Não-Funcional    | Implementação do banco de dados em MySQL                              | A persistência dos dados será feita no banco MySQL.        |
 |   Could have  | RNF-004  | Tempo de Requisição                           | Não-Funcional    | Tempo de Requisição deve atender á descrição                          | O sistema deve processar requisições do usuário em no máximo 11 segundos.        |
 
-
+![Matriz](img/matrizrastreabilidade.png)
 ## Gerenciamento de Projeto
 
 De acordo com Vargas (2018), "[p]rojeto é um empreendimento não repetitivo, caracterizado por uma sequência clara e lógica de eventos, com início, meio e fim, que se destina a atingir um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade." (VARGAS, 2018). Com essa definição em mente, desenvolvemos a documentação e o aplicativo AutoApp, tomando como base, também, os pressupostos sumarizados no PMBoK. 
