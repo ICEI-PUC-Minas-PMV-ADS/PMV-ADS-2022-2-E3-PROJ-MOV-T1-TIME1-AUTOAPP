@@ -49,7 +49,9 @@ O IDE de desenvolvimento será o [Visual Studio Code](https://code.visualstudio.
 Para o design das telas, utilizamos o [Figma](https://www.figma.com/).
 
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+![](img/TecnologiasUtilizadas1.png)
+
+![](img/TecnologiasUtilizadas2.png)
 
 ## Hospedagem
 
