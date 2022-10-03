@@ -2,20 +2,20 @@
 
 Testes de funcionalidades e regras de negócios avaliam o funcionamento da ferramenta e sua aderência aos requisitos e especificações definidas na fase de planejamento do sistema. Testa-se, para cada componente, se o sistema responde corretamente às solicitações realizadas. 
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa, utilizandi uma avaliação por observação. Por meio dele, são recolhidos dados sobre comportamento, medindo e considerando as reações dos usuários diante de diferentes layouts e funcionalidades. Após sua realização, uma análise de usabilidade e das principais dificuldades é efetuada para realizar melhorias na plataforma, proporcionando uma melhor experiência ao usuário.
+O teste de usabilidade permite avaliar a qualidade da interface com o usuário do aplicativo, utilizando uma avaliação por observação. Por meio dele, são recolhidos dados sobre comportamento medindo e considerando as reações dos usuários diante de diferentes layouts e funcionalidades. Após sua realização, uma análise de usabilidade e das principais dificuldades é efetuada para realizar melhorias no aplicativo, proporcionando uma melhor experiência ao usuário.
 
-O planejamento dos testes de usabilidade a serem realizados com usuários são descritos a seguir: Requisitos do teste; Método utilizado; Ojetivos do teste de usabilidade;  Roteiro detalhado das tarefas que foram desempenhadas pelos usuários. A seguir, estão listados os parâmetros do Plano de Teste de Usabilidade adotado para aplicação M@tchbook.
+O planejamento dos testes de usabilidade a serem realizados com usuários são descritos a seguir: Requisitos do teste; Método utilizado; Objetivos do teste de usabilidade;  Roteiro detalhado das tarefas que foram desempenhadas pelos usuários. A seguir, estão listados os parâmetros do Plano de Teste de Usabilidade adotado para o aplicativo Auto App.
 
-Para o projeto em questão, realizaremos o modelo de Testes Remotos Não Moderados de Usabilidade.
+Para o projeto em questão, realizaremos o modelo de Testes presenciais e remotos Não Moderados de Usabilidade.
 
 ### Testes Remotos Moderados de Usabilidade
 
-Esse é o tipo de teste de usabilidade que costuma ser realizado online. Por conta disso, o investimento também é menor. Nele os participantes realizam os estudos diretamente em seus próprios dispositivos, como tablets, smartphones e notebooks.
+Esse é o tipo de teste de usabilidade que costuma ser realizado presencial e virtualmente. Por conta disso, o investimento também é menor. Nele os participantes realizam os estudos diretamente em seus próprios dispositivos, como smartphones Android e IOS.
 
 ### Vantagens em fazer testes de usabilidade à distância
 
 A velocidade do desenvolvimento não é prejudicado, principalmente quando o time trabalha com ciclos contínuos de entrega, a flexibilidade do teste remoto facilita a cadência de entregas:
--	Conseguir fazer testes de usabilidade mesmo de home office.
+-	Conseguir fazer testes de usabilidade online (remotamente).
 -	O custo de retribuição oferecido é menor pois o entrevistado não terá custo e nem perde tempo no deslocamento.
 -	O entrevistado continua no seu ambiente natural.
 -	Conseguir testar 100% dos projetos até pequenas melhorias, trazer pessoas até a empresa para testar uma única funcionalidade.
@@ -23,7 +23,7 @@ A velocidade do desenvolvimento não é prejudicado, principalmente quando o tim
 ### Objetivos do teste:
 
 - Descoberta de problemas
-  > Seu objetivo é identificar e corrigir eventuais problemas existentes na plataforma e averiguar quais são os obstáculos para a fluida utilização da aplicação.
+  > Seu objetivo é identificar e corrigir eventuais problemas existentes no aplicativo e averiguar quais são os obstáculos para a fluida utilização da aplicação.
 - Teste de aprendizado
   > O modelo adotado será o de teste de experimentação, por meio do qual, para realizar uma tarefa específica, uma pessoa que lida com a ferramenta pela primeira vez terá que começar do zero.
 
@@ -36,7 +36,7 @@ A velocidade do desenvolvimento não é prejudicado, principalmente quando o tim
 
 ### Perfil do usuário:
 
-Serão selecionados os usuários de acordo com as personas definidas na metodologia do trabalho, sendo elas, pessoas que poosuem gostos por leitura e possuem algumas das características citadas nas personas e história de usuários como, pessoa aposentada, pessoa com deficiência visual, idosa, escritora e estudante.
+Serão selecionados os usuários de acordo com as personas definidas na metodologia do trabalho, sendo elas, pessoas que poosuem gostos por carros e possuem algumas das características citadas nas personas e história de usuários como, colecionador de carros, viajante, professor, proprietário de oficina de carros.
 
 ### Procedimento de teste
 
@@ -50,15 +50,15 @@ Serão selecionados os usuários de acordo com as personas definidas na metodolo
 Os requisitos para realização dos testes são:
 
 - Conectividade de internet por dados móveis ou por banda larga;
-- Navegador da internet - Chrome, Firefox, Safari ou Edge;
+- Acesso à Play Store ou App Store;
 - Disponibilidade do usuário em acessar ferramentas de videoconferência com compartilhamento de tela - Zoom, Google Meet, Teams, Webcam.
 
 
 ### Método utilizado: Observação direta, medição e Avaliação
 
-O teste terá cinco participantes que irão avaliar o desempenho e a interação do site, de acordo com as necessidades que correspondem com a finalidade da aplicação e com sugestões de melhorias.
+O teste terá cinco participantes que irão avaliar o desempenho e a interação do aplicativo, de acordo com as necessidades que correspondem com a finalidade da aplicação e com sugestões de melhorias.
 
-Os participantes terão como responsabilidade, analisar da forma mais eficiente um conjunto de tarefas, a eles desempenhados e fornecer feedback sobre a usabilidade da aplicação.
+Os participantes terão como responsabilidade, analisar da forma mais eficiente um conjunto de tarefas, a eles desempenhados e fornecer feedback sobre a usabilidade do aplicativo.
 
 Para cada tarefa do participante é possível medir:
 
@@ -84,17 +84,17 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 |:---:	|:---:	|
 | **Perfil** 	| Usuário (todos)	|
 | **Objetivo do Teste** 	| Avaliar a tela de cadastro de novo usuário 	|
-| **Ações necessárias** 	| 1. Acessar a primeira tela do site pelo browser;<br>2. Clicar na opção “Criar Conta”;<br>3. Preencher os campos necessários do formulário;<br>4. Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar". 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Clicar na opção “Criar Conta”;<br>4. Preencher os campos necessários do formulário;<br>5. Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Registrar". 	|
 |  	|  	|
 | **Caso de Teste** 	| **CTU-02 – Login de usuário** 	|
 | **Perfil** 	| Usuário (todos) 	|
 | **Objetivo do Teste** 	| Avaliar a usabilidade da tela de Login 	|
-| **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página de login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. Clicar em ‘Entrar’. 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Visualizar a página de login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. Clicar em ‘Login’. 	|
 |  	|  	|
 | **Caso de Teste** 	| **CTU-03 – Editar informações de perfil** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Analisar a função de edição e alteração de informações 	|
-| **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Abrir o campo de “Minha Conta”;<br>5. Selecionar a opção "Editar Perfil";<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou proprietário";<br5. Abrir o campo de “Meu perfil”;<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
 |  	|  	|
 | **Caso de Teste** 	| **CTU-04 – Tela Funcionalidades - Gerenciar Listas**|
 | **Perfil** 	| Usuário 	|
