@@ -1,10 +1,12 @@
 # AutoApp
 
-CURSO DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+`Tecnologia em Análise e Desenvolvimento de Sistema`
 
-DISCIPLINA PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO INTERARIVA MÓVEL - TURMA 01 - EIXO 3
+`Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-2º 2022
+`Eixo 3`
+
+Este projeto trata-se do desenvolvimento de uma aplicação funcional, que  auxilia no processo de compra de medicamentos, além de economizar o tempo do usuário.
 
 O AutoApp é uma aplicação móvel que permite o acesso dos dados de veículos por seu proprietário de qualquer lugar que esteja. A aplicação também permite que o mecânico ou que a loja automobilística acompanhe e ofereça serviços a seus clientes. O sistema foi pensado para ser prático, intuitivo e de fácil navegação, proporcionando aos usuários um melhor acompanhamento das revisões e das manutenções passadas, além das previsões destas enquanto o veículo em questão estiver em sua posse. Além disso, a aplicação também pode auxiliar mecânicos, seguradoras e lojistas já que o AutoApp permite acompanhamento e a visualização do histórico da manutenção e da situação atual do veículo.
 
