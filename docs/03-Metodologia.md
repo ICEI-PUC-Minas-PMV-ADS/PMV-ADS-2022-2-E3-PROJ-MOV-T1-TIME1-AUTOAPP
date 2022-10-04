@@ -112,7 +112,7 @@ A relação das ferramentas empregadas no projeto e suas respectivas funções s
 
 |Função     |Ferramentas          |
 |-----------|---------------------|
-|Editor de código |Github, Visual Studio Code, Expo | 
+|Editor de código |Github, Visual Studio Code, Expo go | 
 |Ferramentas de comunicação |Github, WhatsApp |
 |Ferramentas de diagramação |Figma |
 |Ferramentas de modelagem de processos | BPMN.iO |
