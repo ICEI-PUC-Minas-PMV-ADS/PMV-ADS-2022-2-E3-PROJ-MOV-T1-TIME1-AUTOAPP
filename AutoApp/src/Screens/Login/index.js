@@ -1,10 +1,21 @@
-import {Alert, StatusBar, View, Image, ScrollView, TouchableOpacity, Text  } from "react-native";
-import {TextInput, Button} from 'react-native-paper';
+import React from "react";
+import { useState } from "react";
+import {
+  StatusBar,
+  View,
+  Image,
+  ScrollView,
+  TouchableOpacity,
+  Text,
+} from "react-native";
+import { TextInput, Button } from "react-native-paper";
 import { styles } from "./styles";
 
 import logo from "../../../assets/images/logo2.png";
 
 const Login = () => {
+  const [text, setText] = React.useState("");
+
   return (
     <ScrollView>
       <View style={styles.container}>
@@ -12,34 +23,44 @@ const Login = () => {
         <Image source={logo} style={styles.logo} />
 
         <TextInput
-        style={styles.input}
-        placeholder="E-mail"
-        autoCorrect={false}
-        onChangeText={() => {}}
-        mode = "outlined"
+          style={styles.input}
+          label="E-mail"
+          value={text}
+          autoCorrect={false}
+          onChangeText={(text) => setText(text)}
+          mode="outlined"
+          activeOutlineColor="#182E3A"
+          outlineColor="#182E3A"
         />
-         
+
         <TextInput
-        style={styles.input}
-        autoCorrect={false}
-        secureTextEntry={true}
-        placeholder="Senha"
-        onChangeText={() => {}}
-        mode = "outlined"
+          style={styles.input}
+          autoCorrect={false}
+          label="Senha"
+          secureTextEntry={true}
+          mode="outlined"
+          activeOutlineColor="#182E3A"
+          outlineColor="#182E3A"
         />
-
-       <Text style={styles.senha}> Esqueceu a senha?
-       </Text>
-
-        <TouchableOpacity>
-        <Button mode="contained" onPress={() => console.log('Pressed')}>  Login </Button>
-     
+        <TouchableOpacity style={styles.password}>
+          <Text style={styles.password}> Esqueceu a senha?</Text>
         </TouchableOpacity>
 
-        <Text> Não tem cadasto? <TouchableOpacity style={styles.buttonRegister}>
-            <Text style={styles.registerText}>Registre-se</Text>
-          </TouchableOpacity></Text>
-       </View>
+        <TouchableOpacity>
+          <Button
+            style={styles.button}
+            mode="contained"
+            onPress={() => console.log("Pressed")}
+          >
+            <Text>Login</Text>
+          </Button>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.register}>
+          <Text> Não tem cadastro? </Text>
+          <Text style={styles.registerText}>Registre-se!</Text>
+        </TouchableOpacity>
+      </View>
     </ScrollView>
   );
 };
