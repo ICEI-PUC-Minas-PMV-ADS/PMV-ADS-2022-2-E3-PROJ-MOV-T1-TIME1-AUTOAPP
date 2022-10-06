@@ -36,4 +36,15 @@ export const styles = StyleSheet.create({
   text: {
     fontSize: 16,
   },
+
+   texto:{
+      textAlign:'center',
+      fontWeight: 'bold',
+    },
+
+    textoalt:{
+      color:'#f58426',
+      fontWeight:'bold',
+     
+    }
 });
