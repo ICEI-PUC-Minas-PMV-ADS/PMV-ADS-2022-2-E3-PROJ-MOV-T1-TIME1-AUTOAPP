@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import {
   StatusBar,
@@ -14,7 +13,7 @@ import { styles } from "./styles";
 import logo from "../../../assets/images/logo2.png";
 
 const Login = () => {
-  const [text, setText] = React.useState("");
+  const [text, setText] = useState("");
 
   return (
     <ScrollView>
