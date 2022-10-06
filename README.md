@@ -1,6 +1,6 @@
 # AutoApp
 
-`Tecnologia em Análise e Desenvolvimento de Sistema`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
 `Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
