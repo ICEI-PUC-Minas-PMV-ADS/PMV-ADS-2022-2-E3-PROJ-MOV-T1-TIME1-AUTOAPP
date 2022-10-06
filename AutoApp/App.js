@@ -1,11 +1,11 @@
 import { StatusBar, StyleSheet, Text, View } from 'react-native';
-import CadastroOficina from '../AutoApp/src/Components/CadastroOfic';
+import GarageRegistration from '';
 
 export default function App() {
   
   return (
     <View style={styles.container}>
-      <CadastroOficina />
+      <GarageRegistration />
 
       <StatusBar style="auto" />
     </View>

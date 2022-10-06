@@ -11,7 +11,6 @@ import { TextInput, Button } from "react-native-paper";
 import { styles } from "../CadastroOfic/style";
 
 import logo from "../../../assets/images/logo2.png";
-/* import return_img from "../../../assets/images/ret.png"; */
 
 const form = {
     name: "",
@@ -28,7 +27,7 @@ const form = {
 }
 
 
-  const CadastroOficina = () => {
+  const GarageRegistration = () => {
   const [name, setName] = useState("");
   const [cep, setCep] = useState("");
   const [city, setCity] = useState("");
@@ -178,4 +177,4 @@ const form = {
   );
 };
 
-export default CadastroOficina;
+export default GarageRegistration;
