@@ -1,11 +1,11 @@
 import { StatusBar, StyleSheet, Text, View } from 'react-native';
-import Cadastro from './src/Components/CadastroProp/index';
+import OwnerRegistration from '';
 
 export default function App() {
   
   return (
     <View style={styles.container}>
-      <Cadastro />
+      <OwnerRegistration />
       <StatusBar style="auto" />
     </View>
   );

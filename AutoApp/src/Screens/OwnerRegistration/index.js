@@ -23,14 +23,13 @@ const form = {
 }
 
 
-const Login = () => {
+const OwnerRegistration = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [cell, setCell] = useState("");
   const [document, setDocument] = useState("");
   const [password, setPassword] = useState("");
   const [confirmedPassword, setConfirmedPassword] = useState("");
-
   const [text, setText] = useState("");
 
   return (
@@ -122,4 +121,4 @@ const Login = () => {
   );
 };
 
-export default Cadastro;
+export default OwnerRegistration;
