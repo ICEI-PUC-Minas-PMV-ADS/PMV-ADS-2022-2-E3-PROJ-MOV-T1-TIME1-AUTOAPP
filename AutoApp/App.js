@@ -1,16 +1,21 @@
-import { StatusBar } from "react-native";
-import { StyleSheet, View } from "react-native";
-import ChooseProfile from "./src/Screens/EscolhaPerfil";
+import { StatusBar, StyleSheet, Text, View } from 'react-native';
+import Cadastro from './src/Components/CadastroProp/index';
 
 export default function App() {
   
   return (
-    <View>
-      <StatusBar
-        backgroundColor="transparent"
-        translucent
-      />
-      <ChooseProfile />
+    <View style={styles.container}>
+      <Cadastro />
+      <StatusBar style="auto" />
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
