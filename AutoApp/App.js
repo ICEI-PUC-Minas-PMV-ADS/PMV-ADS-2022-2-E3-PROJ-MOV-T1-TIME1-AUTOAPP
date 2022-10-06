@@ -2,9 +2,11 @@ import { StatusBar, StyleSheet, Text, View } from 'react-native';
 import CadastroOficina from '../AutoApp/src/Components/CadastroOfic';
 
 export default function App() {
+  
   return (
     <View style={styles.container}>
       <CadastroOficina />
+
       <StatusBar style="auto" />
     </View>
   );
