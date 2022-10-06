@@ -26,14 +26,15 @@ export const styles = StyleSheet.create({
     marginLeft: 5,
     marginRight: 5,
     padding: 0,
-    
   },
   logo: {
     width: 80,
     height: 80,
     marginTop: 30,
+    marginBottom: 30,
   },
   text: {
     fontSize: 16,
+    
   },
 });
