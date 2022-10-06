@@ -18,7 +18,5 @@ O objetivo deste relatório é indicar se a aplicação AutoApp atende aos requi
 | Observação | A aplicação Depois de logar o usuário possui um menu com as opções de criar um perfil para seu veículo e outras como Buscar serviços e seleção do tipo de usuário. A tela está pronta, com os botões com cliques mas os direcionamentos e vinculos com banco de dados ainda não.|
 |  	|  	|
 
+<img src=img/cadastro.jpg width=30%/><img src=img/selecaoperfil.png width=305%/><img src=img/login.jpg width=30%/>
 
-![1](img/cadastro.jpg)
-![2](img/selecaoperfil.png)
-![3](img/login.jpg)
