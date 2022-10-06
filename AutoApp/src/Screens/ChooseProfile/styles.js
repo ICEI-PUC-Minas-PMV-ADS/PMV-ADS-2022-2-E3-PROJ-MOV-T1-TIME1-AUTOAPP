@@ -34,10 +34,8 @@ export const styles = StyleSheet.create({
     marginBottom: 30,
   },
   text: {
-    fontSize: 16,
-    
+    fontSize: 16, 
   },
-
    texto:{
       textAlign:'center',
       fontWeight: 'bold',
@@ -46,6 +44,5 @@ export const styles = StyleSheet.create({
     textoalt:{
       color:'#f58426',
       fontWeight:'bold',
-     
     }
 });

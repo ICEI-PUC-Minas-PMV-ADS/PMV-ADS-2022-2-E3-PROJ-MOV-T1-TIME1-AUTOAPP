@@ -1,6 +1,6 @@
 import { StatusBar } from "react-native";
 import { StyleSheet, View } from "react-native";
-import EscolhaPerfil from "./src/Screens/EscolhaPerfil";
+import ChooseProfile from "./src/Screens/EscolhaPerfil";
 
 export default function App() {
   
@@ -10,7 +10,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      <EscolhaPerfil />
+      <ChooseProfile />
     </View>
   );
 }

@@ -4,7 +4,7 @@ import { styles } from "./styles";
 
 import logo from "../../../assets/images/logo2.png";
 
-const EscolhaPerfil = () => {
+const ChooseProfile = () => {
   return (
     <ScrollView style={{marginTop: 18}}>
         <View style={styles.container}>
@@ -38,4 +38,4 @@ const EscolhaPerfil = () => {
   );
 };
 
-export default EscolhaPerfil;
+export default ChooseProfile;
