@@ -2,18 +2,14 @@ import { StatusBar, View, Image, ScrollView, TouchableOpacity, Text  } from "rea
 import { Button } from "react-native-paper";
 import { styles } from "./styles";
 
-import Carousel from "../../Components/Carousel"
-
 import logo from "../../../assets/images/logo2.png";
 
-const Home = () => {
+const EscolhaPerfil = () => {
   return (
     <ScrollView style={{marginTop: 18}}>
         <View style={styles.container}>
         <StatusBar backgroundColor="#000000" translucent />
         <Image source={logo} style={styles.logo} />
-
-        <Carousel />
 
         <TouchableOpacity style={styles.buttonArea}>
           <Button
@@ -21,7 +17,7 @@ const Home = () => {
             onPress={() => console.log("Botão 'meu perfil' clicado")}
             style={styles.button}
           >
-            <Text style={styles.text}>Meu perfil</Text>
+            <Text style={styles.text}>Sou Proprietário</Text>
           </Button>
 
           <Button
@@ -29,29 +25,17 @@ const Home = () => {
             onPress={() => console.log("Botão 'buscar serviços' clicado")}
             style={styles.button}
           >
-            <Text>Buscar serviços</Text>
+            <Text style={styles.text}>Sou Mecânico</Text>
           </Button>
 
-          <Button
-            mode="contained"
-            onPress={() => console.log("Botão para proprietários' clicado")}
-            style={styles.button}
-          >
-            <Text>Para proprietários</Text>
-          </Button>
-
-          <Button
-            mode="contained"
-            onPress={() => console.log("Botão 'para mecânicos' clicado")}
-            style={styles.button}
-          >
-            <Text>Para mecânicos</Text>
-          </Button>
         </TouchableOpacity>
+
+        <Text style= {styles.texto2}>Já tem cadastro? <Text style= {styles.textoalt}>Faça seu login!</Text></Text>
+
       </View>
       
     </ScrollView>
   );
 };
 
-export default Home;
+export default EscolhaPerfil;
