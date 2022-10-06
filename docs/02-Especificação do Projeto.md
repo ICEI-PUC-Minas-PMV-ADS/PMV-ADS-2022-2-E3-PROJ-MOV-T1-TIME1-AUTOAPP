@@ -86,7 +86,7 @@ A técnica MoSCoW foi aplicada para priorização dos requsitos:
 - Could Have (Poderia fazer)
 - Won’t Have (Não vou fazer)
 
-Nesse sentido, a ordem de importância das tarefas vai seguindo uma ordem decrescente, em que "Must Have" são as tarefas mais relevantes e as "Won’t Have" são tarefas que podem ficar para depois.
+Nesse sentido a ordem de importância das tarefas vai seguindo uma ordem decrescente, em que "Must Have" são as tarefas mais relevantes e as "Won’t Have" são tarefas que podem ficar para depois.
 
 ### Requisitos Funcionais
 
