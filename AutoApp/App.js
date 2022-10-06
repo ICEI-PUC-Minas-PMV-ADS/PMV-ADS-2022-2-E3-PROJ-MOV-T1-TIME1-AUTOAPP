@@ -2,6 +2,7 @@ import { StatusBar, StyleSheet, Text, View } from 'react-native';
 import Cadastro from './src/Components/CadastroProp/index';
 
 export default function App() {
+  
   return (
     <View style={styles.container}>
       <Cadastro />
