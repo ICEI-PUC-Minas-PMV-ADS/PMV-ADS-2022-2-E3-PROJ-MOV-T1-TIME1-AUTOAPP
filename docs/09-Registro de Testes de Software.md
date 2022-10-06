@@ -17,3 +17,8 @@ O objetivo deste relatório é indicar se a aplicação AutoApp atende aos requi
 |Requisito | RF-004 - O sistema deverá permitir a criação de um perfil para o veículo (ano, modelo, cor...), permitindo a exibição de seus dados básicos.|
 | Observação | A aplicação Depois de logar o usuário possui um menu com as opções de criar um perfil para seu veículo e outras como Buscar serviços e seleção do tipo de usuário. A tela está pronta, com os botões com cliques mas os direcionamentos e vinculos com banco de dados ainda não.|
 |  	|  	|
+
+
+![1](img/cadastro.jpg)
+![2](img/selecaoperfil.png)
+![3](img/login.jpg)
