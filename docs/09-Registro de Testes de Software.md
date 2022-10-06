@@ -1,12 +1,19 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/AutoApp/blob/0345c562979ead6378dba6dbabd9690c1ba18b69/docs/04-Projeto%20de%20Interface.md"> Projeto de Interface</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/AutoApp/blob/0345c562979ead6378dba6dbabd9690c1ba18b69/docs/08-Plano%20de%20Testes%20de%20Software.md"> Plano de Testes de Software</a>
+O objetivo deste relatório é indicar se a aplicação AutoApp atende aos requisitos previamente propostos e sugerir possíveis pontos de correção, nesta etapa os testes foram efetuados considerando a tela da aplicação 
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
-
-## Avaliação
-
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+<br> 
+  
+| 1 	| Cadastrar perfil 	|
+|:---:	|:---:	|
+|	Requisito	| RF-001 - O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail. |
+| Observação | Na página inicial, a aplicação apresenta a funcionalidade de cadastro, este que pode ser realizado ao clicar em "Registre-se" e o usuário é direcionado para uma tela para que possa escolher seu Perfil. Após o preenchimento de informações cadastrais (e-mail, nome, CPF, por exemplo). As telas estão prontas, com os botões com cliques mas os direcionamentos e vinculos com banco de dados ainda não . |
+|  	|  	|
+| 2 | Efetuar login	|
+| Requisito | RF-001	- O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail.. |
+| Observação | Também na página inicial, a aplicação apresenta a funcionalidade de login. Após o preenchimento dos campos de e-mail e senha o usuário é redirecionado para a tela de menu com os serviços da aplicação. A tela está pronta, com os botões com cliques mas os direcionamentos e vinculos com banco de dados ainda não. |
+|  	|  	|
+| 3 | Verificar a funcionalidade de criar um perfil de veículo no app |
+|Requisito | RF-004 - O sistema deverá permitir a criação de um perfil para o veículo (ano, modelo, cor...), permitindo a exibição de seus dados básicos.|
+| Observação | A aplicação Depois de logar o usuário possui um menu com as opções de criar um perfil para seu veículo e outras como Buscar serviços e seleção do tipo de usuário. A tela está pronta, com os botões com cliques mas os direcionamentos e vinculos com banco de dados ainda não.|
+|  	|  	|
