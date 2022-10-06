@@ -11,17 +11,15 @@ import { TextInput, Button } from "react-native-paper";
 import { styles } from "./style";
 
 import logo from "../../../assets/images/logo2.png";
-import return_img from "../../../assets/images/ret.png";
 
 const form = {
-    name: "",
-    email: "",
-    cell: "",
-    document: "",
-    password: "",
-    confirmedPassword: ""
-}
-
+  name: "",
+  email: "",
+  cell: "",
+  document: "",
+  password: "",
+  confirmedPassword: "",
+};
 
 const OwnerRegistration = () => {
   const [name, setName] = useState("");
@@ -38,7 +36,7 @@ const OwnerRegistration = () => {
         <StatusBar backgroundColor="#000000" translucent />
 
         <Image source={logo} style={styles.logo} />
-        
+
         <TextInput
           style={styles.input}
           label="Nome completo"
@@ -59,7 +57,7 @@ const OwnerRegistration = () => {
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
         />
-        
+
         <TextInput
           style={styles.input}
           label="Telefone"
@@ -100,7 +98,9 @@ const OwnerRegistration = () => {
           label="Confirmar a Senha"
           secureTextEntry={true}
           value="confirmedPassword"
-          onChangeText={(confirmedPassword) => setConfirmedPassword(confirmedPassword)}
+          onChangeText={(confirmedPassword) =>
+            setConfirmedPassword(confirmedPassword)
+          }
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
@@ -110,12 +110,11 @@ const OwnerRegistration = () => {
           <Button
             style={styles.button}
             mode="contained"
-            onPress={() => console.log("Pressed")}>
+            onPress={() => console.log("Pressed")}
+          >
             <Text>Cadastrar</Text>
           </Button>
         </TouchableOpacity>
-
-        
       </View>
     </ScrollView>
   );

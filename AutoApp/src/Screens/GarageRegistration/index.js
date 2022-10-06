@@ -8,26 +8,25 @@ import {
   Text,
 } from "react-native";
 import { TextInput, Button } from "react-native-paper";
-import { styles } from "../CadastroOfic/style";
+import { styles } from "./style";
 
 import logo from "../../../assets/images/logo2.png";
 
 const form = {
-    name: "",
-    cep: "",
-    city: "",
-    street: "",
-    number: "",
-    adress: "",
-    email: "",
-    telofic: "",
-    document: "",
-    password: "",
-    confirmedPassword: ""
-}
+  name: "",
+  cep: "",
+  city: "",
+  street: "",
+  number: "",
+  adress: "",
+  email: "",
+  telofic: "",
+  document: "",
+  password: "",
+  confirmedPassword: "",
+};
 
-
-  const GarageRegistration = () => {
+const GarageRegistration = () => {
   const [name, setName] = useState("");
   const [cep, setCep] = useState("");
   const [city, setCity] = useState("");
@@ -38,7 +37,6 @@ const form = {
   const [documentofic, setDocument] = useState("");
   const [password, setPassword] = useState("");
   const [confirmedPassword, setConfirmedPassword] = useState("");
-  const [text, setText] = useState("");
 
   return (
     <ScrollView>
@@ -63,46 +61,44 @@ const form = {
           label="CEP"
           value={cep}
           placeholder="CEP"
-          onChangeText={(cep) => setName(cep)}
+          onChangeText={(cep) => setCep(cep)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
         />
 
-          <TextInput
+        <TextInput
           style={styles.input}
           label="Cidade"
           value={city}
           placeholder="CEP"
-          onChangeText={(city) => setName(city)}
+          onChangeText={(city) => setCity(city)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
         />
 
-
-          <TextInput
+        <TextInput
           style={styles.input}
           label="Rua"
           value={street}
           placeholder="Rua"
-          onChangeText={(street) => setName(street)}
+          onChangeText={(street) => setStreet(street)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-        />  
+        />
 
-          <TextInput
+        <TextInput
           style={styles.input}
           label="Nº"
           value={number}
           placeholder="Nº"
-          onChangeText={(number) => setName(number)}
+          onChangeText={(number) => setNumber(number)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-        />  
-
+        />
 
         <TextInput
           style={styles.input}
@@ -114,7 +110,7 @@ const form = {
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
         />
-        
+
         <TextInput
           style={styles.input}
           label="Telefone"
@@ -156,7 +152,9 @@ const form = {
           label="Confirmar a Senha"
           secureTextEntry={true}
           value={confirmedPassword}
-          onChangeText={(confirmedPassword) => setConfirmedPassword(confirmedPassword)}
+          onChangeText={(confirmedPassword) =>
+            setConfirmedPassword(confirmedPassword)
+          }
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
@@ -166,12 +164,11 @@ const form = {
           <Button
             style={styles.button}
             mode="contained"
-            onPress={() => console.log("Pressed")}>
+            onPress={() => console.log("Pressed")}
+          >
             <Text>Cadastrar</Text>
           </Button>
         </TouchableOpacity>
-
-        
       </View>
     </ScrollView>
   );
