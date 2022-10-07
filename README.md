@@ -25,7 +25,7 @@ O AutoApp é uma aplicação móvel que permite o acesso dos dados de veículos 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para acessar a aplicação desenvolvida basta executar o comando npm install e npm start na pasta AutoApp e ler o qr code gerado usando o aplicativo Expo Go. Demais instruções estão no código.
 
 # Documentação
 
