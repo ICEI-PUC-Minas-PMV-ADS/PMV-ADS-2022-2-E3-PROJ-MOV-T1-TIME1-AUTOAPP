@@ -34,3 +34,9 @@ A imagem a seguir ilustra o wireframe com imagens das telas reais das seis prime
 Na imagem a seguir, apresentamos as seis primeiras telas da aplicação. O arquivo será atualizado conforme desenvolvimento das demais telas.
 
 ![Telas](img/Telas1-6.png)
+
+# Dashboard com Indicadores de Desempenho e Metas
+
+Ao acessar a aplicação com um perfil de administrador, é possível gerar um dashboard com os dados obtidos na aplicação e externamente, que permite uma visualização rápida dos resultados obtidos em relação as metas, e dos demais indicadores relevantes para o negócio definidos na especificação do projeto.
+
+![dashboard](img/dashboard.PNG)
