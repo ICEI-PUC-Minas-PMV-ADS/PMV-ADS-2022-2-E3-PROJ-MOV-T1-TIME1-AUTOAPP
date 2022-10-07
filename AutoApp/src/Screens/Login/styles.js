@@ -42,10 +42,12 @@ export const styles = StyleSheet.create({
   registerText: {
     color: "#F58426",
     fontWeight: "bold",
+
   },
   password: {
     alignSelf: "flex-end",
     marginBottom: 7,
+    paddingRight: 25
   },
   text: {
     fontSize: 16,
