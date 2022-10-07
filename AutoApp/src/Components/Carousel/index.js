@@ -6,15 +6,15 @@ import { styles } from "./styles";
 const images = [
   {
     id: 1,
-    url: "http://c.files.bbci.co.uk/11DE7/production/_104019137_gettyimages-844232562.jpg",
+    url: "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2022-2-E3-PROJ-MOV-T1-TIME1-AUTOAPP/main/AutoApp/assets/images/imgcarrossel1.png",
   },
   {
     id: 2,
-    url: "https://cdn.falauniversidades.com.br/wp-content/uploads/2021/10/22143145/Origem-Halloween.png",
+    url: "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2022-2-E3-PROJ-MOV-T1-TIME1-AUTOAPP/main/AutoApp/assets/images/imgcarrossel2.png",
   },
   {
     id: 3,
-    url: "https://www.confidencecambio.com.br/wp-content/uploads/2021/10/copia-de-artigo-assinado-inovacao_optimized-2.png",
+    url: "https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2022-2-E3-PROJ-MOV-T1-TIME1-AUTOAPP/main/AutoApp/assets/images/imgcarrossel3.png",
   },
 ];
 

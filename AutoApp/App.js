@@ -8,7 +8,7 @@ import Home from "../AutoApp/src/Screens/Home";
 export default function App() {
   return (
     <View>
-      {/*Para visualizar as telas desenvolvidas, basta trocar o nome a seguir. Ex: <Login />, <Home />, etc. e dar npm start para abrir o QR code do Expo Go*/}
+      {/*Para visualizar as telas desenvolvidas, basta trocar o nome a seguir. Ex: <Login />, <Home />, etc. e rodar o comando npm start para abrir o QR code do Expo Go*/}
       <Login />
     </View>
   );
