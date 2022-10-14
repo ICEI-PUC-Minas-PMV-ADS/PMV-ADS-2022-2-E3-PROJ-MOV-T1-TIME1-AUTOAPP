@@ -1,39 +1,36 @@
-import { StatusBar, View, Image, ScrollView, TouchableOpacity, Text  } from "react-native";
-import { Button } from "react-native-paper";
+import {
+  View,
+  ScrollView,
+  Text,
+} from "react-native";
+import Logo from "../../Components/Logo";
+import VariantButton from "../../Components/Buttons/Variant";
+import Statusbar from '../../Components/StatusBar'
 import { styles } from "./styles";
-
-import logo from "../../../assets/images/logo2.png";
 
 const ChooseProfile = () => {
   return (
-    <ScrollView style={{marginTop: 18}}>
-        <View style={styles.container}>
-        <StatusBar backgroundColor="#000000" translucent />
-        <Image source={logo} style={styles.logo} />
+    <ScrollView>
+      <View style={styles.container}>
+        <Statusbar />
+        <Logo />
 
-        <TouchableOpacity style={styles.buttonArea}>
-          <Button
-            mode="contained"
-            onPress={() => console.log("Botão 'meu perfil' clicado")}
-            style={styles.button}
-          >
-            <Text style={styles.text}>Sou Proprietário</Text>
-          </Button>
+        <View style={styles.buttonArea}>
+          <VariantButton
+            text={"Sou Proprietário"}
+            onPress={() => console.log("Botão 'sou proprietário' clicado")}
+          />
 
-          <Button
-            mode="contained"
-            onPress={() => console.log("Botão 'buscar serviços' clicado")}
-            style={styles.button}
-          >
-            <Text style={styles.text}>Sou Mecânico</Text>
-          </Button>
+          <VariantButton
+            text={"Sou Mecânico"}
+            onPress={() => console.log("Botão 'sou mecânico' clicado")}
+          />
+        </View>
 
-        </TouchableOpacity>
-
-        <Text style= {styles.texto2}>Já tem cadastro? <Text style= {styles.textoalt}>Faça seu login!</Text></Text>
-
+        <Text>
+          Já tem cadastro? <Text style={styles.textoalt}>Faça seu login!</Text>
+        </Text>
       </View>
-      
     </ScrollView>
   );
 };

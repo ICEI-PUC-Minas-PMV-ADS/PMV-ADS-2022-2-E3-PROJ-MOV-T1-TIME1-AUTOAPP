@@ -7,12 +7,6 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  logo: {
-    width: 80,
-    height: 80,
-    marginTop: 30,
-    marginBottom: 30
-  },
   input: {
     width: 263,
     height: 50,
@@ -42,7 +36,6 @@ export const styles = StyleSheet.create({
   registerText: {
     color: "#F58426",
     fontWeight: "bold",
-
   },
   password: {
     alignSelf: "flex-end",
