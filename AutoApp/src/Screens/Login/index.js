@@ -1,16 +1,10 @@
 import { useState } from "react";
-import {
-  StatusBar,
-  View,
-  Image,
-  ScrollView,
-  TouchableOpacity,
-  Text,
-} from "react-native";
+import { View, ScrollView, TouchableOpacity, Text } from "react-native";
 import { TextInput, Button } from "react-native-paper";
+import Logo from "../../Components/Logo";
+import Statusbar from "../../Components/StatusBar";
+import DefaultButton from "../../Components/Buttons/Default";
 import { styles } from "./styles";
-
-import logo from "../../../assets/images/logo2.png";
 
 const Login = () => {
   const [text, setText] = useState("");
@@ -18,8 +12,8 @@ const Login = () => {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <StatusBar backgroundColor="#000000" translucent />
-        <Image source={logo} style={styles.logo} />
+        <Statusbar />
+        <Logo />
 
         <TextInput
           style={styles.input}
@@ -45,15 +39,7 @@ const Login = () => {
           <Text style={styles.password}> Esqueceu a senha?</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity>
-          <Button
-            style={styles.button}
-            mode="contained"
-            onPress={() => console.log("Pressed")}
-          >
-            <Text>Login</Text>
-          </Button>
-        </TouchableOpacity>
+        <DefaultButton text={"Login"} />
 
         <TouchableOpacity style={styles.register}>
           <Text> Não tem cadastro? </Text>

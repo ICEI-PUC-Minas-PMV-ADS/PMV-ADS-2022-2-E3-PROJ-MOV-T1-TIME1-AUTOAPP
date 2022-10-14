@@ -7,20 +7,11 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  logo: {
-    width: 80,
-    height: 80,
-    marginTop: 50,
-    marginBottom: 30,
-    marginLeft: 30
-  },
-  
   ret: {
     width: 40,
     height: 40,
     marginTop: 15,
     marginBottom: 30,
-    marginRight: 220
   },
   input: {
     width: 263,

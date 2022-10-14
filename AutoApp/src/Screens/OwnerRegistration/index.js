@@ -1,16 +1,14 @@
 import { useState } from "react";
 import {
-  StatusBar,
   View,
-  Image,
   ScrollView,
-  TouchableOpacity,
-  Text,
 } from "react-native";
 import { TextInput, Button } from "react-native-paper";
+import Logo from "../../Components/Logo";
+import DefaultButton from "../../Components/Buttons/Default";
+import Statusbar from '../../Components/StatusBar'
 import { styles } from "./style";
 
-import logo from "../../../assets/images/logo2.png";
 
 const form = {
   name: "",
@@ -33,10 +31,9 @@ const OwnerRegistration = () => {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <StatusBar backgroundColor="#000000" translucent />
+        <Statusbar />
 
-        <Image source={logo} style={styles.logo} />
-
+        <Logo />
         <TextInput
           style={styles.input}
           label="Nome completo"
@@ -106,15 +103,7 @@ const OwnerRegistration = () => {
           outlineColor="#182E3A"
         />
 
-        <TouchableOpacity>
-          <Button
-            style={styles.button}
-            mode="contained"
-            onPress={() => console.log("Pressed")}
-          >
-            <Text>Cadastrar</Text>
-          </Button>
-        </TouchableOpacity>
+        <DefaultButton text={"Cadastrar"} />
       </View>
     </ScrollView>
   );
