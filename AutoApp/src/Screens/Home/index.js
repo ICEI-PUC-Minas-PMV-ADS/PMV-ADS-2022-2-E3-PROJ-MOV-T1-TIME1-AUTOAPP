@@ -12,6 +12,7 @@ const Home = () => {
         <Statusbar />
 
         <Logo />
+        
         <Carousel />
 
         <View style={styles.buttonArea}>
