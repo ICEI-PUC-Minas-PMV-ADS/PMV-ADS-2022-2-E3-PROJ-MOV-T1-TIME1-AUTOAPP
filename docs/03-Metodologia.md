@@ -40,7 +40,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `stating`: versão em testes do software
 - `feature`: versão de desenvolvimento do software
 - `screen`: versão inicial da tela desenvolvida
-- 
+
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
