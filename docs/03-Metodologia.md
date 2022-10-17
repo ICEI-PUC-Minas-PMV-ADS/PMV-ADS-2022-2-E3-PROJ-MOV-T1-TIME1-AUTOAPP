@@ -1,4 +1,3 @@
-
 # Metodologia
 
 A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
@@ -7,9 +6,9 @@ Para controle do projeto, das pessoas e das tarefas, utilizaremos poucos ambient
 
 Nossa ferramenta principal para gerir os tópicos citados acima, será o GitHub, que utilizaremos na sua forma típica de repositório, armazenando toda manutenção dos códigos. Paralelo a esta modalidade de repositório, também será usado para os gerenciamentos de backlog do produto, e das sprints individualizadas, este gerenciamento será feito através da aba “Project”.
 
-Para arquivos visuais e sonoros, bem como, formulários de pesquisas, análises de requisitos, casos de uso, utilizaremos o Google Drive para a equipe envolvida no desenvolvimento da aplicação, seja através da forma técnica ou gerencial e MS Project.
+Para arquivos visuais e sonoros, bem como, formulários de pesquisas, análises de requisitos, casos de uso, utilizaremos o Google Drive para a equipe envolvida no desenvolvimento da aplicação, seja por meio da forma técnica ou gerencial e MS Project.
 
-O Projeto de interface e wireframes foi desenvolvido através do site Canva, criado de forma que qualquer eventual alteração ou incrementação seja feita de forma prática.
+O Projeto de interface e wireframes foi desenvolvido no site Figma, criado de forma que qualquer eventual alteração ou incrementação seja feita de forma prática.
 
 ## Controle de Versão
 A gestão de código fonte ou controle de versões diz respeito ao monitoramento e gerenciamento das alterações no código, de preferência com histórico de execuções de desenvolvimento e, também, auxilia na resolução de conflitos e reverte versões anteriores de um projeto, quando necessário. Esse componente é essencial para o processo de desenvolvimento do software. 
@@ -30,7 +29,9 @@ Com isso, para gestão do código fonte utilizaremos o Git Flow, um modelo de or
 
 **Develop**: branch criada a partir da branch main, contém código em nível preparatório para o próximo deploy/versão. Ou seja, quando features são terminadas, elas são juntadas com a branch develop, testadas e somente depois as atualizações da branch develop passam por mais um processo para então ser juntadas com a branch main; 
 
-**Feature**: branch de melhorias: utiliza-se para o desenvolvimento de uma funcionalidade específica/nova, inicia-se com a palavra feature e são criadas sempre a partir da branch develop. Exemplo: feature/cadastro. 
+**Feature**: branch de melhorias: utiliza-se para o desenvolvimento de uma funcionalidade específica/nova, inicia-se com a palavra feature e são criadas sempre a partir da branch develop. Exemplo: feature/cadastro;
+
+**Screen**: branch de criação de telas da aplicação.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -38,7 +39,8 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `unstable`: versão já testada do software, porém instável
 - `stating`: versão em testes do software
 - `feature`: versão de desenvolvimento do software
-
+- `screen`: versão inicial da tela desenvolvida
+- 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
@@ -46,6 +48,19 @@ etiquetas:
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: indica novas solicitações de recurso ou uma funcionalidade precisa ser melhorada 
 - `question`: indica que um problema, pull request ou discussão precisa de mais informações 
+
+<br />
+A seguir, ilustramos a execução do GitFlow da segunda etapa deste projeto.
+ 
+ 
+
+![gitflow](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2022-2-E3-PROJ-MOV-T1-TIME1-AUTOAPP/blob/ac95ae385ee4cd230d3df3068c523a5b785a5bb3/docs/img/GitFlow/GitFlow%20-%201.png)
+
+![gitflow](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2022-2-E3-PROJ-MOV-T1-TIME1-AUTOAPP/blob/ac95ae385ee4cd230d3df3068c523a5b785a5bb3/docs/img/GitFlow/GitFlow%20-%202.png)
+
+![gitflow](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2022-2-E3-PROJ-MOV-T1-TIME1-AUTOAPP/blob/ac95ae385ee4cd230d3df3068c523a5b785a5bb3/docs/img/GitFlow/GitFlow%20-%203.png)
+
+A partir da branch main, novas branches foram criadas para o desenvolvimento de componentes e telas da aplicação. Em seguida, as branches foram revisadas e mescladas (merge) para a branch dev, que, por fim, foi mesclada para a branch main.
 
 ## Gerenciamento de Projeto
 
