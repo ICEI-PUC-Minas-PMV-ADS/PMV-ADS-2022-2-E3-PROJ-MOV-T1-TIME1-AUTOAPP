@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 4,
+    marginBottom: 10
   },
   text: {
     fontSize: 15,
