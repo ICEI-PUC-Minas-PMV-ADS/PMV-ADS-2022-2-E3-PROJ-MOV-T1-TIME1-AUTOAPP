@@ -36,7 +36,24 @@ const Publicity = () => {
       />
       <View style={styles.buttonIconSeparatorStyle} />
       <Text style={styles.buttonTextStyle}>Anúncio 2</Text>
-      
+            
+          <FAB
+        style={styles.fab}
+        small
+        icon="plus"
+        onPress={() => console.log('Pressed')}
+               />
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.button}
+        activeOpacity={0.5}>
+      <Image source={require('../../../assets/images/tools.png',)} 
+      style={styles.buttonImageIconStyle} 
+      />
+      <View style={styles.buttonIconSeparatorStyle} />
+      <Text style={styles.buttonTextStyle}>Anúncio 3</Text>
+            
           <FAB
         style={styles.fab}
         small
