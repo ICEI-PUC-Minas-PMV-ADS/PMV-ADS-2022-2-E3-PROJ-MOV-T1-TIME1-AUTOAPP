@@ -25,7 +25,7 @@ const Login = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          left={<TextInput.Icon name="account" />}
+          left={<TextInput.Icon icon="account" />}
         />
 
         <TextInput
@@ -38,7 +38,7 @@ const Login = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          left={<TextInput.Icon name="key" />}
+          left={<TextInput.Icon icon="key" />}
         />
         <TouchableOpacity style={styles.password}>
           <Text style={styles.password}> Esqueceu a senha?</Text>
