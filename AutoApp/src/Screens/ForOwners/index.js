@@ -7,9 +7,9 @@ import { styles } from "./styles";
 const Owners = () => {
   return (
     <ScrollView>
-      <View style={styles.container}>
         <Statusbar />
         <Nav />
+      <View style={styles.container}>
         <View style={styles.buttonArea}>
           <VariantButton
             text={"Meus automóveis"}
