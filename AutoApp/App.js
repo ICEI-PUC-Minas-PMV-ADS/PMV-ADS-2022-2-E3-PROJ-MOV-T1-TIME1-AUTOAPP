@@ -5,11 +5,13 @@ import OwnerRegistration from "../AutoApp/src/Screens/OwnerRegistration";
 import GarageRegistration from "../AutoApp/src/Screens/GarageRegistration";
 import Home from "../AutoApp/src/Screens/Home";
 
+import MyAutos from '../AutoApp/src/Screens/MyAutomobiles'
+
 export default function App() {
   return (
     <View>
       {/*Para visualizar as telas desenvolvidas, basta trocar o nome a seguir. Ex: <Login />, <Home />, etc. e rodar o comando npm start para abrir o QR code do Expo Go*/}
-      <Login />
+      <MyAutos />
     </View>
   );
 }
