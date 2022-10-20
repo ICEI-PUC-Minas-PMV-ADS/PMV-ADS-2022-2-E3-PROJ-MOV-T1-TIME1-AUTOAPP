@@ -4,6 +4,7 @@ import ChooseProfile from "../AutoApp/src/Screens/ChooseProfile";
 import OwnerRegistration from "../AutoApp/src/Screens/OwnerRegistration";
 import GarageRegistration from "../AutoApp/src/Screens/GarageRegistration";
 import Home from "../AutoApp/src/Screens/Home";
+import PersonalInformation from "../AutoApp/src/Screens/PersonalInformation";
 
 export default function App() {
   return (
