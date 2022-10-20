@@ -6,8 +6,11 @@ import {
 import { TextInput, Button } from "react-native-paper";
 import Logo from "../../Components/Logo";
 import DefaultButton from "../../Components/Buttons/Default";
-import Statusbar from '../../Components/StatusBar'
+import Statusbar from '../../Components/StatusBar';
 import { styles } from "./style";
+import CancelButton from "../../Components/Buttons/Cancel";
+import Nav from "../../Components/NavBar"
+
 
 
 const form = {
@@ -24,16 +27,13 @@ const PersonalInformation = () => {
   const [email, setEmail] = useState("");
   const [cell, setCell] = useState("");
   const [document, setDocument] = useState("");
-  const [password, setPassword] = useState("");
-  const [confirmedPassword, setConfirmedPassword] = useState("");
   const [text, setText] = useState("");
 
   return (
     <ScrollView>
-      <View style={styles.container}>
-        <Statusbar />
-
-        <Logo />
+      <Nav/>
+      <View style={styles.container}>       
+        
         <TextInput
           style={styles.input}
           label="Nome completo"
@@ -43,6 +43,7 @@ const PersonalInformation = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
+          right={<TextInput.Icon icon="square-edit-outline"/>}
         />
 
         <TextInput
@@ -53,7 +54,9 @@ const PersonalInformation = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-        />
+          right={<TextInput.Icon icon="square-edit-outline"/>}
+          />
+        
 
         <TextInput
           style={styles.input}
@@ -64,6 +67,8 @@ const PersonalInformation = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
+          right={<TextInput.Icon icon="square-edit-outline"/>}
+          
         />
 
         <TextInput
@@ -75,35 +80,13 @@ const PersonalInformation = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
+          right={<TextInput.Icon icon="square-edit-outline"/>}
+        
         />
-
-        <TextInput
-          style={styles.input}
-          autoCorrect={false}
-          label="Senha"
-          value={password}
-          secureTextEntry={true}
-          onChangeText={(password) => setPassword(password)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-        />
-
-        <TextInput
-          style={styles.input}
-          autoCorrect={false}
-          label="Confirmar a Senha"
-          secureTextEntry={true}
-          value="confirmedPassword"
-          onChangeText={(confirmedPassword) =>
-            setConfirmedPassword(confirmedPassword)
-          }
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-        />
-
-        <DefaultButton text={"Cadastrar"} />
+      
+        <DefaultButton text={"Alterar dados"} />
+        <CancelButton text={"Sair da conta"} />
+       
       </View>
     </ScrollView>
   );
