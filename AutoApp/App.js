@@ -1,27 +1,25 @@
 import { View } from "react-native";
-import Login from "../AutoApp/src/Screens/Login";
-import ChooseProfile from "../AutoApp/src/Screens/ChooseProfile";
-import OwnerRegistration from "../AutoApp/src/Screens/OwnerRegistration";
-import GarageRegistration from "../AutoApp/src/Screens/GarageRegistration";
-import Home from "../AutoApp/src/Screens/Home";
-import MyVehicles from "./src/Screens/MyVehicles";
-import MyMaintenances from "./src/Screens/MyMaintenances";
-import Publicity from "./src/Screens/Publicity";
-import Services from "./src/Screens/Services";
-import PersonalInformation from "../AutoApp/src/Screens/PersonalInformation";
-import Owners from "./src/Screens/ForOwners";
-import Garages from "./src/Screens/ForGarages";
-import DataAlteration from '../AutoApp/src/Screens/ChangeData'
-import MyAutos from '../AutoApp/src/Screens/MyAutomobiles'
-import Services from '../AutoApp/src/Screens/RegisterService'
-import Ads from '../AutoApp/src/Screens/RegisterAd'
-import MyMaintenancesDone from '../AutoApp/src/Screens/MyMaintenances'
+import Login from "../AutoApp/src/Screens/02-Login";
+import ChooseProfile from "../AutoApp/src/Screens/03-ChooseProfile";
+import OwnerRegistration from "../AutoApp/src/Screens/04-OwnerRegistration";
+import GarageRegistration from "../AutoApp/src/Screens/05-GarageRegistration";
+import Home from "../AutoApp/src/Screens/06-Home";
+import PersonalInformation from "../AutoApp/src/Screens/07-PersonalInformation";
+import DataAlteration from '../AutoApp/src/Screens/08-ChangeData'
+import Owners from "../AutoApp/src/Screens/10-ForOwners";
+import MyVehicles from "../AutoApp/src/Screens/11-MyVehicles";
+import AddAutos from '../AutoApp/src/Screens/13-AddAutomobiles'
+import MyMaintenances from "../AutoApp/src/Screens/14-MyMaintenances";
+import AddMaintenance from '../AutoApp/src/Screens/16-MaintenancesDone'
+import Garages from "../AutoApp/src/Screens/17-ForGarages";
+import AddServices from "../AutoApp/src/Screens/20-RegisterService";
+import Publicity from "../AutoApp/src/Screens/21-Publicity";
+import Ads from '../AutoApp/src/Screens/23-RegisterAd'
 
 export default function App() {
   return (
     <View>
-      {/*Para visualizar as telas desenvolvidas, basta trocar o nome a seguir. Ex: <Login />, <Home />, etc. e rodar o comando npm start para abrir o QR code do Expo Go*/}
-      <Login/>
+      <Ads />
     </View>
   );
 }
