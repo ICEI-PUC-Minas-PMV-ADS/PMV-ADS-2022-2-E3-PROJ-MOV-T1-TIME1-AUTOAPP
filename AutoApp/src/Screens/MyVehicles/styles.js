@@ -31,15 +31,15 @@ export const styles = StyleSheet.create({
   },
   buttonTextStyle: {
     color: "#9CABC2",
-    fontSize: 16,
     marginBottom: 5,
-    marginLeft: 15,
+    marginLeft: 50,
+    fontSize: 16,
   },
     fab: {
     flex: 1,
     alignItems: 'center',
     position: "absolute",
-    margin: 5,
+    margin: 0,
     right: 5,
     bottom: 0,
     justifyContent: 'center',

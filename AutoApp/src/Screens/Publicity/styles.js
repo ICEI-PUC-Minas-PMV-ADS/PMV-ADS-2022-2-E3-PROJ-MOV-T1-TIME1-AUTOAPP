@@ -31,11 +31,11 @@ export const styles = StyleSheet.create({
   },
   buttonTextStyle: {
     color: "#9CABC2",
-    fontSize: 16,
     marginBottom: 5,
-    marginLeft: 15,
-  },
-    fab: {
+    marginLeft: 20,
+    fontSize: 16,
+   },
+     fab: {
     flex: 1,
     alignItems: 'center',
     position: "absolute",

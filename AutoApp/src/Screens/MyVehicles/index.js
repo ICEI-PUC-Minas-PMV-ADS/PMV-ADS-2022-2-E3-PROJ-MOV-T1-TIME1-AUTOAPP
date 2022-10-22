@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View, Image} from "react-native";
-import { TextInput, Button, FAB } from "react-native-paper";
+import { FAB } from "react-native-paper";
 import NavBar from "../../Components/NavBar/index";
 import { styles } from "./styles";
 
-const MyMaintenances = () => {
+const MyVehicles = () => {
      const onPress = () => setCount(prevCount => prevCount + 1);
 
   return (
@@ -19,7 +19,7 @@ const MyMaintenances = () => {
       style={styles.buttonImageIconStyle} 
       />
       <View style={styles.buttonIconSeparatorStyle} />
-      <Text style={styles.buttonTextStyle}>Troca de óleo</Text>
+      <Text style={styles.buttonTextStyle}>Pulse</Text>
       
           <FAB
         style={styles.fab}
@@ -35,7 +35,7 @@ const MyMaintenances = () => {
       style={styles.buttonImageIconStyle} 
       />
       <View style={styles.buttonIconSeparatorStyle} />
-      <Text style={styles.buttonTextStyle}>Troca de pneu</Text>
+      <Text style={styles.buttonTextStyle}>Argo</Text>
       
           <FAB
         style={styles.fab}
@@ -49,4 +49,4 @@ const MyMaintenances = () => {
   );
 };
 
-export default MyMaintenances;
+export default MyVehicles;

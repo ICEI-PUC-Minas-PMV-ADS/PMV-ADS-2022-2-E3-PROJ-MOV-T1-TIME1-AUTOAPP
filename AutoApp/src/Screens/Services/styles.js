@@ -31,9 +31,9 @@ export const styles = StyleSheet.create({
   },
   buttonTextStyle: {
     color: "#9CABC2",
-    fontSize: 16,
     marginBottom: 5,
-    marginLeft: 15,
+    fontSize: 16,
+    marginLeft: 20,
   },
     fab: {
     flex: 1,
