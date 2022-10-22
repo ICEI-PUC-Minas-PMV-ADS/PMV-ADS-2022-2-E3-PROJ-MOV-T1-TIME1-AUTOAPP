@@ -11,6 +11,11 @@ import Services from "./src/Screens/Services";
 import PersonalInformation from "../AutoApp/src/Screens/PersonalInformation";
 import Owners from "./src/Screens/ForOwners";
 import Garages from "./src/Screens/ForGarages";
+import DataAlteration from '../AutoApp/src/Screens/ChangeData'
+import MyAutos from '../AutoApp/src/Screens/MyAutomobiles'
+import Services from '../AutoApp/src/Screens/RegisterService'
+import Ads from '../AutoApp/src/Screens/RegisterAd'
+import MyMaintenancesDone from '../AutoApp/src/Screens/MyMaintenances'
 
 export default function App() {
   return (

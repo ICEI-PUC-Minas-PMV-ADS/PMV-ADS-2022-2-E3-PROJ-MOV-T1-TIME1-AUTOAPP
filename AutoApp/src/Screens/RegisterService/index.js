@@ -8,18 +8,16 @@ import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
 
 const form = {
-  licencePlate: "",
-  brand: "",
-  model: "",
-  year: "",
+  oilChange: "",
+  engineOverhaul: "",
+  airConditioning: "",
 };
 
-const MyAutos = () => {
-  const [licencePlate, setLicencePlate] = useState("")
-  const [brand, setBrand] = useState("")
-  const [model, setModel] = useState("")
-  const [version, setVersion] = useState("")
-  const [year, setYear] = useState("")
+const Services = () => {
+  const [oilChange, setOilChange] = useState("")
+  const [engineOverhaul, setEngineOverhaul] = useState("")
+  const [airConditioning, setAirConditioning] = useState("")
+
 
   return (
     <ScrollView>
@@ -29,9 +27,9 @@ const MyAutos = () => {
         <View>
         <TextInput
           style={styles.input}
-          label="Placa"
-          placeholder="BRA2E13"
-          onChangeText={(licencePlate) => setLicencePlate(licencePlate)}
+          label="Troca de óleo"
+          placeholder=""
+          onChangeText={(oilChange) => setOilChange(oilChange)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
@@ -41,9 +39,9 @@ const MyAutos = () => {
 
         <TextInput
           style={styles.input}
-          label="Marca"
-          placeholder="Fiat"
-          onChangeText={(brand) => setBrand(brand)}
+          label="Revisão de motor"
+          placeholder=""
+          onChangeText={(engineOverhaul) => setEngineOverhaul(engineOverhaul)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
@@ -52,31 +50,9 @@ const MyAutos = () => {
 
         <TextInput
           style={styles.input}
-          label="Modelo"
-          placeholder="Bravo"
-          onChangeText={(model) => setModel(model)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
-        />
-
-        <TextInput
-          style={styles.input}
-          label="Versão"
-          placeholder="T-Jet"
-          onChangeText={(version) => setVersion(version)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
-        />
-
-        <TextInput
-          style={styles.input}
-          label="Ano"
-          placeholder="2012"
-          onChangeText={(year) => setYear(year)}
+          label="Revisão de ar condicionado"
+          placeholder=""
+          onChangeText={(airConditioning) => setAirConditioning(airConditioning)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
@@ -89,4 +65,4 @@ const MyAutos = () => {
     </ScrollView>
   );
 };
-export default MyAutos;
+export default Services;

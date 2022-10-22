@@ -8,18 +8,16 @@ import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
 
 const form = {
-  licencePlate: "",
-  brand: "",
-  model: "",
-  year: "",
+  firstAd: "",
+  secondAd: "",
+  thirdAd: "",
 };
 
-const MyAutos = () => {
-  const [licencePlate, setLicencePlate] = useState("")
-  const [brand, setBrand] = useState("")
-  const [model, setModel] = useState("")
-  const [version, setVersion] = useState("")
-  const [year, setYear] = useState("")
+const Ads = () => {
+  const [firstAd, seFirstAd] = useState("")
+  const [secondAd, setSecondAd] = useState("")
+  const [thirdAd, setThirdAd] = useState("")
+
 
   return (
     <ScrollView>
@@ -29,9 +27,9 @@ const MyAutos = () => {
         <View>
         <TextInput
           style={styles.input}
-          label="Placa"
-          placeholder="BRA2E13"
-          onChangeText={(licencePlate) => setLicencePlate(licencePlate)}
+          label="Anúncio 1"
+          placeholder=""
+          onChangeText={(firstAd) => seFirstAd(firstAd)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
@@ -41,9 +39,9 @@ const MyAutos = () => {
 
         <TextInput
           style={styles.input}
-          label="Marca"
-          placeholder="Fiat"
-          onChangeText={(brand) => setBrand(brand)}
+          label="Anúncio 2"
+          placeholder=""
+          onChangeText={(secondAd) => setSecondAd(secondAd)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
@@ -52,31 +50,9 @@ const MyAutos = () => {
 
         <TextInput
           style={styles.input}
-          label="Modelo"
-          placeholder="Bravo"
-          onChangeText={(model) => setModel(model)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
-        />
-
-        <TextInput
-          style={styles.input}
-          label="Versão"
-          placeholder="T-Jet"
-          onChangeText={(version) => setVersion(version)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
-        />
-
-        <TextInput
-          style={styles.input}
-          label="Ano"
-          placeholder="2012"
-          onChangeText={(year) => setYear(year)}
+          label="Anúncio 3"
+          placeholder=""
+          onChangeText={(thirdAd) => setThirdAd(thirdAd)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
@@ -89,4 +65,4 @@ const MyAutos = () => {
     </ScrollView>
   );
 };
-export default MyAutos;
+export default Ads;
