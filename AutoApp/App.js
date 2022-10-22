@@ -5,6 +5,8 @@ import OwnerRegistration from "../AutoApp/src/Screens/OwnerRegistration";
 import GarageRegistration from "../AutoApp/src/Screens/GarageRegistration";
 import Home from "../AutoApp/src/Screens/Home";
 import PersonalInformation from "../AutoApp/src/Screens/PersonalInformation";
+import Owners from "./src/Screens/ForOwners";
+import Garages from "./src/Screens/ForGarages";
 
 export default function App() {
   return (
