@@ -8,7 +8,9 @@ import MyVehicles from "./src/Screens/MyVehicles";
 import MyMaintenances from "./src/Screens/MyMaintenances";
 import Publicity from "./src/Screens/Publicity";
 import Services from "./src/Screens/Services";
-
+import PersonalInformation from "../AutoApp/src/Screens/PersonalInformation";
+import Owners from "./src/Screens/ForOwners";
+import Garages from "./src/Screens/ForGarages";
 
 export default function App() {
   return (
