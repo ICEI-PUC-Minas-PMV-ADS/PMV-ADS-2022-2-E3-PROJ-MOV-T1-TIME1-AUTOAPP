@@ -1,46 +1,28 @@
-import { ScrollView, Text, TouchableOpacity, View, Image } from "react-native";
-import { FAB } from "react-native-paper";
+import { ScrollView, View } from "react-native";
 import NavBar from "../../Components/NavBar/index";
+import DefaultButton from "../../Components/Buttons/Default";
+import List from "../../Components/List";
 import { styles } from "./styles";
 
-const Services = () => {
+const MyServices = () => {
   return (
     <ScrollView>
       <NavBar />
       <View style={styles.container}>
-        <TouchableOpacity style={styles.button} activeOpacity={0.5}>
-          <Image
-            source={require("../../../assets/images/tools.png")}
-            style={styles.buttonImageIconStyle}
-          />
-          <View style={styles.buttonIconSeparatorStyle} />
-          <Text style={styles.buttonTextStyle}>Serviço 1</Text>
+        <List 
+        source={require("../../../assets/images/tools.png")}
+        text="Serviço 1"/>
 
-          <FAB
-            style={styles.fab}
-            small
-            icon="plus"
-            onPress={() => console.log("Pressed")}
-          />
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button} activeOpacity={0.5}>
-          <Image
-            source={require("../../../assets/images/tools.png")}
-            style={styles.buttonImageIconStyle}
-          />
-          <View style={styles.buttonIconSeparatorStyle} />
-          <Text style={styles.buttonTextStyle}>Serviço 2</Text>
-
-          <FAB
-            style={styles.fab}
-            small
-            icon="plus"
-            onPress={() => console.log("Pressed")}
-          />
-        </TouchableOpacity>
+        <List   
+        source={require("../../../assets/images/tools.png")}
+        text="Serviço 2"
+        />
+        <DefaultButton 
+        text="Adicionar serviço"
+        />
       </View>
     </ScrollView>
   );
 };
 
-export default Services;
+export default MyServices;

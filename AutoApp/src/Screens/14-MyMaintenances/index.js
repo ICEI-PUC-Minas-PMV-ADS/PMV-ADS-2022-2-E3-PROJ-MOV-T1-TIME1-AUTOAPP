@@ -1,53 +1,24 @@
-import React, { useState } from "react";
-import {
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  Image,
-} from "react-native";
-import { FAB } from "react-native-paper";
+import { ScrollView, View } from "react-native";
 import NavBar from "../../Components/NavBar/index";
+import DefaultButton from "../../Components/Buttons/Default";
+import List from "../../Components/List";
 import { styles } from "./styles";
 
 const MyMaintenances = () => {
-  const onPress = () => setCount((prevCount) => prevCount + 1);
-
   return (
     <ScrollView>
       <NavBar />
       <View style={styles.container}>
-        <TouchableOpacity style={styles.button} activeOpacity={0.5}>
-          <Image
-            source={require("../../../assets/images/pulse.png")}
-            style={styles.buttonImageIconStyle}
-          />
-          <View style={styles.buttonIconSeparatorStyle} />
-          <Text style={styles.buttonTextStyle}>Troca de óleo</Text>
+        <List
+          source={require("../../../assets/images/pulse.png")}
+          text="Troca de óleo"
+        />
 
-          <FAB
-            style={styles.fab}
-            small
-            icon="plus"
-            onPress={() => console.log("Pressed")}
-          />
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button} activeOpacity={0.5}>
-          <Image
-            source={require("../../../assets/images/car.png")}
-            style={styles.buttonImageIconStyle}
-          />
-          <View style={styles.buttonIconSeparatorStyle} />
-          <Text style={styles.buttonTextStyle}>Troca de pneu</Text>
-
-          <FAB
-            style={styles.fab}
-            small
-            icon="plus"
-            onPress={() => console.log("Pressed")}
-          />
-        </TouchableOpacity>
+        <List
+          source={require("../../../assets/images/car.png")}
+          text="Filtro de ar"
+        />
+        <DefaultButton text="Adicionar manutenção" />
       </View>
     </ScrollView>
   );
