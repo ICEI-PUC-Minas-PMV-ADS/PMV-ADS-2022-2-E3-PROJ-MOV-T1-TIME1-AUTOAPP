@@ -38,7 +38,7 @@ const MyVehicles = () => {
             onPress={() => console.log("Pressed")}
           />
         </TouchableOpacity>
-        
+
         <DefaultButton text={"Adicionar veículo"} />
       </View>
     </ScrollView>

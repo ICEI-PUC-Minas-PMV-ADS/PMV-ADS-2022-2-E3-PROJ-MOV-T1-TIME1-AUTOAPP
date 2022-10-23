@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  Image,
-} from "react-native";
+import { ScrollView, Text, TouchableOpacity, View, Image } from "react-native";
 import { FAB } from "react-native-paper";
 import NavBar from "../../Components/NavBar";
 import { styles } from "./styles";
