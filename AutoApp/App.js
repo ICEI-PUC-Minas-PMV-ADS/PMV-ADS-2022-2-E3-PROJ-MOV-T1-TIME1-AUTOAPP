@@ -12,6 +12,7 @@ import AddAutos from '../AutoApp/src/Screens/13-AddAutomobiles'
 import MyMaintenances from "../AutoApp/src/Screens/14-MyMaintenances";
 import AddMaintenance from '../AutoApp/src/Screens/16-MaintenancesDone'
 import Garages from "../AutoApp/src/Screens/17-ForGarages";
+import MyServices from "../AutoApp/src/Screens/18-MyServices"
 import AddServices from "../AutoApp/src/Screens/20-RegisterService";
 import Publicity from "../AutoApp/src/Screens/21-Publicity";
 import Ads from '../AutoApp/src/Screens/23-RegisterAd'
@@ -19,7 +20,7 @@ import Ads from '../AutoApp/src/Screens/23-RegisterAd'
 export default function App() {
   return (
     <View>
-      <Ads />
+      <Publicity />
     </View>
   );
 }
