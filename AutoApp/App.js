@@ -16,11 +16,13 @@ import MyServices from "../AutoApp/src/Screens/18-MyServices"
 import AddServices from "../AutoApp/src/Screens/20-RegisterService";
 import Publicity from "../AutoApp/src/Screens/21-Publicity";
 import Ads from '../AutoApp/src/Screens/23-RegisterAd'
+import ModalCar from "../AutoApp/src/Screens/ModalCar"
+import ModalMaintenance from "./src/Screens/ModalMaintenance";
 
 export default function App() {
   return (
     <View>
       <Publicity />
     </View>
-  );
+);
 }
