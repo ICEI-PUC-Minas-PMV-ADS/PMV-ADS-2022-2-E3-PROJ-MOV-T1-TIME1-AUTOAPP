@@ -7,13 +7,6 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  ret: {
-    width: 40,
-    height: 40,
-    marginTop: 15,
-    marginBottom: 30,
-    marginRight: 220
-  },
   input: {
     width: 263,
     height: 50,
@@ -22,16 +15,6 @@ export const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
     marginBottom: 14,
   },
-  button: {
-    width: 263,
-    height: 50,
-    backgroundColor: "#182E3A",
-    alignItems: "center",
-    justifyContent: "center",
-    marginTop: 20,
-    marginBottom: 14,
-    borderRadius: 4,
-  },
   submitText: {
     fontSize: 16,
     fontWeight: "bold",
@@ -39,8 +22,7 @@ export const styles = StyleSheet.create({
   },
   register: {
     flex: 1,
-    fontSize: 16,
-    flexDirection: 'row'
+    flexDirection: "row",
   },
   registerText: {
     color: "#F58426",
@@ -49,6 +31,7 @@ export const styles = StyleSheet.create({
   password: {
     alignSelf: "flex-end",
     marginBottom: 7,
+    paddingRight: 25,
   },
   text: {
     fontSize: 16,

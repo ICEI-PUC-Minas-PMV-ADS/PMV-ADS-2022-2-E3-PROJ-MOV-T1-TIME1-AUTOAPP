@@ -8,11 +8,10 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     width: 263,
     height: 50,
-    backgroundColor: "#182E3A",
+    backgroundColor: "#EF4423",
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 4,
-    marginBottom: 10
   },
   text: {
     fontSize: 15,

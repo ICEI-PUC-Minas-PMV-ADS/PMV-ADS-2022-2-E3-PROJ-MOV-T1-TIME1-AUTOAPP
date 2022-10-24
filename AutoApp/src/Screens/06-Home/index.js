@@ -1,6 +1,6 @@
 import { View, ScrollView } from "react-native";
 import Carousel from "../../Components/Carousel";
-import Logo from "../../Components/Logo";
+import Nav from "../../Components/NavBar";
 import VariantButton from "../../Components/Buttons/Variant";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
@@ -8,31 +8,29 @@ import { styles } from "./styles";
 const Home = () => {
   return (
     <ScrollView>
+      <Statusbar />
+      <Nav />
       <View style={styles.container}>
-        <Statusbar />
-
-        <Logo />
-        
         <Carousel />
 
         <View style={styles.buttonArea}>
           <VariantButton
-            text={"Meu perfil"}
+            text={"Meu \n perfil"}
             onPress={() => console.log("Botão 'meu perfil' clicado")}
           />
 
           <VariantButton
-            text={"Buscar serviços"}
+            text={"Buscar \n serviços"}
             onPress={() => console.log("Botão 'buscar serviços' clicado")}
           />
 
           <VariantButton
-            text={"Para proprietários"}
+            text={"Para \n proprietários"}
             onPress={() => console.log("Botão 'para proprietários' clicado")}
           />
 
           <VariantButton
-            text={"Para mecânicos"}
+            text={"Para \n mecânicos"}
             onPress={() => console.log("Botão 'para mecânicos' clicado")}
           />
         </View>

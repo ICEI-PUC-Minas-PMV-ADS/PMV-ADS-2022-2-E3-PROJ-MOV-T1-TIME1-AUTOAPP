@@ -17,12 +17,12 @@ const ChooseProfile = () => {
 
         <View style={styles.buttonArea}>
           <VariantButton
-            text={"Sou Proprietário"}
+            text={"Sou \n Proprietário"}
             onPress={() => console.log("Botão 'sou proprietário' clicado")}
           />
 
           <VariantButton
-            text={"Sou Mecânico"}
+            text={"Sou \n Mecânico"}
             onPress={() => console.log("Botão 'sou mecânico' clicado")}
           />
         </View>

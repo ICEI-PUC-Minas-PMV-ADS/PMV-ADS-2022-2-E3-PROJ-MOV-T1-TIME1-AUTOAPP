@@ -1,14 +1,10 @@
 import { useState } from "react";
-import {
-  View,
-  ScrollView,
-} from "react-native";
-import { TextInput, Button } from "react-native-paper";
-import Logo from "../../Components/Logo";
+import { View, ScrollView } from "react-native";
+import { TextInput } from "react-native-paper";
+import Nav from "../../Components/NavBar";
 import DefaultButton from "../../Components/Buttons/Default";
-import Statusbar from '../../Components/StatusBar'
+import Statusbar from "../../Components/StatusBar";
 import { styles } from "./style";
-
 
 const form = {
   name: "",
@@ -26,19 +22,16 @@ const OwnerRegistration = () => {
   const [document, setDocument] = useState("");
   const [password, setPassword] = useState("");
   const [confirmedPassword, setConfirmedPassword] = useState("");
-  const [text, setText] = useState("");
 
   return (
     <ScrollView>
+      <Statusbar />
+      <Nav />
       <View style={styles.container}>
-        <Statusbar />
-
-        <Logo />
         <TextInput
           style={styles.input}
           label="Nome completo"
           value={name}
-          placeholder="Nome Completo"
           onChangeText={(name) => setName(name)}
           mode="outlined"
           activeOutlineColor="#182E3A"
@@ -94,7 +87,7 @@ const OwnerRegistration = () => {
           autoCorrect={false}
           label="Confirmar a Senha"
           secureTextEntry={true}
-          value="confirmedPassword"
+          value={confirmedPassword}
           onChangeText={(confirmedPassword) =>
             setConfirmedPassword(confirmedPassword)
           }
