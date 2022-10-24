@@ -8,21 +8,21 @@ import PersonalInformation from "../AutoApp/src/Screens/07-PersonalInformation";
 import DataAlteration from '../AutoApp/src/Screens/08-ChangeData'
 import Owners from "../AutoApp/src/Screens/10-ForOwners";
 import MyVehicles from "../AutoApp/src/Screens/11-MyVehicles";
+import ModalCar from "./src/Screens/12-ModalCar"
 import AddAutos from '../AutoApp/src/Screens/13-AddAutomobiles'
 import MyMaintenances from "../AutoApp/src/Screens/14-MyMaintenances";
+import ModalMaintenance from "./src/Screens/15-ModalMaintenance";
 import AddMaintenance from '../AutoApp/src/Screens/16-MaintenancesDone'
 import Garages from "../AutoApp/src/Screens/17-ForGarages";
 import MyServices from "../AutoApp/src/Screens/18-MyServices"
 import AddServices from "../AutoApp/src/Screens/20-RegisterService";
 import Publicity from "../AutoApp/src/Screens/21-Publicity";
 import Ads from '../AutoApp/src/Screens/23-RegisterAd'
-import ModalCar from "../AutoApp/src/Screens/ModalCar"
-import ModalMaintenance from "./src/Screens/ModalMaintenance";
 
 export default function App() {
   return (
     <View>
-      <Publicity />
+      <ModalMaintenance />
     </View>
 );
 }
