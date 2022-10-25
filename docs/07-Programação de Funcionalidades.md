@@ -17,3 +17,11 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 # Instruções de Acesso
 
 Para acessar a aplicação desenvolvida basta executar o comando npm install e npm start na pasta AutoApp e ler o qr code no aplicativo Expo Go. Demais instruções estão no código.
+
+# Evolução do projeto
+
+**Renata Diniz Guimarães de Oliveira**
+
+Fui responsável por implemenatar as telas de login, Adicionat Veículos e Manutenções.
+
+
