@@ -62,6 +62,13 @@ Programar uma aplicação móvel  em que o usuário/proprietário possa desfruta
 O AutoApp oferecem serviços que emitem notificações alertando o motorista sobre os cuidados preventivos e permitem acompanhar o histórico de manutenção do veículo.  De modo geral, é necessário realizar um cadastro do veículo com suas especificações para navegar pela aplicação móvel. 
 ![](img/capturar1.PNG)
 
+## Relação entre Potencialidades e Oportunidades de Melhoria para o Processo de Negócio
+
+Ao realizar algumas pesquisas de campo em algumas oficinas e a alguns usuários de oficinas, acabamos percebendo que havia uma oportunidade em melhorar a qualidade das informações coletadas e também dos serviços prestados nos veículos dos clientes. 
+As informções coletadas nos mostrou que teriamos uma oportunidade de melhoria para o processo de negócio, desenvolvendo  uma platafroma móvel em que ficassem armazenadas as manutenções realizadas e também as possíveis manutenções futuras.
+Ao retornar a informação aos propritários das oficinas, eles nos infomaram que a proposta de negócio seria muito aceita devido que as informções realizadas em clientes antigos ficariam armazenadas e seriam de fácil consulta, melhorando ainda mais o atendimento dos clientes e conservando ainda mais os veículos.
+
+
 ## Indicadores de Desempenho
 
 Os indicadores estabelecidos para a avaliação do desempenho do aplicativo do AutoApp, após sua disponibilização na Play Store e na Apple Store, são detalhados a seguir:
