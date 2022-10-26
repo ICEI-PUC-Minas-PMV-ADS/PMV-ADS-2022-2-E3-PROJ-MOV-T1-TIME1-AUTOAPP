@@ -53,7 +53,7 @@ Mesmo com o avanço da tecnologia, o processo de manutenção e reparo veicular 
 
 Entretanto, é necessário considerar alguns dificultadores que podem inviabilizar a elaboração e a aplicação da proposta supracitada. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem como o curto período de testes dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o AutoApp no setor automotivo. 
 
-## Descrição Geral da Proposta
+## Descrição Geral da Proposta da Situação Futura
 
 Considerando o contexto elucidado nas seções anteriores, vários são os problemas existente que viabilizam a criação e a aplicação móvel AutoApp, tais como dificuldade dos proprietários de veículos de acompanhar as datas de manutenção recomendadas, a possibilidade de prevenir acidentes recorrentes, a falta de manutenção, bem como a dificuldade de encontrar mecânicos e lojas especializadas nas proximidades. 
 
