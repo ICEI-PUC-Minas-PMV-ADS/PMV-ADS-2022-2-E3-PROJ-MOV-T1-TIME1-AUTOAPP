@@ -2,6 +2,8 @@
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 13596 : tecnologia de informação: avaliação de produto de software - características de qualidade e diretrizes para o seu uso. Rio de Janeiro: ABNT, 1996. 10 p.
+
 ALCOFORADO, Fernando. **As grandes invenções no transporte terrestre e dutoviário da história e sua futura evolução**. Salvador: Portal Saúde no Ar, 5 fev. 2022. Disponível em: https://www.portalsaudenoar.com.br/as-grandes-invencoes-no-transporte-terrestre-e-dutoviario-da-historia/. Acesso em: 08 set. 2022.
 
 BROCKE, Jan vom; ROSEMANN, Michael. Manual de BPM: gestão de processos de negócio. Porto Alegre: Bookman, 2013. E-book.
