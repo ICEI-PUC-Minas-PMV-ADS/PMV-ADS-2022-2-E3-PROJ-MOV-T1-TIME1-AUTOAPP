@@ -2,15 +2,17 @@
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
 
-ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 13596 : tecnologia de informação: avaliação de produto de software - características de qualidade e diretrizes para o seu uso. Rio de Janeiro: ABNT, 1996. 10 p.
+ARAÚJO, Luís César G. de; GARCIA, Adriana Amadeu; MARTINES, Simone. **Gestão de processos**: melhores resultados e excelência organizacional. 2. ed. São Paulo: Atlas, 2017. E-book. 
+
 
 ALCOFORADO, Fernando. **As grandes invenções no transporte terrestre e dutoviário da história e sua futura evolução**. Salvador: Portal Saúde no Ar, 5 fev. 2022. Disponível em: https://www.portalsaudenoar.com.br/as-grandes-invencoes-no-transporte-terrestre-e-dutoviario-da-historia/. Acesso em: 08 set. 2022.
 
-BROCKE, Jan vom; ROSEMANN, Michael. Manual de BPM: gestão de processos de negócio. Porto Alegre: Bookman, 2013. E-book.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 13596** : tecnologia de informação: avaliação de produto de software - características de qualidade e diretrizes para o seu uso. Rio de Janeiro: ABNT, 1996. 10 p.
+
+BROCKE, Jan vom; ROSEMANN, Michael. **Manual de BPM**: gestão de processos de negócio. Porto Alegre: Bookman, 2013. E-book.
 
 GRUPO GLOBO. Revisão de veículos ganha mais espaço no contexto da pandemia. **Gente**, [S. l.], 25 jan. 2021. Disponível em: https://gente.globo.com/pesquisa-infografico-revisao-de-veiculos-ganha-mais-espaco-no-contexto-da-pandemia-2/. Acesso em: 28 ago. 2022.
 
-ARAÚJO, Luís César G. de; GARCIA, Adriana Amadeu; MARTINES, Simone. Gestão de processos: melhores resultados e excelência organizacional. 2. ed. São Paulo: Atlas, 2017. E-book. 
 
 PAIXÃO, André. Quantos carros tem no Brasil? **Auto Esporte**, [S. l.], 14 maio 2022. Disponível em: https://autoesporte.globo.com/curiosidades/noticia/2022/0 5/quantos-carros-tem-no-brasil.ghtml. Acesso em: 06 set. 2022.
 
