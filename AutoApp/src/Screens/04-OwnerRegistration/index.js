@@ -6,7 +6,11 @@ import DefaultButton from "../../Components/Buttons/Default";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./style";
 
+<<<<<<< Updated upstream
 import { DatabaseConnection } from '../../Database/connection';
+=======
+import { DatabaseConnection } from '../../Database/database-connection';
+>>>>>>> Stashed changes
 const db = DatabaseConnection.getConnection();
 
 const form = {
