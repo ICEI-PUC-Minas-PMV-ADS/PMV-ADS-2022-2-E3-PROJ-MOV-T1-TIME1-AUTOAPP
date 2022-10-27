@@ -1,4 +1,8 @@
 import { View, ScrollView } from "react-native";
+<<<<<<< HEAD
+=======
+import { useNavigation } from "@react-navigation/native";
+>>>>>>> cabc3fc... Ajuste nas rotas
 import VariantButton from "../../Components/Buttons/Variant";
 import Statusbar from "../../Components/StatusBar";
 import Nav from "../../Components/NavBar";
@@ -7,8 +11,8 @@ import { styles } from "./styles";
 const Garages = () => {
   return (
     <ScrollView>
-        <Statusbar />
-        <Nav />
+      <Statusbar />
+      <Nav onPress={() => navigation.navigate("Home")} />
       <View style={styles.container}>
         <View style={styles.buttonArea}>
           <VariantButton

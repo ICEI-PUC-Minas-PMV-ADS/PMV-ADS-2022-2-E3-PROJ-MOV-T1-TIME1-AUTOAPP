@@ -26,9 +26,15 @@ const PersonalInformation = () => {
   return (
     <ScrollView>
       <Statusbar />
+<<<<<<< HEAD
       <Nav/>
       <View style={styles.container}>       
         
+=======
+      <Nav onPress={() => navigation.navigate("Home")} />
+
+      <View style={styles.container}>
+>>>>>>> cabc3fc... Ajuste nas rotas
         <TextInput
           style={styles.input}
           label="Nome completo"
