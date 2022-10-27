@@ -1,4 +1,5 @@
 import { View, ScrollView } from "react-native";
+import { useNavigation } from '@react-navigation/native'
 import { useState } from "react"
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
@@ -15,6 +16,7 @@ const form = {
 };
 
 const AddAutos = () => {
+  const navigation = useNavigation();
   const [licencePlate, setLicencePlate] = useState("")
   const [brand, setBrand] = useState("")
   const [model, setModel] = useState("")

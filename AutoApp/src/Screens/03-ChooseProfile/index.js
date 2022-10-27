@@ -3,12 +3,14 @@ import {
   ScrollView,
   Text,
 } from "react-native";
+import { useNavigation } from '@react-navigation/native'
 import Logo from "../../Components/Logo";
 import VariantButton from "../../Components/Buttons/Variant";
 import Statusbar from '../../Components/StatusBar'
 import { styles } from "./styles";
 
 const ChooseProfile = () => {
+  const navigation = useNavigation();
   return (
     <ScrollView>
       <View style={styles.container}>

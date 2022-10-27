@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { useNavigation } from '@react-navigation/native'
 import { View, ScrollView, TouchableOpacity, Text, FlatList, StyleSheet, Animated } from "react-native";
 import { TextInput, Button } from "react-native-paper";
 import Logo from "../../Components/Logo";
@@ -22,6 +23,7 @@ const styles = StyleSheet.create({
 
 
 const ModalMaintenance = () => {
+  const navigation = useNavigation();
 
   const scrollX = useRef(new Animated.Value(0)).current;
   const viewConfig = useRef({viewAreaCoveragePercentThreshold: 50}).current;

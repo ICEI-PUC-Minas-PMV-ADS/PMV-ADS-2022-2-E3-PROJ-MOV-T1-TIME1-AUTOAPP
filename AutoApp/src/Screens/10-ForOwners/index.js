@@ -1,10 +1,12 @@
 import { View, ScrollView } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import VariantButton from "../../Components/Buttons/Variant";
 import Statusbar from "../../Components/StatusBar";
 import Nav from "../../Components/NavBar";
 import { styles } from "./styles";
 
 const Owners = () => {
+  const navigation = useNavigation();
   return (
     <ScrollView>
       <Statusbar />
@@ -13,26 +15,22 @@ const Owners = () => {
         <View style={styles.buttonArea}>
           <VariantButton
             text={"Meus automóveis"}
-            onPress={() => console.log("Botão 'Meus automóveis' clicado")}
+            onPress={() => navigation.navigate("MyVehicles")}
           />
 
           <VariantButton
             text={"Cadastro de automóveis"}
-            onPress={() =>
-              console.log("Botão 'Cadastro de automóveis' clicado")
-            }
+            onPress={() => navigation.navigate("AddAutos")}
           />
 
           <VariantButton
             text={"Minhas manutenções"}
-            onPress={() => console.log("Botão 'Minhas manutenções' clicado")}
+            onPress={() => navigation.navigate("MyMaintenances")}
           />
 
           <VariantButton
             text={"Cadastro de manutenção"}
-            onPress={() =>
-              console.log("Botão 'Cadastro de manutenção' clicado")
-            }
+            onPress={() => navigation.navigate("AddMaintenance")}
           />
         </View>
       </View>

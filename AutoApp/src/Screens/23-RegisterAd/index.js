@@ -1,4 +1,5 @@
 import { View, ScrollView } from "react-native";
+import { useNavigation } from '@react-navigation/native'
 import { useState } from "react"
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
@@ -13,11 +14,11 @@ const form = {
   thirdAd: "",
 };
 
-const Ads = () => {
+const RegisterAd = () => {
+  const navigation = useNavigation();
   const [firstAd, seFirstAd] = useState("")
   const [secondAd, setSecondAd] = useState("")
   const [thirdAd, setThirdAd] = useState("")
-
 
   return (
     <ScrollView>
@@ -65,4 +66,4 @@ const Ads = () => {
     </ScrollView>
   );
 };
-export default Ads;
+export default RegisterAd;

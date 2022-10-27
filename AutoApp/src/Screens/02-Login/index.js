@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigation } from '@react-navigation/native'
 import { View, ScrollView, TouchableOpacity, Text } from "react-native";
 import { TextInput, Button } from "react-native-paper";
 import Logo from "../../Components/Logo";
@@ -7,6 +8,7 @@ import DefaultButton from "../../Components/Buttons/Default";
 import { styles } from "./styles";
 
 const Login = () => {
+  const navigation = useNavigation();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 

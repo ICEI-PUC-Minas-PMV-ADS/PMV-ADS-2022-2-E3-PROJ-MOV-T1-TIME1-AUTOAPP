@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigation } from '@react-navigation/native'
 import { View, ScrollView } from "react-native";
 import { TextInput } from "react-native-paper";
 import Nav from "../../Components/NavBar";
@@ -16,6 +17,7 @@ const form = {
 };
 
 const OwnerRegistration = () => {
+  const navigation = useNavigation();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [cell, setCell] = useState("");
