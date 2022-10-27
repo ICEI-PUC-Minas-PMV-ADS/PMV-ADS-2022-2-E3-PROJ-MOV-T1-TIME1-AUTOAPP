@@ -24,7 +24,7 @@ const AddMaintenance = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav />
+      <Nav onPress={() => navigation.navigate("Owners")} />
       <View style={styles.container}>
         <View>
         <TextInput

@@ -9,7 +9,7 @@ const MyVehicles = () => {
   const navigation = useNavigation();
   return (
     <ScrollView>
-       <Nav />
+       <Nav onPress={() => navigation.navigate("Owners")} />
       <View style={styles.container}> 
         <List
           source={require("../../../assets/images/pulse.png")}

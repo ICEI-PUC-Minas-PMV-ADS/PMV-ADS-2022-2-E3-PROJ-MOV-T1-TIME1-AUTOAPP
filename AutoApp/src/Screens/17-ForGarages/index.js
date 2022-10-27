@@ -1,5 +1,5 @@
 import { View, ScrollView } from "react-native";
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation } from "@react-navigation/native";
 import VariantButton from "../../Components/Buttons/Variant";
 import Statusbar from "../../Components/StatusBar";
 import Nav from "../../Components/NavBar";
@@ -9,8 +9,8 @@ const Garages = () => {
   const navigation = useNavigation();
   return (
     <ScrollView>
-        <Statusbar />
-        <Nav />
+      <Statusbar />
+      <Nav onPress={() => navigation.navigate("Home")} />
       <View style={styles.container}>
         <View style={styles.buttonArea}>
           <VariantButton

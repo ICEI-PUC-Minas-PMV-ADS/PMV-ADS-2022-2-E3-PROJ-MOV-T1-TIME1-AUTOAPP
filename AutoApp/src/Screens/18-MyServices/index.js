@@ -1,6 +1,6 @@
 import { ScrollView, View } from "react-native";
 import { useNavigation } from '@react-navigation/native'
-import NavBar from "../../Components/NavBar/index";
+import Nav from "../../Components/NavBar/index";
 import DefaultButton from "../../Components/Buttons/Default";
 import List from "../../Components/List";
 import { styles } from "./styles";
@@ -9,7 +9,7 @@ const MyServices = () => {
   const navigation = useNavigation();
   return (
     <ScrollView>
-      <NavBar />
+      <Nav onPress={() => navigation.navigate("Garages")} />
       <View style={styles.container}>
         <List 
         source={require("../../../assets/images/tools.png")}

@@ -7,8 +7,8 @@ const Nav = ({ onPress }) => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <TouchableOpacity>
-          <Image source={arrow} style={styles.arrow} onPress={onPress}/>
+        <TouchableOpacity onPress={onPress}>
+          <Image source={arrow} style={styles.arrow} />
         </TouchableOpacity>
         <Image source={logo} style={styles.logo} />
       </View>

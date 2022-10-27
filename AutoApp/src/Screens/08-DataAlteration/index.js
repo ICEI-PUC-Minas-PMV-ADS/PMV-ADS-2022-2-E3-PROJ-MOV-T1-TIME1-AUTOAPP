@@ -11,7 +11,8 @@ const DataAlteration = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav />
+      <Nav 
+      onPress={() => navigation.navigate("PersonalInformation")}/>
       <View style={styles.container}>
         <DefaultButton text={"Salvar"} />
         <CancelButton text={"Cancelar"} />

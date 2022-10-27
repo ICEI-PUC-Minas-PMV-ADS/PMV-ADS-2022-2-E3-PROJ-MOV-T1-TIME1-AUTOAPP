@@ -25,7 +25,8 @@ const PersonalInformation = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav />
+      <Nav onPress={() => navigation.navigate("Home")} />
+
       <View style={styles.container}>
         <TextInput
           style={styles.input}

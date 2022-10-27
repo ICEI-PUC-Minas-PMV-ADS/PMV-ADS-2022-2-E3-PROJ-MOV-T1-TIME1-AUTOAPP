@@ -23,7 +23,7 @@ const RegisterAd = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav />
+      <Nav onPress={() => navigation.navigate("Garages")} />
       <View style={styles.container}>
         <View>
         <TextInput
