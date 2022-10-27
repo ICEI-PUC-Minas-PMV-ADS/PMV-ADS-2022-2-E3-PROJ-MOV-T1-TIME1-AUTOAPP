@@ -22,7 +22,7 @@ import Ads from '../AutoApp/src/Screens/23-RegisterAd'
 export default function App() {
   return (
     <View>
-      <ModalMaintenance />
+      <OwnerRegistration />
     </View>
 );
 }
