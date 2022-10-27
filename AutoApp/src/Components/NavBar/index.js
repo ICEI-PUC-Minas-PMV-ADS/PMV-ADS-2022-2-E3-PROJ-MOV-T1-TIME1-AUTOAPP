@@ -7,11 +7,7 @@ const Nav = () => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-<<<<<<< HEAD
         <TouchableOpacity>
-=======
-        <TouchableOpacity onPress={onPress}>
->>>>>>> cabc3fc... Ajuste nas rotas
           <Image source={arrow} style={styles.arrow} />
         </TouchableOpacity>
         <Image source={logo} style={styles.logo} />

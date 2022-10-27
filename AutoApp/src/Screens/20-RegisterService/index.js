@@ -22,7 +22,7 @@ const AddServices = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav onPress={() => navigation.navigate("Garages")} />
+      <Nav />
       <View style={styles.container}>
         <View>
         <TextInput

@@ -8,7 +8,7 @@ const Owners = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav onPress={() => navigation.navigate("Home")} />
+      <Nav />
       <View style={styles.container}>
         <View style={styles.buttonArea}>
           <VariantButton

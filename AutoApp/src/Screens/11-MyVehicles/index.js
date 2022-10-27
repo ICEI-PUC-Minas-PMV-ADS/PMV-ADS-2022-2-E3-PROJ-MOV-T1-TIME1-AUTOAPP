@@ -7,11 +7,7 @@ import { styles } from "./styles";
 const MyVehicles = () => {
   return (
     <ScrollView>
-<<<<<<< HEAD
       <NavBar />
-=======
-       <Nav onPress={() => navigation.navigate("Owners")} />
->>>>>>> cabc3fc... Ajuste nas rotas
       <View style={styles.container}> 
         <List
           source={require("../../../assets/images/pulse.png")}
