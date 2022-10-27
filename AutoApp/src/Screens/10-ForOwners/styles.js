@@ -15,5 +15,7 @@ export const styles = StyleSheet.create({
     alignSelf: "center",
     justifyContent: "center",
     marginTop: 75,
+    marginLeft: 15,
+    marginRight: 15
   }
 });
