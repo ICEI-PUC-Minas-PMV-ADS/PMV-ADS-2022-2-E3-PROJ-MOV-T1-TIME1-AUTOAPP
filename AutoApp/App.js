@@ -17,12 +17,13 @@ import Garages from "../AutoApp/src/Screens/17-ForGarages";
 import MyServices from "../AutoApp/src/Screens/18-MyServices"
 import AddServices from "../AutoApp/src/Screens/20-RegisterService";
 import Publicity from "../AutoApp/src/Screens/21-Publicity";
-import Ads from '../AutoApp/src/Screens/23-RegisterAd'
+import Ads from '../AutoApp/src/Screens/23-RegisterAd';
+import Maps from '../AutoApp/src/Screens/09-Maps';
 
 export default function App() {
   return (
     <View>
-      <ModalMaintenance />
+      <Maps />
     </View>
 );
 }

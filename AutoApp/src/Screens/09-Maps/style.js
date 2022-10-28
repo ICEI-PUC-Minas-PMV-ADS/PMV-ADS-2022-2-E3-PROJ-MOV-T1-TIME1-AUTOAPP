@@ -1,19 +1,45 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions,ScrollView } from "react-native";
 
+const {height, width} = Dimensions.get('window');
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-    marginTop: 20,
+    alignItems: 'flex-end',
+    justifyContent: 'flex-end',
   },
-  input: {
-    width: 263,
-    height: 50,
-    fontSize: 16,
-    borderRadius: 4,
-    backgroundColor: "#FFFFFF",
-    marginBottom: 14,
-  }
+  map: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
+  },
+
+  marcadorContainer:{
+    width:70,
+    height:80,
+    backgroundColor:'white',
+    flexDirection:'column',
+    borderRadius:8,
+    overflow:'hidden',
+    alignItems:'center',
+
+  },
+
+  mapMarkerImage:{
+    width:50,
+    height:45,
+    resizeMode:'cover',
+  },
+
+  /*placesContainer:{
+    width:'100%',
+    maxHeight: 200,
+  },
+
+  places:{
+    width:width - 40,
+    maxHeight: 200,
+    backgroundColor: '#fff',
+    marginHorizontal:20,
+  }*/
+ 
 });

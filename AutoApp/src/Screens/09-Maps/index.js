@@ -1,86 +1,110 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 import {
   View,
   ScrollView,
+  Image,
+  Text,
+  StyleSheet,Dimensions,
 } from "react-native";
-import { TextInput} from "react-native-paper";
-import DefaultButton from "../../Components/Buttons/Default";
+import MapView, {Marker} from 'react-native-maps';
 import Statusbar from '../../Components/StatusBar';
-import CancelButton from "../../Components/Buttons/Cancel";
 import Nav from "../../Components/NavBar"
 import { styles } from "./style";
 
-const form = {
-  name: "",
-  email: "",
-  cell: "",
-  document: "",
-};
 
-const PersonalInformation = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [cell, setCell] = useState("");
-  const [document, setDocument] = useState("");
+
+const Maps = () => {
+
+  let[regiao, setRegiao] = useState({
+    latitude:-19.922877,
+    longitude:-43.945375,
+    latitudeDelta:0.014,
+    longitudeDelta: 0.014}
+    );
 
   return (
-    <ScrollView>
+    <ScrollView >
       <Statusbar />
       <Nav/>
       <View style={styles.container}>       
-        
-        <TextInput
-          style={styles.input}
-          label="Nome completo"
-          value={name}
-          onChangeText={(name) => setName(name)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline"/>}
-        />
+        <MapView 
 
-        <TextInput
-          style={styles.input}
-          label="E-mail"
-          value={email}
-          onChangeText={(email) => setEmail(email)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline"/>}
-          />
-        
-        <TextInput
-          style={styles.input}
-          label="Telefone"
-          value={cell}
-          autoCorrect={false}
-          onChangeText={(cell) => setCell(cell)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline"/>}  
-        />
+          style={styles.map}
+          initialRegion={regiao}
+          rotateEnabled={false}
+          scrollEnabled={false}
+          zoomEnabled={false}
+          showsPointsOfInterest={false}
+          showsBuildings={false}
+          >
+            <Marker
+              coordinate={{
+                latitude:-19.924888,
+                longitude:-43.947814,
+              }}
+            >
+              <View style={styles.marcadorContainer}>
+                <Image
+                  source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU'}}
+                  style={styles.mapMarkerImage}
+                />
+                <Text>Check-Up Car</Text>
+              </View>
 
-        <TextInput
-          style={styles.input}
-          label="CPF"
-          value={document}
-          autoCorrect={false}
-          onChangeText={(document) => setDocument(document)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline"/>}
-        />
+            </Marker>
+             <Marker
+              coordinate={{
+                latitude:-19.918101,
+                longitude:-43.947140,
+              }}
+            >
+              <View style={styles.marcadorContainer}>
+                <Image
+                  source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU'}}
+                  style={styles.mapMarkerImage}
+                />
+                <Text>Oficina</Text>
+              </View>
+
+            </Marker>
+
+            <Marker
+              coordinate={{
+                latitude:-19.920186,
+                longitude:-43.951018,
+              }}
+            >
+              <View style={styles.marcadorContainer}>
+                <Image
+                  source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU'}}
+                  style={styles.mapMarkerImage}
+                />
+                <Text>Volminas</Text>
+              </View>
+
+            </Marker>
+          </MapView>
+          
+          
       
-        <DefaultButton text={"Alterar dados"} />
-        <CancelButton text={"Sair da conta"} />
-       
       </View>
     </ScrollView>
   );
 };
 
-export default PersonalInformation;
+export default Maps;
+
+          /*<ScrollView style={styles.placesContainer} horizontal>
+              <View style={styles.places} >
+
+              </View>
+          </ScrollView>*/
+
+//Check-Up Car
+// -19.924888, -43.947814
+
+//Momentum Oficina Mecânica
+// -19.918101, -43.947140
+
+//Volminas
+//-19.920186, -43.951018
