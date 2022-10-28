@@ -22,8 +22,15 @@ Para acessar a aplicação desenvolvida basta executar o comando npm install e n
 
 **Renata Diniz Guimarães de Oliveira**
 
-Fui responsável por implementar na etapa 3 as telas de login, Adicionar Veículos e Manutenções.
+Fui responsável por implementar na etapa 3 as telas de login, Meus Veículos,  Minhas Manutenções, Meus serviços e Meus anúncios.
 
-<img src=img/login.png width=30%/><img src=img/Veiculo.png width=30%/><img src=img/Manutencao.png width=30%/>
+> - Login, o usuário tem a opção de logar, registrar (cadastrar-se como proprietário ou mecânico) e recuperação de senha, o frontend está pronto e o Backend foi feito o db.json em localtunnel;
+> - Meus veículos, tem o objetivo de visualizar os veículos dos proprietários, além da opção de adicionar veículo, clicando na opção + ao lado do veículo, os dados cadastrados podem ser editados;
+> - Minhas manutenções, tem o objetivo de visualizar as manutenções dos veículos dos proprietários, além da opção de adicionar manutenção, clicando na opção + ao lado da manutenção realizada, os dados cadastrados podem ser editados;
+> - Meus serviços, tem o objetivo de visualizar os serviços do mecânico, além da opção de adicionar serviço, clicando na opção + ao lado do serviço, os dados cadastrados podem ser editados;
+> - Meus anúncios, tem o objetivo de visualizar os anúncios do mecânico, além da opção de adicionar anúncio, clicando na opção + ao lado da anuncio publicado, os dados cadastrados podem ser editados;
+
+<img src=img/login.png width=30%/><img src=img/Veiculo.png width=30%/><img src=img/Manutencao.png width=30% heigth=30%/>
+<img src=img/anuncio.png width=30%/><img src=img/servico.png width=30%/>
 
 
