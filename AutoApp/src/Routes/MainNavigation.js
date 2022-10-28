@@ -23,9 +23,9 @@ const Main = () => {
   return (
 
 
-    <Stack.Navigator initialRouteName="Login">
+    <Stack.Navigator initialRouteName="Home">
 
-    <Stack.Screen
+      <Stack.Screen
         name="Login"
         component={Login}
         options={{
@@ -33,7 +33,7 @@ const Main = () => {
         }}
       />
 
-  <Stack.Screen
+      <Stack.Screen
         name="ChooseProfile"
         component={ChooseProfile}
         options={{
@@ -42,7 +42,7 @@ const Main = () => {
       />
 
 
-    <Stack.Screen
+      <Stack.Screen
         name="OwnerRegistration"
         component={OwnerRegistration}
         options={{
