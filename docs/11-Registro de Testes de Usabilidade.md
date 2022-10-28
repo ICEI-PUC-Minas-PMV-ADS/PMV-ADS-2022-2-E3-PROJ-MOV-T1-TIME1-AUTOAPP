@@ -31,7 +31,23 @@ Seguem resultados:
 **2-	Login de usuário**
 
 
-**3-	Editar informações de perfil**
+**4-	Cadastrar automóveis**
+
+**5-	Visualizar Meus automóveis**
+
+**6-	Cadastrar manutenções**
+
+**7-	Visualizar os Minhas manutenções**
+
+**8-	Cadastrar serviços**
+
+**9-	Visualizar Meus serviços**
+
+**10-	Cadastrar anúncios**
+
+**11-	Visualizar os Meus anúncios**
+
+**12-	Buscar serviços**
 
 
 **Problemas de usabilidade** 
