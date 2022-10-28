@@ -65,6 +65,8 @@ Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como
 
 No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
 
+Com isso, as normas de qualidade ajudam desenvolvedores a criarem softwares com as características ideais de qualidade. Segundo Zanin et al. (2018), as normas de qualidade ajudam os desenvolvedores a criarem softwares com as características ideais de qualidade.
+
 A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software. 
 
 Com base nessas características e subcaracterísticas segue abaixo as que foram escolhidas para nortear o desenvolvimento projeto do AutoApp Mobile, bem como a justificativa e métricas que permitirão à equipe avaliar os objetos de interesse. 
@@ -112,3 +114,7 @@ Com base nessas características e subcaracterísticas segue abaixo as que foram
 - Modificabilidade: *Há facilidade em modificar o código? Sim e Não*
 
 - Testabilidade: *Há facilidade de testar a aplicação? Sim e Não*
+
+A qualidade no ciclo de vida do software  consiste em todas as etapas que o produto passará, desde os primeiros passos, na elicitação de requisitos, até o fim do uso do produto, seguindo o seguinte ciclo: Implementa requisitos, valida, verifica necessidades, implementa necessidade, valida e verifica novamente. Segundo o modelo da ABNT 13596:
+
+![](img/NBR13596.png)

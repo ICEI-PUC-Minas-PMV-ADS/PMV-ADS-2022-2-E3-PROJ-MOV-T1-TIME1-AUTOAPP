@@ -53,7 +53,7 @@ Mesmo com o avanço da tecnologia, o processo de manutenção e reparo veicular 
 
 Entretanto, é necessário considerar alguns dificultadores que podem inviabilizar a elaboração e a aplicação da proposta supracitada. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem como o curto período de testes dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o AutoApp no setor automotivo. 
 
-## Descrição Geral da Proposta
+## Descrição Geral da Proposta da Situação Futura
 
 Considerando o contexto elucidado nas seções anteriores, vários são os problemas existente que viabilizam a criação e a aplicação móvel AutoApp, tais como dificuldade dos proprietários de veículos de acompanhar as datas de manutenção recomendadas, a possibilidade de prevenir acidentes recorrentes, a falta de manutenção, bem como a dificuldade de encontrar mecânicos e lojas especializadas nas proximidades. 
 
@@ -61,6 +61,22 @@ Programar uma aplicação móvel  em que o usuário/proprietário possa desfruta
 
 O AutoApp oferecem serviços que emitem notificações alertando o motorista sobre os cuidados preventivos e permitem acompanhar o histórico de manutenção do veículo.  De modo geral, é necessário realizar um cadastro do veículo com suas especificações para navegar pela aplicação móvel. 
 ![](img/capturar1.PNG)
+
+## Relação entre Potencialidades e Oportunidades de Melhoria para o Processo de Negócio
+
+Para Broke e Rosemann (2013), a gestão baseada em processos de negócio (BPM) tem uma aborgagem centrada em processos para gerar melhorias consideráveis no desempenho, compatibilidade de ums sistema, além de ter o poder de inovar e transformar continuamente os negócios. Segundo eles, as melhorias e ajustes advém após os serviços serem testados e, estes cenários devem ser desenvolvidos para identificar qualquer possibilidade de composição e consolidação dos serviços, detalhando as operações através de processos iterativos e incrementais.
+
+Segundo Araújo, Garcia e Martines (2017), a Tecnologia da Informação possui implicações importantes para a formação da arquitetura de processos pois as informações  processo de negócio.
+
+Ao realizar algumas pesquisas de campo em algumas oficinas e a alguns usuários de oficinas, acabamos percebendo que havia uma oportunidade em melhorar a qualidade das informações coletadas e também dos serviços prestados nos veículos dos clientes. A melhoria de um processo normalmente ocorre mediante a necessidade de prevenção ou correção de problemas que poderão acontecer ou aconteceram no andamento do processo. A percepção de uma necessidade de melhoria de processo, para correção de problema existente ou para prevenção de um problema, vista com olhos da gestão da qualidade, denomina-se oportunidade de melhoria. Toda a oportunidade de melhoria poderá ser tratada através de um plano de ação preventivo ou corretivo.
+
+As informções coletadas mostrou-nos que teríamos uma oportunidade de melhoria para o processo de negócio, desenvolvendo  uma platafroma móvel em que ficassem armazenadas as manutenções realizadas e também as possíveis manutenções futuras.
+
+Ao retornar a informação aos propritários das oficinas, eles infomaram-nos que a proposta de negócio seria muito aceita por que as informções realizadas em clientes antigos ficariam armazenadas e seriam de fácil consulta, melhorando ainda mais o atendimento dos clientes e conservando ainda mais os veículos.
+
+Com isso, pode-se dizer que gerenciar os processos de negócio de uma organização é mudar continuamente a forma como essa organização realiza suas atividades  com o objetivo de obter melhorias de desempenho significativas, como fortalecimento da excelência operacional e inovação contínua do produto.
+
+
 
 ## Indicadores de Desempenho
 

@@ -22,6 +22,8 @@ Para acessar a aplicação desenvolvida basta executar o comando npm install e n
 
 **Renata Diniz Guimarães de Oliveira**
 
-Fui responsável por implemenatar as telas de login, Adicionat Veículos e Manutenções.
+Fui responsável por implementar na etapa 3 as telas de login, Adicionar Veículos e Manutenções.
+
+<img src=img/login.png width=30%/><img src=img/Veiculo.png width=30%/><img src=img/Manutencao.png width=30%/>
 
 
