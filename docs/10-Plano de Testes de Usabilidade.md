@@ -121,7 +121,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Avaliar a função de cadastrar serviços 	|
 | **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou mecânico";<br5. Abrir o campo de “Cadastro de serviços ”;<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-09 – Visualizar Meus serviços ** 	|
+| **Caso de Teste** 	| **CTU-09 – Visualizar Meus serviços** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Analisar a função de Meus serviços  	|
 | **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou mecânico";<br5. Abrir o campo de “Meus serviços ”;<br>6. Visualizar os serviços  cadastrados ou editá-los ou Adicionar serviços;<br>7. Clicar em salvar 	|
