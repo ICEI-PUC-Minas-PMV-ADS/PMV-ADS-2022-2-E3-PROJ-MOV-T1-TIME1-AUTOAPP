@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigation } from '@react-navigation/native'
 import { View, ScrollView, TouchableOpacity, Text } from "react-native";
 import { TextInput, Button } from "react-native-paper";
@@ -7,10 +7,77 @@ import Statusbar from "../../Components/StatusBar";
 import DefaultButton from "../../Components/Buttons/Default";
 import { styles } from "./styles";
 
+import { DatabaseConnection } from '../../Database/connection';
+const db = DatabaseConnection.getConnection();
+
 const Login = () => {
   const navigation = useNavigation();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  useEffect(() => {
+    db.transaction(function (txn) {
+      txn.executeSql(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='user_auto_app'",
+        [],
+        function (tx, res) {
+          console.log('item:', res.rows.length);
+          if (res.rows.length == 0) {
+            txn.executeSql('DROP TABLE IF EXISTS user_auto_app', []);
+            txn.executeSql(
+              'CREATE TABLE IF NOT EXISTS user_auto_app(user_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), email VARCHAR(255), cell VARCHAR(255), document VARCHAR(255), password VARCHAR(255), confirmed_password VARCHAR(255))',
+              []
+            );
+          }
+        }
+      );
+    });
+  }, []);
+
+
+  let realizeLogin = () => {
+    console.log(email, password);
+
+    db.transaction(function (tx) {
+
+      tx.executeSql(
+        'SELECT * FROM user_auto_app WHERE email = ? AND password = ?',
+        [email, password],
+        (tx, results) => {
+          console.log('Results', results.rowsAffected);
+          console.log(tx)
+
+          if (results.rowsAffected > 0) {
+            console.log(results)
+            console.log(results.rows.item(0))
+            Alert.alert(
+              'Sucesso',
+              'Usuário Logado com Sucesso !!!',
+              [
+                {
+                  text: 'Ok',
+                  onPress: () => navigation.navigate('Home'),
+                },
+              ],
+              { cancelable: false }
+            );
+          } else{
+            
+            alert('Erro ao tentar Logar o Usuário !!!',
+            [
+              {
+                text: 'Ok',
+                onPress: () => navigation.navigate('Home'),
+              },
+            ],
+            { cancelable: false }
+            );
+            
+          } 
+        }
+      );
+    });
+  };
 
   return (
     <ScrollView>
@@ -49,11 +116,11 @@ const Login = () => {
 
         <DefaultButton 
         text={"Login"} 
-        onPress={() => console.log('Pressed')} />
+        onPress={realizeLogin} />
 
         <TouchableOpacity style={styles.register}>
           <Text> Não tem cadastro? </Text>
-          <Text style={styles.registerText}>Registre-se!</Text>
+          <Text style={styles.registerText} onPress={() => navigation.navigate('OwnerRegistration')} >Registre-se!</Text>
         </TouchableOpacity>
       </View>
     </ScrollView>

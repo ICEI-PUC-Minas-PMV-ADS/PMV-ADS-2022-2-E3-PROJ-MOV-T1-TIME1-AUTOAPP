@@ -21,7 +21,35 @@ const Stack = createNativeStackNavigator();
 
 const Main = () => {
   return (
-    <Stack.Navigator initialRouteName="Home">
+
+
+    <Stack.Navigator initialRouteName="Login">
+
+    <Stack.Screen
+        name="Login"
+        component={Login}
+        options={{
+          header: () => null,
+        }}
+      />
+
+  <Stack.Screen
+        name="ChooseProfile"
+        component={ChooseProfile}
+        options={{
+          header: () => null,
+        }}
+      />
+
+
+    <Stack.Screen
+        name="OwnerRegistration"
+        component={OwnerRegistration}
+        options={{
+          header: () => null,
+        }}
+      />
+
       <Stack.Screen
         name="Home"
         component={Home}

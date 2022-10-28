@@ -92,7 +92,7 @@ const OwnerRegistration = () => {
               [
                 {
                   text: 'Ok',
-                  onPress: () => navigation.navigate('LOGIN'),
+                  onPress: () => navigation.navigate('Login'),
                 },
               ],
               { cancelable: false }
@@ -176,7 +176,7 @@ const OwnerRegistration = () => {
           outlineColor="#182E3A"
         />
 
-        <DefaultButton text={"Cadastrar"}  customClick={registerOwner} />
+        <DefaultButton text={"Cadastrar"}  onPress={registerOwner} />
       </View>
     </ScrollView>
   );
