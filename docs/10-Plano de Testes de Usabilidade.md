@@ -96,6 +96,51 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Analisar a função de edição e alteração de informações 	|
 | **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou proprietário" ou #sou mecânico";<br5. Abrir o campo de “Meu perfil”;<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
 |  	|  	|
+| **Caso de Teste** 	| **CTU-04 – Cadastrar automóveis** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Avaliar a função de cadastrar automóveis 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou proprietário";<br5. Abrir o campo de “Cadastro de automóveis”;<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
+|  	|  	|
+| **Caso de Teste** 	| **CTU-05 – Visualizar os automóveis** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Analisar a função de Meus automóveis 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou proprietário";<br5. Abrir o campo de “Meus automóveis”;<br>6. Visualizar os automóveis cadastrados ou editá-los ou Adicionar automóvel;<br>7. Clicar em salvar 	|
+|  	|  	|
+| **Caso de Teste** 	| **CTU-06 – Cadastrar manutenções** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Avaliar a função de cadastrar manutenções 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou proprietário";<br5. Abrir o campo de “Cadastro de manutenção”;<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
+|  	|  	|
+| **Caso de Teste** 	| **CTU-07 – Visualizar os Minhas manutenções** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Analisar a função de Minhas manutenções 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou proprietário";<br5. Abrir o campo de “Minhas manutenções”;<br>6. Visualizar as manutenções cadastrados ou editá-las ou Adicionar automóvel;<br>7. Clicar em salvar 	|
+|  	|  	|
+| **Caso de Teste** 	| **CTU-08 – Cadastrar serviços** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Avaliar a função de cadastrar serviços 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou mecânico";<br5. Abrir o campo de “Cadastro de serviços ”;<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
+|  	|  	|
+| **Caso de Teste** 	| **CTU-09 – Visualizar Meus serviços ** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Analisar a função de Meus serviços  	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou mecânico";<br5. Abrir o campo de “Meus serviços ”;<br>6. Visualizar os serviços  cadastrados ou editá-los ou Adicionar serviços;<br>7. Clicar em salvar 	|
+|  	|  	|
+| **Caso de Teste** 	| **CTU-10 – Cadastrar anúncios** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Avaliar a função de cadastrar anúncios do mecânico	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou mecânico";<br5. Abrir o campo de “Cadastro de anúncios”;<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
+|  	|  	|
+| **Caso de Teste** 	| **CTU-11 – Visualizar os Meus anúncios** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Analisar a função de Meus anúncios 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Sou mecânico";<br5. Abrir o campo de “Meus anúncios”;<br>6. Visualizar os anúncios cadastrados ou editá-los ou Adicionar anúncios;<br>7. Clicar em salvar 	|
+|  	|  	|
+| **Caso de Teste** 	| **CTU-12 – Buscar serviços** 	|
+| **Perfil** 	| Usuário 	|
+| **Objetivo do Teste** 	| Analisar a função de Buscar serviços 	|
+| **Ações necessárias** 	| 1. Baixar o aplicativo;<br>2. Entrar no aplicativo;<br>3. Realizar o login;<br>4. Clicar na opção "Buscar serviços" 	|
+|  	|  	|
 
 
 ## Análise do teste e resultados
