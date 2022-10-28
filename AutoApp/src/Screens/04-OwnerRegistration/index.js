@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native'
 import { useState, useEffect } from "react";
 import { View, ScrollView, Alert} from "react-native";
 import { TextInput } from "react-native-paper";
@@ -19,6 +20,8 @@ const form = {
 };
 
 const OwnerRegistration = () => {
+  const navigation = useNavigation();
+
 
   // Mover dps a criacao para o componente principal
   useEffect(() => {

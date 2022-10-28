@@ -1,13 +1,11 @@
 import { useState } from "react";
-import {
-  View,
-  ScrollView,
-} from "react-native";
-import { TextInput} from "react-native-paper";
+import { View, ScrollView } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
-import Statusbar from '../../Components/StatusBar';
+import Statusbar from "../../Components/StatusBar";
 import CancelButton from "../../Components/Buttons/Cancel";
-import Nav from "../../Components/NavBar"
+import Nav from "../../Components/NavBar";
 import { styles } from "./style";
 
 const form = {
@@ -18,6 +16,7 @@ const form = {
 };
 
 const PersonalInformation = () => {
+  const navigation = useNavigation();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [cell, setCell] = useState("");
@@ -26,9 +25,9 @@ const PersonalInformation = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav/>
-      <View style={styles.container}>       
-        
+      <Nav onPress={() => navigation.navigate("Home")} />
+
+      <View style={styles.container}>
         <TextInput
           style={styles.input}
           label="Nome completo"
@@ -37,7 +36,7 @@ const PersonalInformation = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline"/>}
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <TextInput
@@ -48,9 +47,9 @@ const PersonalInformation = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline"/>}
-          />
-        
+          right={<TextInput.Icon icon="square-edit-outline" />}
+        />
+
         <TextInput
           style={styles.input}
           label="Telefone"
@@ -60,7 +59,7 @@ const PersonalInformation = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline"/>}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <TextInput
@@ -72,12 +71,14 @@ const PersonalInformation = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline"/>}
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
-      
-        <DefaultButton text={"Alterar dados"} />
+
+        <DefaultButton
+          text={"Alterar dados"}
+          onPress={() => navigation.navigate("DataAlteration")}
+        />
         <CancelButton text={"Sair da conta"} />
-       
       </View>
     </ScrollView>
   );
