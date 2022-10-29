@@ -16,7 +16,6 @@ O diagrama de classes abaixo representará as classes, suas estruturas e relaç�
 
 O projeto comtempla o CRUD ou seja, as quatro operações básicas utilizadas em bases de dados relacionais (Create, Read, Update e Delete).
 
-![Diagrama de Classes](img/class.png)
 ![Diagrama de Classes](img/class1.png)
 
 ## Modelo ER
