@@ -19,11 +19,12 @@ import AddServices from "../AutoApp/src/Screens/20-RegisterService";
 import Publicity from "../AutoApp/src/Screens/21-Publicity";
 import Ads from '../AutoApp/src/Screens/23-RegisterAd';
 import ModalMyServices from '../AutoApp/src/Screens/19-ModalMyServices';
+import ModalMyAds from '../AutoApp/src/Screens/22-ModalMyAds';
 
 export default function App() {
   return (
     <View>
-      <ModalMaintenance />
+      <PersonalInformation/>
     </View>
 );
 }

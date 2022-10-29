@@ -17,6 +17,19 @@ export const styles = StyleSheet.create({
 
   texto: {
     marginTop:40,
+    marginBottom:40,
     textAlign:'left',
+  },
+
+  alcance:{
+    width: 340,
+    height: 93,
+    backgroundColor:'#182E3A',
+    alignItems:'center',
+    justifyContent:'center',
+  },
+  textoAlt:{
+    color:'white',
+    
   },
 });

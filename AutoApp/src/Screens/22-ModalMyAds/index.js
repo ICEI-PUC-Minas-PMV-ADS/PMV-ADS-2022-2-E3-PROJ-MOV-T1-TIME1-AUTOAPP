@@ -14,9 +14,10 @@ import Close from "../../Components/Buttons/Close"
 
 
 
-const ModalMyServices = () => {
+const ModalMyAds= () => {
 
-  const TextService = useState("Exemplo");
+  const AdsDetails = useState("Exemplo");
+  const Alcance = useState("x");
   
 
   return (
@@ -27,16 +28,19 @@ const ModalMyServices = () => {
       
       <View style={styles.container}>  
 
-        <Text style={styles.titulo}>Serviços Prestados</Text> 
+        <Text style={styles.titulo}>Anúncio Postado</Text> 
 
         <Text style={styles.texto}>
-          {TextService}
+          {AdsDetails}
         </Text>      
-         
-       
+         <View style={styles.alcance}>
+        <Text style={styles.textoAlt}>
+          Alcance do anúncio: {Alcance}
+        </Text> 
+        </View> 
       </View>
     </ScrollView>
   );
 };
 
-export default ModalMyServices;
+export default ModalMyAds;
