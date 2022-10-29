@@ -30,3 +30,10 @@ Vídeo (Renata): https://youtu.be/Oco76wfoFLg
 
 Foi responsável por implementar as telas Homescreen (página inicial), ChangeData (alteração de dados pessoais), AddAutomobiles (cadastrar automóveis), MaintenancesDone (cadastrar manutenções realizadas), RegisterService (cadastrar serviço realizado) e RegisterAd (cadastrar anúncio).
 
+> - Homescreen: o usuário encontra um carrossel e quatro botões para interagir (meu perfil, buscar serviços, para proprietários e para mecânicos)
+> - ChangeData: o usuário pode alterar seus dados - a tela está em processo de 'mescla' com a tela PersonalInformation, para diminuir o fluxo de cliques.
+> - AddAutomobiles: o usuário realiza o cadastro de seus carros. A interface está feita, mas ainda não há integração completa com o banco de dados.
+> - MaintenancesDone: o usuário realiza o cadastro de suas manutenções realizadas. A interface está feita, mas ainda não há integração completa com o banco de dados.
+> - Register Service: o usuário/mecânico realiza o cadastro de serviços prestados. A interface está feita, mas ainda não há integração completa com o banco de dados.
+> - RegisterAd: o usuário/mecânico realiza o cadastro de anúncios de seus serviços. A interface está 50% feita, mas ainda não há integração completa com o banco de dados.
+
