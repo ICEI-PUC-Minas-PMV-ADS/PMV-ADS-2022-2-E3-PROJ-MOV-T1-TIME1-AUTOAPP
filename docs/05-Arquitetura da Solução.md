@@ -23,7 +23,7 @@ O projeto comtempla o CRUD ou seja, as quatro operações básicas utilizadas em
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
-![Diagrama de MER](img/mer.png)
+![Diagrama de MER](img/diagramaer.drawio.png)
 
 ## Esquema Relacional
 
