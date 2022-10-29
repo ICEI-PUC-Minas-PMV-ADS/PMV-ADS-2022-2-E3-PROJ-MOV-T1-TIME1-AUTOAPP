@@ -39,41 +39,19 @@ const Login = () => {
     console.log(email, password);
 
     db.transaction(function (tx) {
-
       tx.executeSql(
-        'SELECT * FROM user_auto_app WHERE email = ? AND password = ?',
-        [email, password],
+        'SELECT * FROM user_auto_app WHERE email = ? and password = ?', [email, password],
         (tx, results) => {
-          console.log('Results', results.rowsAffected);
-          console.log(tx)
+          var len = results.rows.length;
 
-          if (results.rowsAffected > 0) {
-            console.log(results)
+          if (len > 0) {
+            alert('Usuário logado !');
             console.log(results.rows.item(0))
-            Alert.alert(
-              'Sucesso',
-              'Usuário Logado com Sucesso !!!',
-              [
-                {
-                  text: 'Ok',
-                  onPress: () => navigation.navigate('Home'),
-                },
-              ],
-              { cancelable: false }
-            );
-          } else{
-            
-            alert('Erro ao tentar Logar o Usuário !!!',
-            [
-              {
-                text: 'Ok',
-                onPress: () => navigation.navigate('Home'),
-              },
-            ],
-            { cancelable: false }
-            );
-            
-          } 
+
+            navigation.navigate('Home', {})
+          } else {
+            alert('Usuário não encontrado !');
+          }
         }
       );
     });
