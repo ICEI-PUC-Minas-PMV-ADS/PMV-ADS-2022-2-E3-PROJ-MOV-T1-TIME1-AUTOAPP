@@ -26,4 +26,9 @@ Fui responsável por implementar na etapa 3 as telas de login, Adicionar Veícul
 
 <img src=img/login.png width=30%/><img src=img/Veiculo.png width=30%/><img src=img/Manutencao.png width=30%/>
 
+**Pedro Daniel Jardim**
+
+Fui responsável por implementar na etapa 3 o crud da tela de login, cadastro e edicao do usuário e também pelo Carrosel de carros e manutenções. 
+
+- Vídeo explicativo sobre o CRUD: https://youtu.be/XITN36u-qhw
 
