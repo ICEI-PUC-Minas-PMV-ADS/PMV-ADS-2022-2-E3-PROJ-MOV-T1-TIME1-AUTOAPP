@@ -6,14 +6,6 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
 # Instruções de Acesso
 
 Para acessar a aplicação desenvolvida basta executar o comando npm install e npm start na pasta AutoApp e ler o qr code no aplicativo Expo Go. Demais instruções estão no código.
@@ -22,16 +14,19 @@ Para acessar a aplicação desenvolvida basta executar o comando npm install e n
 
 **Renata Diniz Guimarães de Oliveira**
 
-Fui responsável por implementar na etapa 3 as telas de login, Meus Veículos,  Minhas Manutenções, Meus serviços e Meus anúncios.
+Foi responsável por implementar, na etapa 3, as telas de Login, Meus Veículos,  Minhas Manutenções, Meus serviços e Meus anúncios.
 
-> - Login, o usuário tem a opção de logar, registrar (cadastrar-se como proprietário ou mecânico) e recuperação de senha, o frontend está pronto e o Backend foi feito o db.json em localtunnel;
-> - Meus veículos, tem o objetivo de visualizar os veículos dos proprietários, além da opção de adicionar veículo, clicando na opção + ao lado do veículo, os dados cadastrados podem ser editados;
-> - Minhas manutenções, tem o objetivo de visualizar as manutenções dos veículos dos proprietários, além da opção de adicionar manutenção, clicando na opção + ao lado da manutenção realizada, os dados cadastrados podem ser editados;
-> - Meus serviços, tem o objetivo de visualizar os serviços do mecânico, além da opção de adicionar serviço, clicando na opção + ao lado do serviço, os dados cadastrados podem ser editados;
-> - Meus anúncios, tem o objetivo de visualizar os anúncios do mecânico, além da opção de adicionar anúncio, clicando na opção + ao lado da anuncio publicado, os dados cadastrados podem ser editados;
+> - Login: o usuário tem a opção de logar, registrar (cadastrar-se como proprietário ou mecânico) e recuperação de senha, o frontend está pronto e o Backend foi feito o db.json em localtunnel;
+> - Meus veículos: o objetivo é visualizar os veículos dos proprietários, além da opção de adicionar veículo, clicando na opção + ao lado do veículo, os dados cadastrados podem ser editados;
+> - Minhas manutenções: o objetivo é visualizar as manutenções dos veículos dos proprietários, além da opção de adicionar manutenção, clicando na opção + ao lado da manutenção realizada, os dados cadastrados podem ser editados;
+> - Meus serviços: o objetivo é visualizar os serviços do mecânico, além da opção de adicionar serviço, clicando na opção + ao lado do serviço, os dados cadastrados podem ser editados;
+> - Meus anúncios: o objetivo é visualizar os anúncios do mecânico, além da opção de adicionar anúncio, clicando na opção + ao lado da anuncio publicado, os dados cadastrados podem ser editados;
 
-<img src=img/login.png width=30%/><img src=img/Veiculo.png width=30%/><img src=img/Manutencao.png width=30% heigth=30%/>
-<img src=img/anuncio.png width=30%/><img src=img/servico.png width=30%/>
-Vídeo:https://youtu.be/Oco76wfoFLg
+<img src=img/login.png width=20%/> <img src=img/Veiculo.png width=20%/> <img src=img/Manutencao.png width=20%/>
+<img src=img/anuncio.png width=20%/> <img src=img/servico.png width=20%/> <br>
+Vídeo (Renata): https://youtu.be/Oco76wfoFLg
 
+**Kelly Cesário de Oliveira**
+
+Foi responsável por implementar as telas Homescreen (página inicial), ChangeData (alteração de dados pessoais), AddAutomobiles (cadastrar automóveis), MaintenancesDone (cadastrar manutenções realizadas), RegisterService (cadastrar serviço realizado) e RegisterAd (cadastrar anúncio).
 
