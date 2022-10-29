@@ -5,9 +5,38 @@ import Logo from "../../Components/Logo";
 import VariantButton from "../../Components/Buttons/Variant";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
+let userId = 0;
+const currentUser = {
+  userId: "",
+  name: "",
+  email: "",
+  cell: "",
+  document: "",
+};
 
-const Home = () => {
+
+import { DatabaseConnection } from '../../Database/connection';
+const db = DatabaseConnection.getConnection();
+
+
+const Home = ({ route }) => {
   const navigation = useNavigation();
+
+  try{
+    let current = route.params
+    currentUser.userId = current.userId
+    currentUser.name = current.name
+    currentUser.email = current.email
+    currentUser.document = current.document
+    currentUser.cell = current.cell
+    
+    console.log(currentUser)
+
+    
+  }catch(err){
+    console.log(err)
+  }
+
   return (
     <ScrollView>
       <Statusbar />
@@ -19,7 +48,7 @@ const Home = () => {
         <View style={styles.buttonArea}>
           <VariantButton
             text={"Meu \n perfil"}
-            onPress={() => navigation.navigate("PersonalInformation")}
+            onPress={() => navigation.navigate("PersonalInformation", {currentUser})}
           />
 
           <VariantButton

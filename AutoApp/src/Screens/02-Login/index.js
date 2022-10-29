@@ -46,9 +46,15 @@ const Login = () => {
 
           if (len > 0) {
             alert('Usuário logado !');
-            console.log(results.rows.item(0))
+            let currentUser = results.rows.item(0);
 
-            navigation.navigate('Home', {})
+            navigation.navigate('Home', {
+              userId: currentUser.user_id,
+              name: currentUser.name,
+              email: currentUser.email,
+              cell: currentUser.cell,
+              document: currentUser.document
+            })
           } else {
             alert('Usuário não encontrado !');
           }

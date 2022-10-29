@@ -11,70 +11,56 @@ import { styles } from "./style";
 import { DatabaseConnection } from '../../Database/connection';
 const db = DatabaseConnection.getConnection();
 
-const form = {
+const currentUser = {
   name: "",
   email: "",
   cell: "",
   document: "",
 };
 
-const PersonalInformation = () => {
+const PersonalInformation = ({ route }) => {
   
+  try{
+    let current = route.params.currentUser
+    console.log("router: ", current)
 
-    // Mover dps a criacao para o componente principal
-    useEffect(() => {
-      db.transaction(function (txn) {
-        txn.executeSql(
-          "SELECT name FROM sqlite_master WHERE type='table' AND name='user_auto_app'",
-          [],
-          function (tx, res) {
-            console.log('item:', res.rows.length);
-            if (res.rows.length == 0) {
-              txn.executeSql('DROP TABLE IF EXISTS user_auto_app', []);
-              txn.executeSql(
-                'CREATE TABLE IF NOT EXISTS user_auto_app(user_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), email VARCHAR(255), cell VARCHAR(255), document VARCHAR(255), password VARCHAR(255), confirmed_password VARCHAR(255))',
-                []
-              );
-            }
+    currentUser.userId = current.userId
+    currentUser.name = current.name
+    currentUser.email = current.email
+    currentUser.document = current.document
+    currentUser.cell = current.cell
+    console.log("PersonalInformation: ", currentUser)
+  }catch(err){
+    console.log(err)
+  }
 
-          }
-        );
-      });
-
-
-      
-    }, []);
 
 
   const navigation = useNavigation();
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [cell, setCell] = useState("");
-  const [document, setDocument] = useState("");
+  const [name, setName] = useState(currentUser.name);
+  const [email, setEmail] = useState(currentUser.email);
+  const [cell, setCell] = useState(currentUser.cell);
+  const [document, setDocument] = useState(currentUser.document);
+  const [id, setUserId] = useState(currentUser.userId);
 
 
   let updateUser = () => {
-    console.log(name, email, cell, document);
+    console.log(name, email, cell, document, id);
 
     db.transaction((tx) => {
       tx.executeSql(
-        'UPDATE table_user set name=?, email=? , cell=?, document=?  where user_id=?',
+        'UPDATE user_auto_app set name=?, email=? , cell=?, document=?  WHERE user_id=?',
         [name, email, cell, document, id],
         (tx, results) => {
-          console.log('Results', results.rowsAffected);
-          if (results.rowsAffected > 0) {
-            Alert.alert(
-              'Sucesso',
-              'Usuário atualizado com sucesso !!',
-              [
-                {
-                  text: 'Ok',
-                  onPress: () => navigation.navigate('HomeScreen'),
-                },
-              ],
-              { cancelable: false }
-            );
-          } else alert('Erro ao atualizar o usuário');
+          let len = results.rowsAffected;
+
+          if (len > 0) {
+            alert('Usuário logado !');
+            navigation.navigate('Login')
+          } else{
+            alert('Erro ao atualizar o usuário');
+          }
+
         }
       );
     });
@@ -84,24 +70,13 @@ const PersonalInformation = () => {
     db.transaction((tx) => {
       tx.executeSql(
         'DELETE FROM user_auto_app where user_id=?',
-        [inputUserId],
+        [id],
         (tx, results) => {
-          console.log('Results', results.rowsAffected);
-          if (results.rowsAffected > 0) {
-            Alert.alert(
-              'Sucesso',
-              'Usuário Excluído com Sucesso !',
-              [
-                {
-                  text: 'Ok',
-                  onPress: () => navigation.navigate('HomeScreen'),
-                },
-              ],
-              { cancelable: false }
-            );
-          } else {
-            alert('Por favor entre com um código de usuário válido !');
-          }
+          let len = results.rowsAffected;
+          if (len > 0) {
+            alert('Usuário Apagado !');
+            navigation.navigate('Login')
+          } else alert('Erro ao apagar o usuário');
         }
       );
     });
@@ -161,12 +136,12 @@ const PersonalInformation = () => {
 
         <DefaultButton
           text={"Alterar dados"}
-          onPress={() => navigation.navigate("DataAlteration")}
+          onPress={updateUser}
         />
 
         <DefaultButton
           text={"Deletar a conta"}
-          onPress={() => navigation.navigate("Home")}
+          onPress={deleteUser}
         />
 
         <CancelButton text={"Sair da conta"} />
