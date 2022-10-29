@@ -28,7 +28,7 @@ Vídeo (Renata): https://youtu.be/Oco76wfoFLg
 
 **Kelly Cesário de Oliveira**
 
-Foi responsável por implementar as telas Homescreen (página inicial), ChangeData (alteração de dados pessoais), AddAutomobiles (cadastrar automóveis), MaintenancesDone (cadastrar manutenções realizadas), RegisterService (cadastrar serviço realizado) e RegisterAd (cadastrar anúncio).
+Foi responsável por implementar as telas Homescreen (página inicial), ChangeData (alteração de dados pessoais), AddAutomobiles (cadastrar automóveis), MaintenancesDone (cadastrar manutenções realizadas), RegisterService (cadastrar serviço realizado) e RegisterAd (cadastrar anúncio). Também foi responsável pelo desenvolvimento de alguns componentes, como o carousel, os botões e o navbar.
 
 > - Homescreen: o usuário encontra um carrossel e quatro botões para interagir (meu perfil, buscar serviços, para proprietários e para mecânicos)
 > - ChangeData: o usuário pode alterar seus dados - a tela está em processo de 'mescla' com a tela PersonalInformation, para diminuir o fluxo de cliques.
