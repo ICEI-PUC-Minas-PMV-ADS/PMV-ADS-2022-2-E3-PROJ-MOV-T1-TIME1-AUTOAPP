@@ -37,3 +37,8 @@ Foi responsável por implementar as telas Homescreen (página inicial), ChangeDa
 > - Register Service: o usuário/mecânico realiza o cadastro de serviços prestados. A interface está feita, mas ainda não há integração completa com o banco de dados.
 > - RegisterAd: o usuário/mecânico realiza o cadastro de anúncios de seus serviços. A interface está 50% feita, mas ainda não há integração completa com o banco de dados.
 
+
+Vídeo ilustrando as telas desenvolvidas e a navegação funcionando: 
+https://user-images.githubusercontent.com/81396458/198849874-0561e1a9-f3ac-49c0-85ec-a302d0b9fb62.mp4
+
+Vídeo (Kelly): https://www.youtube.com/watch?v=rMqXpYxdWtA&ab_channel=KellyCes%C3%A1riodeOliveira
