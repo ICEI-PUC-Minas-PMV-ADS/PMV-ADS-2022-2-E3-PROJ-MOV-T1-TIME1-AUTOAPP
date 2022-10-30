@@ -51,5 +51,10 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos | - Acessar o aplicativo <br> - Clicar em "Entrar" <br> - Realizar login com a conta cadastrada <br> - Clicar em "Para mecânicos" <br> - Clicar em "Cadastro de serviços" <br> - Preencher as informações do formulário <br> - Clicar em "Salvar" |
 |Critério de Êxito | - O usuário consegue salvar a manutenção realizada |
 |  	|  	|
-
+| Caso de Teste | **CT-08 –  Buscar Serviços** |
+|Requisito Associado | RF-009	O sistema deverá permitir a busca de oficinas conveniadas próximas a sua localidade.		| 
+|Objetivo do Teste | Verificar se é possível realizar uma busca pelas oficinas conveniadas |
+|Passos | - Acessar o aplicativo <br> - Clicar em "Entrar" <br> - Realizar login com a conta cadastrada <br> - Clicar em "Buscar serviços" <br> - Realizar uma busca no mapa <br> |
+|Critério de Êxito | - O usuário pesquisa e encontra uma oficina cadastrada |
+|  	|  	|
 
