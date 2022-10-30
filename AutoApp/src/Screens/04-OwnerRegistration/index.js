@@ -22,7 +22,6 @@ const form = {
 const OwnerRegistration = () => {
   const navigation = useNavigation();
 
-
   // Mover dps a criacao para o componente principal
   useEffect(() => {
     db.transaction(function (txn) {
@@ -106,7 +105,7 @@ const OwnerRegistration = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav />
+      <Nav onPress={() => navigation.navigate("ChooseProfile")} />
       <View style={styles.container}>
         <TextInput
           style={styles.input}

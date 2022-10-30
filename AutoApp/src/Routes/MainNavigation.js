@@ -6,6 +6,7 @@ import GarageRegistration from "../Screens/05-GarageRegistration";
 import Home from "../Screens/06-Home";
 import PersonalInformation from "../Screens/07-PersonalInformation";
 import DataAlteration from "../Screens/08-DataAlteration";
+import Maps from '../Screens/09-Maps'
 import Owners from "../Screens/10-ForOwners";
 import MyVehicles from "../Screens/11-MyVehicles";
 import AddAutos from "../Screens/13-AddAutomobiles";
@@ -21,10 +22,7 @@ const Stack = createNativeStackNavigator();
 
 const Main = () => {
   return (
-
-
     <Stack.Navigator initialRouteName="Login">
-
       <Stack.Screen
         name="Login"
         component={Login}
@@ -41,10 +39,17 @@ const Main = () => {
         }}
       />
 
-
       <Stack.Screen
         name="OwnerRegistration"
         component={OwnerRegistration}
+        options={{
+          header: () => null,
+        }}
+      />
+
+      <Stack.Screen
+        name="GarageRegistration"
+        component={GarageRegistration}
         options={{
           header: () => null,
         }}
@@ -137,6 +142,13 @@ const Main = () => {
       <Stack.Screen
         name="RegisterAd"
         component={RegisterAd}
+        options={{
+          header: () => null,
+        }}
+      />
+      <Stack.Screen
+        name="Maps"
+        component={Maps}
         options={{
           header: () => null,
         }}

@@ -1,12 +1,8 @@
-import {
-  View,
-  ScrollView,
-  Text,
-} from "react-native";
-import { useNavigation } from '@react-navigation/native'
+import { View, ScrollView, Text, TouchableOpacity } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import Logo from "../../Components/Logo";
 import VariantButton from "../../Components/Buttons/Variant";
-import Statusbar from '../../Components/StatusBar'
+import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
 
 const ChooseProfile = () => {
@@ -20,18 +16,25 @@ const ChooseProfile = () => {
         <View style={styles.buttonArea}>
           <VariantButton
             text={"Sou \n Proprietário"}
-            onPress={() => console.log("Botão 'sou proprietário' clicado")}
+            onPress={() => navigation.navigate("OwnerRegistration")}
           />
 
           <VariantButton
             text={"Sou \n Mecânico"}
-            onPress={() => console.log("Botão 'sou mecânico' clicado")}
+            onPress={() => navigation.navigate("GarageRegistration")}
           />
         </View>
 
-        <Text>
-          Já tem cadastro? <Text style={styles.textoalt}>Faça seu login!</Text>
-        </Text>
+        
+          <Text> Já tem cadastro? </Text>
+          <TouchableOpacity style={styles.textArea}>
+            <Text
+            style={styles.textoalt}
+            onPress={() => navigation.navigate("Login")}
+          >
+            Faça seu login!
+          </Text>
+        </TouchableOpacity>
       </View>
     </ScrollView>
   );

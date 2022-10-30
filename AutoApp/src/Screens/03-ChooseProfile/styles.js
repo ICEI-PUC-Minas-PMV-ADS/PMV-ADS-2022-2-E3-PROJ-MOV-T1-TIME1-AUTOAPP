@@ -16,11 +16,19 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     margin: 15,
   },
+  textArea: {
+    display: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    alignSelf: "center",
+    justifyContent: "center",
+  },
   text: {
     fontSize: 15,
   },
   textoalt: {
     color: "#f58426",
     fontWeight: "bold",
+    fontSize: 15,
   },
 });

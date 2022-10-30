@@ -14,6 +14,7 @@ import { styles } from "./style";
 
 
 const Maps = () => {
+  const navigation = useNavigation();
 
   let[regiao, setRegiao] = useState({
     latitude:-19.922877,

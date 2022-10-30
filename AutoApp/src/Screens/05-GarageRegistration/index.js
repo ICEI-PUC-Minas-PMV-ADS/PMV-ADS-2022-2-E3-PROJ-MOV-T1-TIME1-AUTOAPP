@@ -37,7 +37,7 @@ const GarageRegistration = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav />
+      <Nav onPress={() => navigation.navigate("ChooseProfile")}/>
       <View style={styles.container}>
         <TextInput
           style={styles.input}
