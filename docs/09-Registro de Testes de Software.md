@@ -40,4 +40,8 @@ O objetivo deste relatório é indicar se a aplicação AutoApp atende aos requi
 | Observação | A aplicação conta com o registro de serviços prestados para que estes sejam anúnciados. A tela está pronta, mas ainda falta integração com o banco para salvar os dados preenchidos. |
 | Tela | <img src="img/Tests/20-RegisterService.jpg" width=20%/> |
 |  	|  	|
-
+| 8 | Buscar Serviços |
+|Requisito | RF-009 O sistema deverá permitir a busca de oficinas conveniadas próximas a sua localidade. |
+| Observação | A aplicação mostra o mapa, com endereço por enquanto fixo, definido em Belo Horizonte e mostra 3 oficinas cadastradas. Ainda falta a opção de pesquisar e o reconhecimento da geolocalização do usuário |
+| Tela | <img src="img/Tests/09-Maps.jpeg" width=20%/> |
+|  	|  	|
