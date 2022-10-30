@@ -37,6 +37,11 @@ Foi responsável por implementar as telas Homescreen (página inicial), ChangeDa
 > - Register Service: o usuário/mecânico realiza o cadastro de serviços prestados. A interface está feita, mas ainda não há integração completa com o banco de dados.
 > - RegisterAd: o usuário/mecânico realiza o cadastro de anúncios de seus serviços. A interface está 50% feita, mas ainda não há integração completa com o banco de dados.
 
+**Pedro Daniel Jardim**
+
+Fui responsável por implementar na etapa 3 o crud da tela de login, cadastro e edicao do usuário e também pelo Carrosel de carros e manutenções. 
+
+- Vídeo explicativo sobre o CRUD: https://youtu.be/XITN36u-qhw
 
 Vídeo ilustrando as telas desenvolvidas e a navegação funcionando: 
 https://user-images.githubusercontent.com/81396458/198849874-0561e1a9-f3ac-49c0-85ec-a302d0b9fb62.mp4

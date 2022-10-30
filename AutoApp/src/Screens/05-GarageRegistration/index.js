@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigation } from '@react-navigation/native'
 import { View, ScrollView } from "react-native";
 import { TextInput } from "react-native-paper";
 import Nav from "../../Components/NavBar";
@@ -21,6 +22,7 @@ const form = {
 };
 
 const GarageRegistration = () => {
+  const navigation = useNavigation();
   const [name, setName] = useState("");
   const [cep, setCep] = useState("");
   const [city, setCity] = useState("");

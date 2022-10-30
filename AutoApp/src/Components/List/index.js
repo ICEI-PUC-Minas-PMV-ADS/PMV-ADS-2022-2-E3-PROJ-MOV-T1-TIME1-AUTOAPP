@@ -16,7 +16,6 @@ const List = ({ source, text }) => {
         animated="true"
         color="#ffffff"
         mode="flat"
-        onPress={() => console.log("Pressed")}
       />
     </View>
   );

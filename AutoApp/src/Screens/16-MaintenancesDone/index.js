@@ -1,4 +1,5 @@
 import { View, ScrollView } from "react-native";
+import { useNavigation } from '@react-navigation/native'
 import { useState } from "react"
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
@@ -14,6 +15,7 @@ const form = {
 };
 
 const AddMaintenance = () => {
+  const navigation = useNavigation();
   const [oilChange, setOilChange] = useState("")
   const [engineOverhaul, setEngineOverhaul] = useState("")
   const [airConditioning, setAirConditioning] = useState("")
@@ -22,7 +24,7 @@ const AddMaintenance = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav />
+      <Nav onPress={() => navigation.navigate("Owners")} />
       <View style={styles.container}>
         <View>
         <TextInput
