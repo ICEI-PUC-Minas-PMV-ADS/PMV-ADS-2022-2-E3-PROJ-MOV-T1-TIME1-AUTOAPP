@@ -1,37 +1,69 @@
 import { View, ScrollView } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import Carousel from "../../Components/Carousel";
-import Nav from "../../Components/NavBar";
+import Logo from "../../Components/Logo";
 import VariantButton from "../../Components/Buttons/Variant";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
+let userId = 0;
+const currentUser = {
+  userId: "",
+  name: "",
+  email: "",
+  cell: "",
+  document: "",
+};
 
-const Home = () => {
+
+import { DatabaseConnection } from '../../Database/connection';
+const db = DatabaseConnection.getConnection();
+
+
+const Home = ({ route }) => {
+  const navigation = useNavigation();
+
+  try{
+    let current = route.params
+    currentUser.userId = current.userId
+    currentUser.name = current.name
+    currentUser.email = current.email
+    currentUser.document = current.document
+    currentUser.cell = current.cell
+    
+    console.log(currentUser)
+
+    
+  }catch(err){
+    console.log(err)
+  }
+
   return (
     <ScrollView>
       <Statusbar />
-      <Nav />
+
       <View style={styles.container}>
+        <Logo />
         <Carousel />
 
         <View style={styles.buttonArea}>
           <VariantButton
             text={"Meu \n perfil"}
-            onPress={() => console.log("Botão 'meu perfil' clicado")}
+            onPress={() => navigation.navigate("PersonalInformation", {currentUser})}
           />
 
           <VariantButton
             text={"Buscar \n serviços"}
-            onPress={() => console.log("Botão 'buscar serviços' clicado")}
+            onPress={() => navigation.navigate("")}
           />
 
           <VariantButton
             text={"Para \n proprietários"}
-            onPress={() => console.log("Botão 'para proprietários' clicado")}
+            onPress={() => navigation.navigate("Owners")}
           />
 
           <VariantButton
             text={"Para \n mecânicos"}
-            onPress={() => console.log("Botão 'para mecânicos' clicado")}
+            onPress={() => navigation.navigate("Garages")}
           />
         </View>
       </View>
