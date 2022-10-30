@@ -44,3 +44,16 @@ https://user-images.githubusercontent.com/81396458/198849874-0561e1a9-f3ac-49c0-
 Vídeo (Kelly): https://www.youtube.com/watch?v=rMqXpYxdWtA&ab_channel=KellyCes%C3%A1riodeOliveira
 
 Vídeo (Cristiano): https://www.youtube.com/watch?v=-p5x0wrVo3Y 
+
+**Michelle Leal Rodrigues** 
+
+Responsável por implementar as telas ChooseProfile (escolha seu perfil), Personal information (informação pessoal), Mapa, ModalMyServices (modal meus serviços) e ModalMyAds (modal meus anúncios). 
+
+> -	ChooseProfile: o usuário sinaliza se é proprietário de algum veículo, ou mecânico.
+> -	Personal information: o usuário pode visualizar seus dados pessoais cadastrados no momento e indicar se gostaria de alterá-los. 
+> -	Mapa: utilizando o mapa nativo de cada aparelho, a tela mostra as oficinas cadastradas no aplicativo. Ainda está em processo de desenvolvimento e por enquanto mostra apenas uma região fixa. Foi usado a dependência react-native-maps.
+> -	ModalMyServices: o usuário vê com detalhes os dados dos serviços realizados em seu veículo. Interface pronta, e integração com banco de dados em desenvolvimento.
+> -	ModalMyAds: o mecânico visualiza os detalhes referentes ao anúncio postado, e seu alcance desde a data de publicação. Interface pronta, e integração com banco de dados em desenvolvimento.
+
+Vídeo (Michelle): https://youtu.be/7i-FB8eXjZk
+
