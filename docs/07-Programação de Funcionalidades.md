@@ -6,14 +6,6 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
 # Instruções de Acesso
 
 Para acessar a aplicação desenvolvida basta executar o comando npm install e npm start na pasta AutoApp e ler o qr code no aplicativo Expo Go. Demais instruções estão no código.
@@ -22,15 +14,51 @@ Para acessar a aplicação desenvolvida basta executar o comando npm install e n
 
 **Renata Diniz Guimarães de Oliveira**
 
-Fui responsável por implementar na etapa 3 as telas de login, Meus Veículos,  Minhas Manutenções, Meus serviços e Meus anúncios.
+Foi responsável por implementar, na etapa 3, as telas de Login, Meus Veículos,  Minhas Manutenções, Meus serviços e Meus anúncios.
 
-> - Login, o usuário tem a opção de logar, registrar (cadastrar-se como proprietário ou mecânico) e recuperação de senha, o frontend está pronto e o Backend foi feito o db.json em localtunnel;
-> - Meus veículos, tem o objetivo de visualizar os veículos dos proprietários, além da opção de adicionar veículo, clicando na opção + ao lado do veículo, os dados cadastrados podem ser editados;
-> - Minhas manutenções, tem o objetivo de visualizar as manutenções dos veículos dos proprietários, além da opção de adicionar manutenção, clicando na opção + ao lado da manutenção realizada, os dados cadastrados podem ser editados;
-> - Meus serviços, tem o objetivo de visualizar os serviços do mecânico, além da opção de adicionar serviço, clicando na opção + ao lado do serviço, os dados cadastrados podem ser editados;
-> - Meus anúncios, tem o objetivo de visualizar os anúncios do mecânico, além da opção de adicionar anúncio, clicando na opção + ao lado da anuncio publicado, os dados cadastrados podem ser editados;
+> - Login: o usuário tem a opção de logar, registrar (cadastrar-se como proprietário ou mecânico) e recuperação de senha, o frontend está pronto e o Backend foi feito o db.json em localtunnel;
+> - Meus veículos: o objetivo é visualizar os veículos dos proprietários, além da opção de adicionar veículo, clicando na opção + ao lado do veículo, os dados cadastrados podem ser editados;
+> - Minhas manutenções: o objetivo é visualizar as manutenções dos veículos dos proprietários, além da opção de adicionar manutenção, clicando na opção + ao lado da manutenção realizada, os dados cadastrados podem ser editados;
+> - Meus serviços: o objetivo é visualizar os serviços do mecânico, além da opção de adicionar serviço, clicando na opção + ao lado do serviço, os dados cadastrados podem ser editados;
+> - Meus anúncios: o objetivo é visualizar os anúncios do mecânico, além da opção de adicionar anúncio, clicando na opção + ao lado da anuncio publicado, os dados cadastrados podem ser editados;
 
-<img src=img/login.png width=30%/><img src=img/Veiculo.png width=30%/><img src=img/Manutencao.png width=30% heigth=30%/>
-<img src=img/anuncio.png width=30%/><img src=img/servico.png width=30%/>
+<img src=img/login.png width=20%/> <img src=img/Veiculo.png width=20%/> <img src=img/Manutencao.png width=20%/>
+<img src=img/anuncio.png width=20%/> <img src=img/servico.png width=20%/> <br>
+Vídeo (Renata): https://youtu.be/Oco76wfoFLg
 
+**Kelly Cesário de Oliveira**
+
+Foi responsável por implementar as telas Homescreen (página inicial), ChangeData (alteração de dados pessoais), AddAutomobiles (cadastrar automóveis), MaintenancesDone (cadastrar manutenções realizadas), RegisterService (cadastrar serviço realizado) e RegisterAd (cadastrar anúncio). Também foi responsável pelo desenvolvimento das rotas da aplicação e de alguns componentes, como o carousel, os botões e o navbar.
+
+> - Homescreen: o usuário encontra um carrossel e quatro botões para interagir (meu perfil, buscar serviços, para proprietários e para mecânicos)
+> - ChangeData: o usuário pode alterar seus dados - a tela está em processo de 'mescla' com a tela PersonalInformation, para diminuir o fluxo de cliques.
+> - AddAutomobiles: o usuário realiza o cadastro de seus carros. A interface está feita, mas ainda não há integração completa com o banco de dados.
+> - MaintenancesDone: o usuário realiza o cadastro de suas manutenções realizadas. A interface está feita, mas ainda não há integração completa com o banco de dados.
+> - Register Service: o usuário/mecânico realiza o cadastro de serviços prestados. A interface está feita, mas ainda não há integração completa com o banco de dados.
+> - RegisterAd: o usuário/mecânico realiza o cadastro de anúncios de seus serviços. A interface está 50% feita, mas ainda não há integração completa com o banco de dados.
+
+**Pedro Daniel Jardim**
+
+Fui responsável por implementar na etapa 3 o crud da tela de login, cadastro e edicao do usuário e também pelo Carrosel de carros e manutenções. 
+
+- Vídeo explicativo sobre o CRUD: https://youtu.be/XITN36u-qhw
+
+Vídeo ilustrando as telas desenvolvidas e a navegação funcionando: 
+https://user-images.githubusercontent.com/81396458/198849874-0561e1a9-f3ac-49c0-85ec-a302d0b9fb62.mp4
+
+Vídeo (Kelly): https://www.youtube.com/watch?v=rMqXpYxdWtA&ab_channel=KellyCes%C3%A1riodeOliveira
+
+Vídeo (Cristiano): https://www.youtube.com/watch?v=-p5x0wrVo3Y 
+
+**Michelle Leal Rodrigues** 
+
+Responsável por implementar as telas ChooseProfile (escolha seu perfil), Personal information (informação pessoal), Mapa, ModalMyServices (modal meus serviços) e ModalMyAds (modal meus anúncios). 
+
+> -	ChooseProfile: o usuário sinaliza se é proprietário de algum veículo, ou mecânico.
+> -	Personal information: o usuário pode visualizar seus dados pessoais cadastrados no momento e indicar se gostaria de alterá-los. 
+> -	Mapa: utilizando o mapa nativo de cada aparelho, a tela mostra as oficinas cadastradas no aplicativo. Ainda está em processo de desenvolvimento e por enquanto mostra apenas uma região fixa. Foi usado a dependência react-native-maps.
+> -	ModalMyServices: o usuário vê com detalhes os dados dos serviços realizados em seu veículo. Interface pronta, e integração com banco de dados em desenvolvimento.
+> -	ModalMyAds: o mecânico visualiza os detalhes referentes ao anúncio postado, e seu alcance desde a data de publicação. Interface pronta, e integração com banco de dados em desenvolvimento.
+
+Vídeo (Michelle): https://youtu.be/7i-FB8eXjZk
 
