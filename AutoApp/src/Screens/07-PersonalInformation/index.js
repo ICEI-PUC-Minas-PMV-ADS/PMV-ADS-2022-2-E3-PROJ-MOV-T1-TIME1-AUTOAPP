@@ -55,7 +55,7 @@ const PersonalInformation = ({ route }) => {
           let len = results.rowsAffected;
 
           if (len > 0) {
-            alert('Usuário logado !');
+            alert('Usuário Atualizado !');
             navigation.navigate('Login')
           } else{
             alert('Erro ao atualizar o usuário');

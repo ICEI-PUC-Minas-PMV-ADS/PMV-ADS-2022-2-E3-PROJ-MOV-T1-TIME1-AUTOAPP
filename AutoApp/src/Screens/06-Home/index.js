@@ -53,7 +53,7 @@ const Home = ({ route }) => {
 
           <VariantButton
             text={"Buscar \n serviços"}
-            onPress={() => navigation.navigate("Maps")}
+            onPress={() => navigation.navigate("MyServices")}
           />
 
           <VariantButton

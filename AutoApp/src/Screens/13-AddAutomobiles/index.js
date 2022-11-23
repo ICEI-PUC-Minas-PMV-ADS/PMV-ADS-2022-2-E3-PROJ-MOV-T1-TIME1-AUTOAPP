@@ -1,13 +1,14 @@
 import { View, ScrollView } from "react-native";
 import { useNavigation } from '@react-navigation/native'
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
 import CancelButton from "../../Components/Buttons/Cancel";
 import Nav from "../../Components/NavBar";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
-
+import { DatabaseConnection } from "../../Database/connection";
+const db = DatabaseConnection.getConnection();
 const form = {
   licencePlate: "",
   brand: "",
@@ -16,6 +17,7 @@ const form = {
 };
 
 const AddAutos = () => {
+
   const navigation = useNavigation();
   const [licencePlate, setLicencePlate] = useState("")
   const [brand, setBrand] = useState("")
@@ -23,6 +25,49 @@ const AddAutos = () => {
   const [version, setVersion] = useState("")
   const [year, setYear] = useState("")
 
+  useEffect(() => {
+    db.transaction(function (txn) {
+      txn.executeSql(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='car_auto_app'",
+        [],
+        function (tx, res) {
+          console.log("item (useEffect):", res.rows.length);
+          if (res.rows.length == 0) {
+            txn.executeSql("DROP TABLE IF EXISTS car_auto_app", []);
+            txn.executeSql(
+              "CREATE TABLE IF NOT EXISTS car_auto_app(id INTEGER PRIMARY KEY AUTOINCREMENT, licencePlate VARCHAR(255), brand VARCHAR(255), model VARCHAR(255), version VARCHAR(255), year VARCHAR(255) )",
+              []
+            );
+          }
+        }
+      );
+    });
+  }, []);
+
+
+  let registerAuto = () => {
+    console.log("registerAuto")
+    db.transaction(function (tx) {
+      tx.executeSql(
+        'INSERT INTO car_auto_app ( licencePlate , brand, model, version, year ) VALUES (?,?,?,?,?)',
+        [licencePlate , brand, model, version, year],
+        (tx, results) => {
+          console.log('Results', results.rowsAffected);
+          console.log(results)
+
+          if (results.rowsAffected > 0) {
+
+            alert("Carro Registrado com Sucesso !!!");
+            navigation.navigate("MyVehicles", {});
+          } else alert('Erro ao tentar Registrar o Carro !!!');
+        }
+      );
+    });
+  };
+
+
+
+  
   return (
     <ScrollView>
       <Statusbar />
@@ -85,7 +130,7 @@ const AddAutos = () => {
           right={<TextInput.Icon icon="square-edit-outline" />}  
         />
 
-        <DefaultButton text={"Salvar"} />
+        <DefaultButton text={"Salvar"} onPress={registerAuto} />
         <CancelButton text={"Cancelar"} />
       </View>
     </ScrollView>
