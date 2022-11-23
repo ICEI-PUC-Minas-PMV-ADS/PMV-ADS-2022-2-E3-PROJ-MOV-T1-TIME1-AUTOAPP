@@ -28,11 +28,11 @@ Seguem resultados:
 **1-	Cadastro de usuário**
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-01 	| 00:00:40 | 6 | 0 | --- | O usuário achou a tela intuitiva |
-| Usuário 2 | CTU-01 	| 00:01:20 | 6 | 0 | --- | Usuário ficou satisfeito |
-| Usuário 3	| CTU-01	| 00:01:10 | 6 | 0 | --- | O usuário achou a tela intuitiva |
-| Usuário 4	| CTU-01 	| 00:00:50 | 6 | 0 | --- | Usuário realizou o teste sem dificuldades |
-| Usuário 5	| CTU-01  | 00:00:30 | 6 | 0 | --- | Usuário conseguiu efetuar o cadastro sem problemas |
+| Usuário 1	| CTU-01 	| 00:00:40 | 8 | 0 | --- | O usuário achou a tela intuitiva |
+| Usuário 2 | CTU-01 	| 00:01:20 | 8 | 0 | --- | Usuário ficou satisfeito |
+| Usuário 3	| CTU-01	| 00:01:10 | 8 | 0 | --- | O usuário achou a tela intuitiva |
+| Usuário 4	| CTU-01 	| 00:00:50 | 8 | 0 | --- | Usuário realizou o teste sem dificuldades |
+| Usuário 5	| CTU-01  | 00:00:30 | 8 | 0 | --- | Usuário conseguiu efetuar o cadastro sem problemas |
 
 **2-	Login de usuário**
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
