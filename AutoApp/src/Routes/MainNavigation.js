@@ -17,6 +17,7 @@ import MyServices from "../Screens/18-MyServices";
 import AddServices from "../Screens/20-RegisterService";
 import MyAdds from "../Screens/21-MyAdds";
 import RegisterAd from "../Screens/23-RegisterAd";
+import ModalMaintenance from "../Screens/15-ModalMaintenance";
 
 const Stack = createNativeStackNavigator();
 
@@ -153,6 +154,15 @@ const Main = () => {
           header: () => null,
         }}
       />
+      
+      <Stack.Screen
+        name="ModalMaintenance"
+        component={ModalMaintenance}
+        options={{
+          header: () => null,
+        }}
+      />
+
     </Stack.Navigator>
   );
 };

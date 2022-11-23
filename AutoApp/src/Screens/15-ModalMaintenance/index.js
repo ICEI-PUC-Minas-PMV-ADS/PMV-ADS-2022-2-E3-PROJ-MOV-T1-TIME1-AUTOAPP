@@ -7,7 +7,7 @@ import Statusbar from "../../Components/StatusBar";
 import DefaultButton from "../../Components/Buttons/Default";
 import slides from "./slides";
 import Close from "../../Components/Buttons/Close";
-import OnboardingItem from './onboardingItem';
+import {OnboardingItem} from './onboardingItem';
 
 const styles = StyleSheet.create({
   container: {

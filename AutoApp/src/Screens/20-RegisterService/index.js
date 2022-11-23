@@ -1,5 +1,5 @@
 import { View, ScrollView } from "react-native";
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation, Alert } from '@react-navigation/native'
 import { useState, useEffect } from "react"
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
@@ -21,13 +21,19 @@ const form = {
 
 const AddServices = () => {
 
+  const navigation = useNavigation();
+  const [serviceName, setServiceName] = useState("")
+  const [serviceDescription, setServiceDescription] = useState("")
+  const [servicePrice, setServicePrice] = useState("")
+
+
   useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
         "SELECT name FROM sqlite_master WHERE type='table' AND name='service_auto_app'",
         [],
         function (tx, res) {
-          console.log("item:", res.rows.length);
+          console.log("item (useEffect):", res.rows.length);
           if (res.rows.length == 0) {
             txn.executeSql("DROP TABLE IF EXISTS service_auto_app", []);
             txn.executeSql(
@@ -40,14 +46,11 @@ const AddServices = () => {
     });
   }, []);
 
-  const navigation = useNavigation();
-  const [serviceName, setServiceName] = useState("")
-  const [serviceDescription, setServiceDescription] = useState("")
-  const [servicePrice, setServicePrice] = useState("")
 
   let registerService = () => {
+    console.log("registerService")
     console.log(serviceName, serviceDescription, servicePrice);
-
+    
     db.transaction(function (tx) {
       tx.executeSql(
         'INSERT INTO service_auto_app ( name , description, price ) VALUES (?,?,?)',
@@ -57,17 +60,9 @@ const AddServices = () => {
           console.log(results)
 
           if (results.rowsAffected > 0) {
-            Alert.alert(
-              'Sucesso',
-              'Servico Registrado com Sucesso !!!',
-              [
-                {
-                  text: 'Ok',
-                  onPress: () => navigation.navigate('MyServices'),
-                },
-              ],
-              { cancelable: false }
-            );
+
+            alert("Servico Registrado com Sucesso !!!");
+            navigation.navigate("MyServices", {});
           } else alert('Erro ao tentar Registrar o Servico !!!');
         }
       );
@@ -78,7 +73,7 @@ const AddServices = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav onPress={() => navigation.navigate("Garages")} />
+      <Nav onPress={() => navigation.navigate("MyServices")} />
       <View style={styles.container}>
         <View>
 
@@ -113,7 +108,7 @@ const AddServices = () => {
           right={<TextInput.Icon icon="square-edit-outline" />}  
         />
 
-        <DefaultButton text={"Salvar"} onPress={AddServices} />
+        <DefaultButton text={"Salvar"} onPress={registerService} />
         <CancelButton text={"Cancelar"} />
       </View>
     </ScrollView>
