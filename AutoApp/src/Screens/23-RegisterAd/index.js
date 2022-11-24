@@ -15,7 +15,7 @@ const form = {
   adDescription: "",
   };
 
-const AddAd = () => {
+const RegisterAd = () => {
   const navigation = useNavigation();
   const [adName, setadName] = useState("")
   const [adDescription, setadDescription] = useState("")
@@ -45,14 +45,11 @@ let registerAd = () => {
     
     db.transaction(function (tx) {
       tx.executeSql(
-        'INSERT INTO service_auto_app ( name , description) VALUES (?,?)',
+        'INSERT INTO ad_auto_app ( name , description) VALUES (?,?)',
         [adName, adDescription],
         (tx, results) => {
-          console.log('Results', results.rowsAffected);
-          console.log(results)
-
+          console.log('Results (insert_ad_auto_app): ', results.rowsAffected);
           if (results.rowsAffected > 0) {
-
             alert("Anúncio Cadastrado com Sucesso !!!");
             navigation.navigate("MyAdds", {});
           } else alert('Erro ao tentar Cadastrar o Anúncio !!!');

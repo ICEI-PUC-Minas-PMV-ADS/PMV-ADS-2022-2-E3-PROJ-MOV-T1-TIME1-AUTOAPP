@@ -41,7 +41,7 @@ const MyVehicles = () => {
             alert("Carros carregados com sucesso!");
             this.carList = results.rows;
             console.log(this.carList._array)
-            setFlatListItems(this.carList._array);
+            setFlatListItems(results._array);
           } else {
             alert("Carros não encontrados!");
           }
