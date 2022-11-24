@@ -16,8 +16,11 @@ const MyAdds = () => {
   const navigation = useNavigation();
   let [flatListItems, setFlatListItems] = useState([]);
   
-  
+  console.log(" MyAdds")
+
   useEffect(() => {
+    console.log("useEffect - MyAdds")
+
     db.transaction(function (txn) {
       txn.executeSql(
         "SELECT name FROM sqlite_master WHERE type='table' AND name='ad_auto_app'",
@@ -41,11 +44,10 @@ const MyAdds = () => {
         [],
         (tx, results) => {
           let len = results.rows.length;
+          console.log(results.rows)
           if (len > 0) {
             alert("Anúncios carregados com sucesso!");
-            this.carList = results.rows;
-            console.log(this.adList._array)
-            setFlatListItems(this.adList._array);
+            setFlatListItems(results.rows._array);
           } else {
             alert("Anúncios não encontrados!");
           }
@@ -61,7 +63,7 @@ const MyAdds = () => {
     return (
       <View>
         <List 
-        text= {item.model}
+        text= {item.name}
         onPress={() => navigation.navigate('ModalMyAds')}
         />
       </View>
