@@ -104,7 +104,7 @@ const Login = () => {
           <Text> Não tem cadastro? </Text>
           <Text
             style={styles.registerText}
-            onPress={() => navigation.navigate("OwnerRegistration")}
+            onPress={() => navigation.navigate("ChooseProfile")}
           >
             Registre-se!
           </Text>

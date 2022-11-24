@@ -26,6 +26,10 @@ export const styles = StyleSheet.create({
   text: {
     fontSize: 15,
   },
+  registerText: {
+    color: "#F58426",
+    fontWeight: "bold",
+  },
   textoalt: {
     color: "#f58426",
     fontWeight: "bold",
