@@ -17,14 +17,14 @@ const navigation = useNavigation();
 useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
-        "SELECT name FROM sqlite_master WHERE type='table' AND name='main_auto_app'",
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='maintence_auto_app'",
         [],
         function (tx, res) {
           console.log("item (useEffect):", res.rows.length);
           if (res.rows.length == 0) {
-            txn.executeSql("DROP TABLE IF EXISTS main_auto_app", []);
+            txn.executeSql("DROP TABLE IF EXISTS maintence_auto_app", []);
             txn.executeSql(
-              "CREATE TABLE IF NOT EXISTS car_auto_app(id INTEGER PRIMARY KEY AUTOINCREMENT, mainName VARCHAR(255), mainDescription VARCHAR(255), mainDate DATE)",
+              "CREATE TABLE IF NOT EXISTS maintence_auto_app(id INTEGER PRIMARY KEY AUTOINCREMENT, mainName VARCHAR(255), mainDescription VARCHAR(255), mainDate DATE)",
               []
             );
           }
@@ -34,7 +34,7 @@ useEffect(() => {
 
     db.transaction(function (tx) {
       tx.executeSql(
-        "SELECT * FROM main_auto_app ",
+        "SELECT * FROM maintence_auto_app ",
         [],
         (tx, results) => {
           let len = results.rows.length;
@@ -58,7 +58,7 @@ useEffect(() => {
     return (
       <View>
         <List 
-        text= {item.model}
+        text= {item.mainName}
         onPress={() => navigation.navigate('ModalMaintenance')}
         />
       </View>
