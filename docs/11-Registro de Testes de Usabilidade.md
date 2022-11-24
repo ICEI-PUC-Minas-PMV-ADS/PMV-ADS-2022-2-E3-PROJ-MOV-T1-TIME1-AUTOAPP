@@ -30,7 +30,7 @@ Seguem resultados:
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| CTU-01 	| 00:00:40 | 8 | 0 | --- | O usuário achou a tela intuitiva |
 | Usuário 2 | CTU-01 	| 00:01:20 | 8 | 0 | --- | Usuário ficou satisfeito |
-| Usuário 3	| CTU-01	| 00:01:10 | 8 | 0 | --- | O usuário achou a tela intuitiva |
+| Usuário 3	| CTU-01	| 00:01:10 | 8 | 0 | --- | O usuário achou a tela intuitiva e ficou satisfeito por a tela já voltar para login quando efetua o cadastro|
 | Usuário 4	| CTU-01 	| 00:00:50 | 8 | 0 | --- | Usuário realizou o teste sem dificuldades |
 | Usuário 5	| CTU-01  | 00:00:30 | 8 | 0 | --- | Usuário conseguiu efetuar o cadastro sem problemas |
 
@@ -46,38 +46,38 @@ Seguem resultados:
 **3-	Editar informações de perfil**
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-03 	| --- | --- | --- | --- | --- |
-| Usuário 2 | CTU-03 	| --- | --- | --- | --- | --- |
-| Usuário 3	| CTU-03	| --- | --- | --- | --- | --- |
-| Usuário 4	| CTU-03 	| --- | --- | --- | --- | --- |
-| Usuário 5	| CTU-03  | --- | --- | --- | --- | --- |
+| Usuário 1	| CTU-03 	| 00:00:30 | 5 | 0 | --- | Usuário sugere que ao alterar os dados, seja direcionado para a tela de Meu Perfil |
+| Usuário 2 | CTU-03 	| 00:00:40 | 5 | 0 | --- | Usúario gostou de poder acessar os dados salvos |
+| Usuário 3	| CTU-03	| 00:00:30 | 5 | 0 | --- | Usúario conseguiu editar seu perfil |
+| Usuário 4	| CTU-03 	| 00:00:50 | 5 | 0 | --- | Usuário conseguiu editar e apagar usuário |
+| Usuário 5	| CTU-03  | 00:00:45 | 5 | 0 | --- | Usuário efetuou alterações com sucesso |
 
 **4-	Cadastrar automóveis**
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-04 	| --- | --- | --- | --- | --- |
-| Usuário 2 | CTU-04 	| --- | --- | --- | --- | --- |
-| Usuário 3	| CTU-04	| --- | --- | --- | --- | --- |
-| Usuário 4	| CTU-04 	| --- | --- | --- | --- | --- |
-| Usuário 5	| CTU-04  | --- | --- | --- | --- | --- |
+| Usuário 1	| CTU-04 	| 00:00:50 | 11 | --- | --- | O usuário achou intuitivo  |
+| Usuário 2 | CTU-04 	| 00:00:50 | 11 | --- | --- | O usuário achou intuitivo  |
+| Usuário 3	| CTU-04	| 00:01:20 | 13 | 01 | Sim | O usuário achou intuitivo  |
+| Usuário 4	| CTU-04 	| 00:00:50 | 11 | --- | --- | O usuário achou intuitivo  |
+| Usuário 5	| CTU-04  | 00:00:50 | 11 | --- | --- | O usuário achou intuitivo  |
 
 **5-	Visualizar Meus automóveis**
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-05 	| --- | --- | --- | --- | --- |
-| Usuário 2 | CTU-05 	| --- | --- | --- | --- | --- |
-| Usuário 3	| CTU-05	| --- | --- | --- | --- | --- |
-| Usuário 4	| CTU-05 	| --- | --- | --- | --- | --- |
-| Usuário 5	| CTU-05  | --- | --- | --- | --- | --- |
+| Usuário 1	| CTU-05 	| --- | 9 | --- | --- | --- |
+| Usuário 2 | CTU-05 	| --- | 9 | --- | --- | --- |
+| Usuário 3	| CTU-05	| --- | 9 | --- | --- | --- |
+| Usuário 4	| CTU-05 	| --- | 9 | --- | --- | --- |
+| Usuário 5	| CTU-05  | --- | 9 | --- | --- | --- |
 
 **6-	Cadastrar manutenções**
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-06 	| --- | --- | --- | --- | --- |
-| Usuário 2 | CTU-06 	| --- | --- | --- | --- | --- |
-| Usuário 3	| CTU-06	| --- | --- | --- | --- | --- |
-| Usuário 4	| CTU-06 	| --- | --- | --- | --- | --- |
-| Usuário 5	| CTU-06  | --- | --- | --- | --- | --- |
+| Usuário 1	| CTU-06 	| --- | 6 | --- | --- | Usuário sugere poder editar as manutenções |
+| Usuário 2 | CTU-06 	| --- | 6 | --- | --- | --- |
+| Usuário 3	| CTU-06	| --- | 6 | --- | --- | --- |
+| Usuário 4	| CTU-06 	| --- | 6 | --- | --- | --- |
+| Usuário 5	| CTU-06  | --- | 6 | --- | --- | --- |
 
 **7-	Visualizar os Minhas manutenções**
 
@@ -93,7 +93,7 @@ Seguem resultados:
 
 
 **Problemas de usabilidade** 
-
+Os problemas de usabilidade encontramos possuem os seguintes planos de correção
 
 **Plano de correção:**
 
