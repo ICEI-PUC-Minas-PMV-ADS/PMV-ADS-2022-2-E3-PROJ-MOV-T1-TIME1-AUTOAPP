@@ -26,14 +26,14 @@ const AddMaintenance = () => {
 useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
-        "SELECT name FROM sqlite_master WHERE type='table' AND name='main_auto_app'",
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='maintence_auto_app'",
         [],
         function (tx, res) {
           console.log("item (useEffect):", res.rows.length);
           if (res.rows.length == 0) {
-            txn.executeSql("DROP TABLE IF EXISTS main_auto_app", []);
+            txn.executeSql("DROP TABLE IF EXISTS maintence_auto_app", []);
             txn.executeSql(
-              "CREATE TABLE IF NOT EXISTS car_auto_app(id INTEGER PRIMARY KEY AUTOINCREMENT, mainName VARCHAR(255), mainDescription VARCHAR(255), mainDate DATE )",
+              "CREATE TABLE IF NOT EXISTS maintence_auto_app(id INTEGER PRIMARY KEY AUTOINCREMENT, mainName VARCHAR(255), mainDescription VARCHAR(255), mainDate VARCHAR(255) )",
               []
             );
           }
@@ -45,9 +45,11 @@ useEffect(() => {
 
   let registerMain = () => {
     console.log("registerMain")
+    console.log("registerMain:", mainName, mainDescription, mainDate)
+
     db.transaction(function (tx) {
       tx.executeSql(
-        'INSERT INTO car_auto_app ( mainName, mainDescription, mainDate) VALUES (?,?,?)',
+        'INSERT INTO maintence_auto_app ( mainName, mainDescription, mainDate) VALUES (?,?,?)',
         [mainName, mainDescription, mainDate],
         (tx, results) => {
           console.log('Results', results.rowsAffected);
@@ -85,7 +87,7 @@ useEffect(() => {
         <TextInput
           style={styles.input}
           label="Tipo de manutenção"
-          onChangeText={(mainDescription) => setmainDescription(mainDescriptionl)}
+          onChangeText={(mainDescription) => setmainDescription(mainDescription)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
