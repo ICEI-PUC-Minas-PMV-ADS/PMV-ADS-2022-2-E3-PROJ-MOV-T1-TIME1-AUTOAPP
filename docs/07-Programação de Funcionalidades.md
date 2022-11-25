@@ -26,6 +26,8 @@ Foi responsável por implementar, na etapa 3, as telas de Login, Meus Veículos,
 <img src=img/anuncio.png width=20%/> <img src=img/servico.png width=20%/> <br>
 Vídeo (Renata): https://youtu.be/Oco76wfoFLg
 
+Vídeo etapa 4 (Renata)
+
 **Kelly Cesário de Oliveira**
 
 Foi responsável por implementar as telas Homescreen (página inicial), ChangeData (alteração de dados pessoais), AddAutomobiles (cadastrar automóveis), MaintenancesDone (cadastrar manutenções realizadas), RegisterService (cadastrar serviço realizado) e RegisterAd (cadastrar anúncio). Também foi responsável pelo desenvolvimento das rotas da aplicação e de alguns componentes, como o carousel, os botões e o navbar.
