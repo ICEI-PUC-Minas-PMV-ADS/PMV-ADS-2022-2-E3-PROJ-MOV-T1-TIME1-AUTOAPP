@@ -17,12 +17,12 @@ Negligenciar a manutenção preventiva pode causar defeitos ao veículo, prejuí
 
 ## Objetivos
 
-Considerando o problema apresentado, o objetivo do projeto é desenvolver o AutoApp, uma aplicação móvel prática e intuitiva, que oferece aos usuários um meio para armazenar os dados referentes ao seu veículo e receber alertas referentes às próximas manutenções e, também, de mecânicos e lojas especializadas mais próximas. 
+Considerando o problema apresentado, o objetivo do projeto é desenvolver o AutoApp, uma aplicação móvel prática e intuitiva, que oferece aos usuários um meio para armazenar os dados referentes ao seu veículo e identificar oficinas especializadas mais proximas, além de permitir aos mecânicos que façam a inclusão de anúncios de seus serviços. 
 
 Com o AutoApp, será possível:
 
 - Inserir e consultar dados sobre o veículo e as revisões realizadas.
-- Receber notificações quanto as datas recomendadas pelo fabricante.
+- Apresentar anúncios de serviços realizados por oficinas próximas.
 
 
 ## Justificativa
