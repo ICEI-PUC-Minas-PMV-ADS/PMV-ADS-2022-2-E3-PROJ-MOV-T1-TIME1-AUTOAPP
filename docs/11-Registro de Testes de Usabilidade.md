@@ -58,6 +58,60 @@ Nesta etapa não realizaremos testes de usabilidade pois as telas entregues não
 | Usuário 4	| CTU-06 	| 00:00:45 | 6 | --- | --- | O usuário teve tranquilidade para cadastrar |
 | Usuário 5	| CTU-06  | 00:00:50 | 6 | --- | --- | O usuário achou intuitivo |
 
+**7-	Visualizar Minhas Manutenções**
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-07 	| 00:00:45 | 8 | --- | --- | Usuário achou o acesso fácil |
+| Usuário 2 | CTU-07 	| 00:00:21 | 8 | --- | --- | Usuário gostou da tela |
+| Usuário 3	| CTU-07	| 00:00:54 | 8 | --- | --- | Usuário conseguiu visualizar as manutenções cadastradas |
+| Usuário 4	| CTU-07 	| 00:00:42 | 8 | --- | --- | Usuário não teve problemas |
+| Usuário 5	| CTU-07  | 00:00:55 | 8 | --- | --- | O usuário achou intuitivo |
+
+**8-	Cadastrar Serviços**
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-08 	| 00:00:47 | 6 | --- | --- | Usuário ficou confuso |
+| Usuário 2 | CTU-08 	| 00:00:26 | 6 | --- | --- | Usuário conseguiu cadastrar serviços |
+| Usuário 3	| CTU-08	| 00:00:50 | 6 | --- | --- | O usuário achou o processo de realização do cadastro intuitivo |
+| Usuário 4	| CTU-08 	| 00:00:37 | 6 | --- | --- | O usuário gostou da tela |
+| Usuário 5	| CTU-08  | 00:00:45 | 6 | --- | --- | Usuário não teve problemas durante o processo |
+
+**9-	Visualizar Meus Serviços**
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-09 	| 00:00:45 | 8 | --- | --- | O Usuário achou a rota intuitiva |
+| Usuário 2 | CTU-09 	| 00:00:32 | 8 | --- | --- | Usuário coseguiu visualizar os serviços cadastrados |
+| Usuário 3	| CTU-09	| 00:00:60 | 10 | 1 | sim | O usuário acessou a tela incorreta e teve que voltar |
+| Usuário 4	| CTU-09 	| 00:00:47 | 8 | --- | --- | O Usuário não teve problemas |
+| Usuário 5	| CTU-09  | 00:00:29 | 8 | --- | --- | Usuário não fez comentários |
+
+**10-	Cadastrar Anúncios**
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-10 	| 00:00:49 | 7 | --- | --- | Usuário conseguiu cadastrar os anúncios |
+| Usuário 2 | CTU-10 	| 00:00:22 | 7 | --- | --- | Usuário utilizou normalmente |
+| Usuário 3	| CTU-10	| 00:00:40 | 7 | --- | --- | O usuário achou intuitivo |
+| Usuário 4	| CTU-10 	| 00:00:39 | 7 | --- | --- | O usuário não fez comentários |
+| Usuário 5	| CTU-10  | 00:00:29 | 7 | --- | --- | Usuário não teve problemas |
+
+**11-	Visualizar Meus Anuncios**
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-11 	| 00:00:42 | 6 | --- | --- | Usuário não teve problemas |
+| Usuário 2 | CTU-11 	| 00:00:39 | 6 | --- | --- | Usuário achou a funcionalidade intuitiva e fácil de usar |
+| Usuário 3	| CTU-11	| 00:00:50 | 6 | --- | --- | O usuário não teve dificuldade em acessar |
+| Usuário 4	| CTU-11 	| 00:00:47 | 6 | --- | --- | O usuário gostou da tela |
+| Usuário 5	| CTU-11  | 00:00:57 | 6 | --- | --- | O usuário não fez observações |
+
+**12-	Buscar Serviços**
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-12 	| 00:00:45 | 5 | --- | --- | Usuário gostou da funcionalidade |
+| Usuário 2 | CTU-12 	| 00:00:23 | 5 | --- | --- | Usuário sugere ampliar a área atendida |
+| Usuário 3	| CTU-12	| 00:00:54 | 5 | --- | --- | O usuário não fez observações |
+| Usuário 4	| CTU-12 	| 00:00:42 | 5 | --- | --- | O usuário não teve problemas em acessar |
+| Usuário 5	| CTU-12  | 00:00:50 | 5 | --- | --- | O usuário gostaria de poder dar zoom no mapa |
+
 <h2>Observações e conclusão</h2>
 Observou-se a partir do CTU-05 que a tela de Meus Automóveis precisa de ajustes para que as listas com os automóveis cadastrados sejam exibidos.
 o CTU-06, permitiu-nos perceber que é necessário a opção de edição na tela de cadastrar manutenções
@@ -98,15 +152,27 @@ Teste bem explorado pelos usuários, o tempo de pesquisa ficou entre 30 a 50 seg
 
 **7-	Visualizar os Minhas manutenções**
 
+O teste ocorreu sem problemas.
+
 **8-	Cadastrar serviços**
+
+Alguns usuários acharam o processo confuso, mas a maioria conseguiu utilizar sem problemas
 
 **9-	Visualizar Meus serviços**
 
+Um dos usuários ficou um pouco confuso durante a utilização da funcionalidade.
+
 **10-	Cadastrar anúncios**
+
+Tela bem construída, usuários não tiveram problemas ou dificuldades.
 
 **11-	Visualizar os Meus anúncios**
 
+Os usuários gostaram da tela e não encontraram problemas durante sua utilização.
+
 **12-	Buscar serviços**
+
+Usuários gostariam que a tela fosse aprimorada para incluir demais localidades.
 
 
 **Problemas de usabilidade** 
@@ -120,4 +186,4 @@ As seguintes ações foram previstas e algumas já foram todas para correção d
 
 **Conclusão**
 
-Os resultados dos testes de usabilidade mantem a aplicação viva e interativa, fazendo que a mesma atenda as necessidades do usuáarios e evolua com os resultados levantados.
+Os resultados dos testes de usabilidade mantem a aplicação viva e interativa, fazendo que a mesma atenda as necessidades do usuários e evolua com os resultados levantados.
