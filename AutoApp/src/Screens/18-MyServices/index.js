@@ -39,6 +39,7 @@ const MyServices = () => {
         [],
         (tx, results) => {
           let len = results.rows.length;
+          console.log('Results from SELECT * FROM service_auto_app : ', results.rows)
           if (len > 0) {
             alert("Servicos carregados com sucesso!");
             this.serviceList = results.rows;

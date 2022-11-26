@@ -46,9 +46,11 @@ Vídeo (Kelly): https://www.youtube.com/watch?v=rMqXpYxdWtA&ab_channel=KellyCes%
 
 **Pedro Daniel Jardim**
 
-Fui responsável por implementar na etapa 3 o crud da tela de login, cadastro e edicao do usuário e também pelo Carrosel de carros e manutenções. 
+- Fui responsável por implementar na etapa 3 o crud da tela de login, cadastro e edicao do usuário e também pelo Carrosel de carros e manutenções. 
+- Fui responsável por implementar na etapa 4 o crud da tela de manuntencao, servicos e cadastro de carros.
 
-- Vídeo explicativo sobre o CRUD: https://youtu.be/XITN36u-qhw
+- Vídeo explicativo sobre a entrega 3: https://youtu.be/XITN36u-qhw
+- Video explicativo sobre a entrega 4: https://youtu.be/_AT62EUJQZk
 
 **Cristiano Ridolfi**
 
