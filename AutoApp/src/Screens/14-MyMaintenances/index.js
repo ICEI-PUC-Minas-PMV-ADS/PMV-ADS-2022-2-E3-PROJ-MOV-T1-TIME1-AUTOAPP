@@ -8,13 +8,13 @@ import { useState, useEffect } from "react";
 import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
 
-let mainList = []
+let mainList = [];
 
 const MyMaintenances = () => {
-const navigation = useNavigation();
+  const navigation = useNavigation();
   let [flatListItems, setFlatListItems] = useState([]);
 
-useEffect(() => {
+  useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
         "SELECT name FROM sqlite_master WHERE type='table' AND name='maintence_auto_app'",
@@ -33,48 +33,39 @@ useEffect(() => {
     });
 
     db.transaction(function (tx) {
-      tx.executeSql(
-        "SELECT * FROM maintence_auto_app ",
-        [],
-        (tx, results) => {
-          let len = results.rows.length;
-          if (len > 0) {
-            alert("Manutenções carregadas com sucesso!");
-            this.mainList = results.rows;
-            console.log(this.mainList._array)
-            setFlatListItems(this.mainList._array);
-          } else {
-            alert("Manutenções não encontradas!");
-          }
+      tx.executeSql("SELECT * FROM maintence_auto_app ", [], (tx, results) => {
+        let len = results.rows.length;
+        if (len > 0) {
+          alert("Manutenções carregadas com sucesso!");
+          this.mainList = results.rows;
+          console.log(this.mainList._array);
+          setFlatListItems(this.mainList._array);
+        } else {
+          alert("Manutenções não encontradas!");
         }
-      );
+      });
     });
-
   }, []);
 
-
   let listItemView = (item) => {
-
     return (
       <View>
-        <List 
-        text= {item.mainName}
-        onPress={() => navigation.navigate('ModalMaintenance')}
+        <List
+          text={item.mainName}
+          onPress={() => navigation.navigate("ModalMaintenance")}
         />
       </View>
     );
   };
 
-
   return (
     <ScrollView>
       <Nav onPress={() => navigation.navigate("Owners")} />
       <View style={styles.container}>
-
-  <FlatList
-            data={flatListItems}
-            renderItem={({ item }) => listItemView(item)}
-/>
+        <FlatList
+          data={flatListItems}
+          renderItem={({ item }) => listItemView(item)}
+        />
 
         <DefaultButton
           text="Adicionar manutenção"
@@ -86,4 +77,3 @@ useEffect(() => {
 };
 
 export default MyMaintenances;
-

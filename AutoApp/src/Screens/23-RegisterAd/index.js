@@ -1,25 +1,25 @@
 import { View, ScrollView } from "react-native";
-import { useNavigation, Alert } from '@react-navigation/native'
-import { useState, useEffect } from "react"
+import { useNavigation, Alert } from "@react-navigation/native";
+import { useState, useEffect } from "react";
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
 import CancelButton from "../../Components/Buttons/Cancel";
 import Nav from "../../Components/NavBar";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
-import { DatabaseConnection } from '../../Database/connection';
+import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
 
 const form = {
   adName: "",
   adDescription: "",
-  };
+};
 
 const RegisterAd = () => {
   const navigation = useNavigation();
-  const [adName, setadName] = useState("")
-  const [adDescription, setadDescription] = useState("")
-  
+  const [adName, setadName] = useState("");
+  const [adDescription, setadDescription] = useState("");
+
   useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
@@ -39,20 +39,20 @@ const RegisterAd = () => {
     });
   }, []);
 
-let registerAd = () => {
-    console.log("registerAd")
+  let registerAd = () => {
+    console.log("registerAd");
     console.log(adName, adDescription);
-    
+
     db.transaction(function (tx) {
       tx.executeSql(
-        'INSERT INTO ad_auto_app ( name , description) VALUES (?,?)',
+        "INSERT INTO ad_auto_app ( name , description) VALUES (?,?)",
         [adName, adDescription],
         (tx, results) => {
-          console.log('Results (insert_ad_auto_app): ', results.rowsAffected);
+          console.log("Results (insert_ad_auto_app): ", results.rowsAffected);
           if (results.rowsAffected > 0) {
-            alert("Anúncio Cadastrado com Sucesso !!!");
+            alert("Anúncio Cadastrado com Sucesso!!!");
             navigation.navigate("MyAdds", {});
-          } else alert('Erro ao tentar Cadastrar o Anúncio !!!');
+          } else alert("Erro ao tentar Cadastrar o Anúncio !!!");
         }
       );
     });
@@ -64,33 +64,31 @@ let registerAd = () => {
       <Nav onPress={() => navigation.navigate("MyAdds")} />
       <View style={styles.container}>
         <View>
-
-        <TextInput
-          style={styles.input}
-          label="Anuncio"
-          onChangeText={(adName) => setadName (adName)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
-        />
+          <TextInput
+            style={styles.input}
+            label="Anúncio"
+            onChangeText={(adName) => setadName(adName)}
+            mode="outlined"
+            activeOutlineColor="#182E3A"
+            outlineColor="#182E3A"
+            right={<TextInput.Icon icon="square-edit-outline" />}
+          />
         </View>
 
         <TextInput
           style={styles.input}
-          label="Descricao do Anuncio"
-          onChangeText={(adDescription) => setadDescription (adDescription)}
+          label="Descrição do Anúncio"
+          onChangeText={(adDescription) => setadDescription(adDescription)}
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
-         <DefaultButton text={"Salvar"} onPress={registerAd} />
+        <DefaultButton text={"Salvar"} onPress={registerAd} />
         <CancelButton text={"Cancelar"} />
       </View>
     </ScrollView>
   );
 };
 export default RegisterAd;
-

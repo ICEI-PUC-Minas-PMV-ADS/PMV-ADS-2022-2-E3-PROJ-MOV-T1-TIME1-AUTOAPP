@@ -1,6 +1,6 @@
 import { View, ScrollView } from "react-native";
-import { useNavigation, Alert } from '@react-navigation/native'
-import { useState, useEffect } from "react"
+import { useNavigation, Alert } from "@react-navigation/native";
+import { useState, useEffect } from "react";
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
 import CancelButton from "../../Components/Buttons/Cancel";
@@ -8,7 +8,7 @@ import Nav from "../../Components/NavBar";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
 
-import { DatabaseConnection } from '../../Database/connection';
+import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
 
 const form = {
@@ -17,15 +17,11 @@ const form = {
   servicePrice: "",
 };
 
-
-
 const AddServices = () => {
-
   const navigation = useNavigation();
-  const [serviceName, setServiceName] = useState("")
-  const [serviceDescription, setServiceDescription] = useState("")
-  const [servicePrice, setServicePrice] = useState("")
-
+  const [serviceName, setServiceName] = useState("");
+  const [serviceDescription, setServiceDescription] = useState("");
+  const [servicePrice, setServicePrice] = useState("");
 
   useEffect(() => {
     db.transaction(function (txn) {
@@ -46,29 +42,26 @@ const AddServices = () => {
     });
   }, []);
 
-
   let registerService = () => {
-    console.log("registerService")
+    console.log("registerService");
     console.log(serviceName, serviceDescription, servicePrice);
-    
+
     db.transaction(function (tx) {
       tx.executeSql(
-        'INSERT INTO service_auto_app ( name , description, price ) VALUES (?,?,?)',
+        "INSERT INTO service_auto_app ( name , description, price ) VALUES (?,?,?)",
         [serviceName, serviceDescription, servicePrice],
         (tx, results) => {
-          console.log('Results', results.rowsAffected);
-          console.log(results)
+          console.log("Results", results.rowsAffected);
+          console.log(results);
 
           if (results.rowsAffected > 0) {
-
             alert("Servico Registrado com Sucesso !!!");
             navigation.navigate("MyServices", {});
-          } else alert('Erro ao tentar Registrar o Servico !!!');
+          } else alert("Erro ao tentar Registrar o Serviço!!!");
         }
       );
     });
   };
-
 
   return (
     <ScrollView>
@@ -76,26 +69,27 @@ const AddServices = () => {
       <Nav onPress={() => navigation.navigate("MyServices")} />
       <View style={styles.container}>
         <View>
-
-        <TextInput
-          style={styles.input}
-          label="Nome do Servico"
-          onChangeText={(serviceName) => setServiceName(serviceName)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
-        />
+          <TextInput
+            style={styles.input}
+            label="Nome do Servico"
+            onChangeText={(serviceName) => setServiceName(serviceName)}
+            mode="outlined"
+            activeOutlineColor="#182E3A"
+            outlineColor="#182E3A"
+            right={<TextInput.Icon icon="square-edit-outline" />}
+          />
         </View>
 
         <TextInput
           style={styles.input}
           label="Descricao do Servico"
-          onChangeText={(serviceDescription) => setServiceDescription(serviceDescription)}
+          onChangeText={(serviceDescription) =>
+            setServiceDescription(serviceDescription)
+          }
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <TextInput
@@ -105,7 +99,7 @@ const AddServices = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <DefaultButton text={"Salvar"} onPress={registerService} />

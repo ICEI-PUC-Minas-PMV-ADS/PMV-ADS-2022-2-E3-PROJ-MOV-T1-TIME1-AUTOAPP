@@ -1,5 +1,5 @@
 import { View, ScrollView } from "react-native";
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation } from "@react-navigation/native";
 import DefaultButton from "../../Components/Buttons/Default";
 import CancelButton from "../../Components/Buttons/Cancel";
 import Nav from "../../Components/NavBar";
@@ -11,8 +11,7 @@ const DataAlteration = () => {
   return (
     <ScrollView>
       <Statusbar />
-      <Nav 
-      onPress={() => navigation.navigate("PersonalInformation")}/>
+      <Nav onPress={() => navigation.navigate("PersonalInformation")} />
       <View style={styles.container}>
         <DefaultButton text={"Salvar"} />
         <CancelButton text={"Cancelar"} />

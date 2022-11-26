@@ -42,10 +42,10 @@ const Login = () => {
         "SELECT * FROM user_auto_app WHERE email = ? and password = ?",
         [email, password],
         (tx, results) => {
-          var len = results.rows.length;
+          let len = results.rows.length;
 
           if (len > 0) {
-            alert("Usuário logado !");
+            alert("Usuário logado!");
             let currentUser = results.rows.item(0);
 
             navigation.navigate("Home", {

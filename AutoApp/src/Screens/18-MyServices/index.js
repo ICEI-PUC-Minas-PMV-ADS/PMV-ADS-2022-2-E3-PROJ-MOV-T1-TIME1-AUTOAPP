@@ -1,15 +1,14 @@
 import { ScrollView, View, FlatList } from "react-native";
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation } from "@react-navigation/native";
 import Nav from "../../Components/NavBar/index";
 import DefaultButton from "../../Components/Buttons/Default";
 import List from "../../Components/List";
 import { styles } from "./styles";
 import { useState, useEffect } from "react";
 
-
 import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
-let serviceList = []
+let serviceList = [];
 
 const MyServices = () => {
   const navigation = useNavigation();
@@ -34,53 +33,48 @@ const MyServices = () => {
     });
 
     db.transaction(function (tx) {
-      tx.executeSql(
-        "SELECT * FROM service_auto_app ",
-        [],
-        (tx, results) => {
-          let len = results.rows.length;
-          console.log('Results from SELECT * FROM service_auto_app : ', results.rows)
-          if (len > 0) {
-            alert("Servicos carregados com sucesso!");
-            this.serviceList = results.rows;
-            console.log(this.serviceList._array)
-            setFlatListItems(this.serviceList._array);
-          } else {
-            alert("Servicos não encontrados!");
-          }
+      tx.executeSql("SELECT * FROM service_auto_app ", [], (tx, results) => {
+        let len = results.rows.length;
+        console.log(
+          "Results from SELECT * FROM service_auto_app : ",
+          results.rows
+        );
+        if (len > 0) {
+          alert("Serviços carregados com sucesso!");
+          this.serviceList = results.rows;
+          console.log(this.serviceList._array);
+          setFlatListItems(this.serviceList._array);
+        } else {
+          alert("Serviços não encontrados!");
         }
-      );
+      });
     });
   }, []);
 
   let listItemView = (item) => {
-
     return (
       <View>
-        <List 
-        source={require("../../../assets/images/tools.png")}
-        text= {item.description}
-        onPress={() => navigation.navigate('ModalMaintenance')}
+        <List
+          source={require("../../../assets/images/tools.png")}
+          text={item.description}
+          onPress={() => navigation.navigate("ModalMaintenance")}
         />
-
       </View>
     );
   };
-  
 
   return (
     <ScrollView>
       <Nav onPress={() => navigation.navigate("Home")} />
-      
-      <View style={styles.container}>
 
+      <View style={styles.container}>
         <FlatList
-            data={flatListItems}
-            renderItem={({ item }) => listItemView(item)}
+          data={flatListItems}
+          renderItem={({ item }) => listItemView(item)}
         />
-        <DefaultButton 
-        text="Adicionar serviço"
-        onPress={() => navigation.navigate('AddServices')}
+        <DefaultButton
+          text="Adicionar serviço"
+          onPress={() => navigation.navigate("AddServices")}
         />
       </View>
     </ScrollView>

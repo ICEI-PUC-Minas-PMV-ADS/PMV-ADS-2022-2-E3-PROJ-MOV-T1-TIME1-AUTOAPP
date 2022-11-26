@@ -1,5 +1,5 @@
 import { ScrollView, View, FlatList } from "react-native";
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation } from "@react-navigation/native";
 import Nav from "../../Components/NavBar/index";
 import DefaultButton from "../../Components/Buttons/Default";
 import List from "../../Components/List";
@@ -8,18 +8,16 @@ import { useState, useEffect } from "react";
 import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
 
-let adList = []
-
-
+let adList = [];
 
 const MyAdds = () => {
   const navigation = useNavigation();
   let [flatListItems, setFlatListItems] = useState([]);
-  
-  console.log(" MyAdds")
+
+  console.log(" MyAdds");
 
   useEffect(() => {
-    console.log("useEffect - MyAdds")
+    console.log("useEffect - MyAdds");
 
     db.transaction(function (txn) {
       txn.executeSql(
@@ -39,51 +37,42 @@ const MyAdds = () => {
     });
 
     db.transaction(function (tx) {
-      tx.executeSql(
-        "SELECT * FROM ad_auto_app ",
-        [],
-        (tx, results) => {
-          let len = results.rows.length;
-          console.log(results.rows)
-          if (len > 0) {
-            alert("Anúncios carregados com sucesso!");
-            setFlatListItems(results.rows._array);
-          } else {
-            alert("Anúncios não encontrados!");
-          }
+      tx.executeSql("SELECT * FROM ad_auto_app ", [], (tx, results) => {
+        let len = results.rows.length;
+        console.log(results.rows);
+        if (len > 0) {
+          alert("Anúncios carregados com sucesso!");
+          setFlatListItems(results.rows._array);
+        } else {
+          alert("Anúncios não encontrados!");
         }
-      );
+      });
     });
-
   }, []);
 
-
   let listItemView = (item) => {
-
     return (
       <View>
-        <List 
-        text= {item.name}
-        onPress={() => navigation.navigate('ModalMyAds')}
+        <List
+          text={item.name}
+          onPress={() => navigation.navigate("ModalMyAds")}
         />
       </View>
     );
   };
 
-  
   return (
     <ScrollView>
       <Nav onPress={() => navigation.navigate("Garages")} />
       <View style={styles.container}>
-        
-      <FlatList
-            data={flatListItems}
-            renderItem={({ item }) => listItemView(item)}
+        <FlatList
+          data={flatListItems}
+          renderItem={({ item }) => listItemView(item)}
         />
 
-        <DefaultButton 
-        text="Adicionar anúncio"
-        onPress={() => navigation.push('RegisterAd')}
+        <DefaultButton
+          text="Adicionar anúncio"
+          onPress={() => navigation.push("RegisterAd")}
         />
       </View>
     </ScrollView>

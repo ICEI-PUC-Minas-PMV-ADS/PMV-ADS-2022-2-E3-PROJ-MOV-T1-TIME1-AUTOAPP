@@ -1,35 +1,34 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import {
   View,
   ScrollView,
   Image,
   Text,
-  StyleSheet,Dimensions,
+  StyleSheet,
+  Dimensions,
 } from "react-native";
-import MapView, {Marker} from 'react-native-maps';
-import Statusbar from '../../Components/StatusBar';
-import Nav from "../../Components/NavBar"
+import { useNavigation } from "@react-navigation/native";
+import MapView, { Marker } from "react-native-maps";
+import Statusbar from "../../Components/StatusBar";
+import Nav from "../../Components/NavBar";
 import { styles } from "./style";
-
-
 
 const Maps = () => {
   const navigation = useNavigation();
 
-  let[regiao, setRegiao] = useState({
-    latitude:-19.922877,
-    longitude:-43.945375,
-    latitudeDelta:0.014,
-    longitudeDelta: 0.014}
-    );
+  let [regiao, setRegiao] = useState({
+    latitude: -19.922877,
+    longitude: -43.945375,
+    latitudeDelta: 0.014,
+    longitudeDelta: 0.014,
+  });
 
   return (
-    <ScrollView >
+    <ScrollView>
       <Statusbar />
-      <Nav/>
-      <View style={styles.container}>       
-        <MapView 
-
+      <Nav />
+      <View style={styles.container}>
+        <MapView
           style={styles.map}
           initialRegion={regiao}
           rotateEnabled={false}
@@ -37,57 +36,57 @@ const Maps = () => {
           zoomEnabled={false}
           showsPointsOfInterest={false}
           showsBuildings={false}
+        >
+          <Marker
+            coordinate={{
+              latitude: -19.924888,
+              longitude: -43.947814,
+            }}
           >
-            <Marker
-              coordinate={{
-                latitude:-19.924888,
-                longitude:-43.947814,
-              }}
-            >
-              <View style={styles.marcadorContainer}>
-                <Image
-                  source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU'}}
-                  style={styles.mapMarkerImage}
-                />
-                <Text>Check-Up Car</Text>
-              </View>
+            <View style={styles.marcadorContainer}>
+              <Image
+                source={{
+                  uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU",
+                }}
+                style={styles.mapMarkerImage}
+              />
+              <Text>Check-Up Car</Text>
+            </View>
+          </Marker>
+          <Marker
+            coordinate={{
+              latitude: -19.918101,
+              longitude: -43.94714,
+            }}
+          >
+            <View style={styles.marcadorContainer}>
+              <Image
+                source={{
+                  uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU",
+                }}
+                style={styles.mapMarkerImage}
+              />
+              <Text>Oficina</Text>
+            </View>
+          </Marker>
 
-            </Marker>
-             <Marker
-              coordinate={{
-                latitude:-19.918101,
-                longitude:-43.947140,
-              }}
-            >
-              <View style={styles.marcadorContainer}>
-                <Image
-                  source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU'}}
-                  style={styles.mapMarkerImage}
-                />
-                <Text>Oficina</Text>
-              </View>
-
-            </Marker>
-
-            <Marker
-              coordinate={{
-                latitude:-19.920186,
-                longitude:-43.951018,
-              }}
-            >
-              <View style={styles.marcadorContainer}>
-                <Image
-                  source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU'}}
-                  style={styles.mapMarkerImage}
-                />
-                <Text>Volminas</Text>
-              </View>
-
-            </Marker>
-          </MapView>
-          
-          
-      
+          <Marker
+            coordinate={{
+              latitude: -19.920186,
+              longitude: -43.951018,
+            }}
+          >
+            <View style={styles.marcadorContainer}>
+              <Image
+                source={{
+                  uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakNDEJW9Cm128-V9IkW4lqm5gdrgX1HiKDd0xfRpAfSJwoMy5-ZoANAhQreKPDywqhGw&usqp=CAU",
+                }}
+                style={styles.mapMarkerImage}
+              />
+              <Text>Volminas</Text>
+            </View>
+          </Marker>
+        </MapView>
       </View>
     </ScrollView>
   );
@@ -95,7 +94,7 @@ const Maps = () => {
 
 export default Maps;
 
-          /*<ScrollView style={styles.placesContainer} horizontal>
+/*<ScrollView style={styles.placesContainer} horizontal>
               <View style={styles.places} >
 
               </View>

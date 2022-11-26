@@ -1,5 +1,5 @@
 import { ScrollView, View, FlatList } from "react-native";
-import { useNavigation, Alert } from '@react-navigation/native'
+import { useNavigation, Alert } from "@react-navigation/native";
 import Nav from "../../Components/NavBar/index";
 import DefaultButton from "../../Components/Buttons/Default";
 import { useState, useEffect } from "react";
@@ -7,7 +7,7 @@ import List from "../../Components/List";
 import { styles } from "./styles";
 import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
-let carList = []
+let carList = [];
 
 const MyVehicles = () => {
   const navigation = useNavigation();
@@ -32,57 +32,47 @@ const MyVehicles = () => {
     });
 
     db.transaction(function (tx) {
-      tx.executeSql(
-        "SELECT * FROM car_auto_app ",
-        [],
-        (tx, results) => {
-          let len = results.rows.length;
-          if (len > 0) {
-            alert("Carros carregados com sucesso!");
-            this.carList = results.rows;
-            console.log(this.carList._array)
-            setFlatListItems(this.carList._array);
-          } else {
-            alert("Carros não encontrados!");
-          }
+      tx.executeSql("SELECT * FROM car_auto_app ", [], (tx, results) => {
+        let len = results.rows.length;
+        if (len > 0) {
+          alert("Carros carregados com sucesso!");
+          this.carList = results.rows;
+          console.log(this.carList._array);
+          setFlatListItems(this.carList._array);
+        } else {
+          alert("Carros não encontrados!");
         }
-      );
+      });
     });
-
   }, []);
 
-
   let listItemView = (item) => {
-
     return (
       <View>
-        <List 
-        text= {item.model}
-        onPress={() => navigation.navigate('ModalMaintenance')}
+        <List
+          text={item.model}
+          onPress={() => navigation.navigate("ModalMaintenance")}
         />
       </View>
     );
   };
-  
 
   return (
     <ScrollView>
       <Nav onPress={() => navigation.navigate("Home")} />
-      
-      <View style={styles.container}>
 
+      <View style={styles.container}>
         <FlatList
-            data={flatListItems}
-            renderItem={({ item }) => listItemView(item)}
+          data={flatListItems}
+          renderItem={({ item }) => listItemView(item)}
         />
-        <DefaultButton 
-        text={"Adicionar veículo"} 
-        onPress={() => navigation.push('AddAutos')}
+        <DefaultButton
+          text={"Adicionar veículo"}
+          onPress={() => navigation.push("AddAutos")}
         />
       </View>
     </ScrollView>
   );
-
 };
 
 export default MyVehicles;

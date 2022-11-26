@@ -25,13 +25,15 @@ const ChooseProfile = () => {
           />
         </View>
 
-        
+        <Text
+          onPress={() => navigation.navigate("Login")}
+          style={styles.registerText}
+        >
+          {" "}
+          Já tem cadastro?{" "}
+        </Text>
+        <TouchableOpacity style={styles.textArea}>
           <Text
-            onPress={() => navigation.navigate("Login")}
-            style={styles.registerText}
-          > Já tem cadastro? </Text>
-          <TouchableOpacity style={styles.textArea}>
-            <Text
             style={styles.textoalt}
             onPress={() => navigation.navigate("Login")}
           >

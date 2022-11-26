@@ -1,6 +1,6 @@
 import { View, ScrollView } from "react-native";
-import { useNavigation, Alert } from '@react-navigation/native'
-import { useState, useEffect } from "react"
+import { useNavigation, Alert } from "@react-navigation/native";
+import { useState, useEffect } from "react";
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
 import CancelButton from "../../Components/Buttons/Cancel";
@@ -8,22 +8,21 @@ import Nav from "../../Components/NavBar";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./styles";
 import { DatabaseConnection } from "../../Database/connection";
-const db = DatabaseConnection.getConnection(); 
+const db = DatabaseConnection.getConnection();
 
 const form = {
- mainName: "",
- mainDescription: "",
- mainDate: "",
-
+  mainName: "",
+  mainDescription: "",
+  mainDate: "",
 };
 
 const AddMaintenance = () => {
   const navigation = useNavigation();
-  const [mainName, setmainName] = useState("")
-  const [mainDescription, setmainDescription] = useState("")
-  const [mainDate, setmainDate] = useState("")
+  const [mainName, setmainName] = useState("");
+  const [mainDescription, setmainDescription] = useState("");
+  const [mainDate, setmainDate] = useState("");
 
-useEffect(() => {
+  useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
         "SELECT name FROM sqlite_master WHERE type='table' AND name='maintence_auto_app'",
@@ -42,30 +41,26 @@ useEffect(() => {
     });
   }, []);
 
-
   let registerMain = () => {
-    console.log("registerMain")
-    console.log("registerMain:", mainName, mainDescription, mainDate)
+    console.log("registerMain");
+    console.log("registerMain:", mainName, mainDescription, mainDate);
 
     db.transaction(function (tx) {
       tx.executeSql(
-        'INSERT INTO maintence_auto_app ( mainName, mainDescription, mainDate) VALUES (?,?,?)',
+        "INSERT INTO maintence_auto_app ( mainName, mainDescription, mainDate) VALUES (?,?,?)",
         [mainName, mainDescription, mainDate],
         (tx, results) => {
-          console.log('Results', results.rowsAffected);
-          console.log(results)
+          console.log("Results", results.rowsAffected);
+          console.log(results);
 
           if (results.rowsAffected > 0) {
-
             alert("Manutenção Registrada com Sucesso !!!");
             navigation.navigate("MyMaintenances", {});
-          } else alert('Erro ao tentar Registrar a Manutenção !!!');
+          } else alert("Erro ao tentar Registrar a Manutenção!!!");
         }
       );
     });
   };
-
-
 
   return (
     <ScrollView>
@@ -73,25 +68,27 @@ useEffect(() => {
       <Nav onPress={() => navigation.navigate("Owners")} />
       <View style={styles.container}>
         <View>
-        <TextInput
-                   style={styles.input}
-          label="Manutenção"
-          onChangeText={(mainName) => setmainName(mainName)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
-        />
+          <TextInput
+            style={styles.input}
+            label="Manutenção"
+            onChangeText={(mainName) => setmainName(mainName)}
+            mode="outlined"
+            activeOutlineColor="#182E3A"
+            outlineColor="#182E3A"
+            right={<TextInput.Icon icon="square-edit-outline" />}
+          />
         </View>
 
         <TextInput
           style={styles.input}
           label="Tipo de manutenção"
-          onChangeText={(mainDescription) => setmainDescription(mainDescription)}
+          onChangeText={(mainDescription) =>
+            setmainDescription(mainDescription)
+          }
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <TextInput
@@ -101,7 +98,7 @@ useEffect(() => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <DefaultButton text={"Salvar"} onPress={registerMain} />

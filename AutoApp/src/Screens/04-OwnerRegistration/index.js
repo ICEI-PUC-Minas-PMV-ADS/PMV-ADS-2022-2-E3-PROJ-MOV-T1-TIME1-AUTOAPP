@@ -1,13 +1,13 @@
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation } from "@react-navigation/native";
 import { useState, useEffect } from "react";
-import { View, ScrollView, Alert} from "react-native";
+import { View, ScrollView, Alert } from "react-native";
 import { TextInput } from "react-native-paper";
 import Nav from "../../Components/NavBar";
 import DefaultButton from "../../Components/Buttons/Default";
 import Statusbar from "../../Components/StatusBar";
 import { styles } from "./style";
 
-import { DatabaseConnection } from '../../Database/connection';
+import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
 
 const form = {
@@ -22,18 +22,17 @@ const form = {
 const OwnerRegistration = () => {
   const navigation = useNavigation();
 
-  // Mover dps a criacao para o componente principal
   useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
         "SELECT name FROM sqlite_master WHERE type='table' AND name='user_auto_app'",
         [],
         function (tx, res) {
-          console.log('item:', res.rows.length);
+          console.log("item:", res.rows.length);
           if (res.rows.length == 0) {
-            txn.executeSql('DROP TABLE IF EXISTS user_auto_app', []);
+            txn.executeSql("DROP TABLE IF EXISTS user_auto_app", []);
             txn.executeSql(
-              'CREATE TABLE IF NOT EXISTS user_auto_app(user_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), email VARCHAR(255), cell VARCHAR(255), document VARCHAR(255), password VARCHAR(255), confirmed_password VARCHAR(255), type  VARCHAR(255))',
+              "CREATE TABLE IF NOT EXISTS user_auto_app(user_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), email VARCHAR(255), cell VARCHAR(255), document VARCHAR(255), password VARCHAR(255), confirmed_password VARCHAR(255), type  VARCHAR(255))",
               []
             );
           }
@@ -53,50 +52,50 @@ const OwnerRegistration = () => {
     console.log(name, email, cell, document, password, confirmedPassword);
 
     if (!name) {
-      alert('Por favor preencha o nome !');
+      alert("Por favor, preencha o nome!");
       return;
     }
     if (!email) {
-      alert('Por favor preencha o contato');
+      alert("Por favor, preencha o e-mail oara contato!");
       return;
     }
 
     if (!document) {
-      alert('Por favor preencha o documento');
+      alert("Por favor, preencha o documento!");
       return;
     }
-    
+
     if (!password) {
-      alert('Por favor preencha a senha !');
+      alert("Por favor, preencha a senha!");
       return;
     }
 
     if (!confirmedPassword) {
-      alert('Por favor preencha a confirmacao da senha !');
+      alert("Por favor, preencha a confirmação da senha!");
       return;
     }
 
     db.transaction(function (tx) {
       tx.executeSql(
-        'INSERT INTO user_auto_app ( name , email , cell , document , password , confirmed_password) VALUES (?,?,?,?,?,?)',
+        "INSERT INTO user_auto_app ( name , email , cell , document , password , confirmed_password) VALUES (?,?,?,?,?,?)",
         [name, email, cell, document, password, confirmedPassword],
         (tx, results) => {
-          console.log('Results', results.rowsAffected);
-          console.log(results)
+          console.log("Results", results.rowsAffected);
+          console.log(results);
 
           if (results.rowsAffected > 0) {
             Alert.alert(
-              'Sucesso',
-              'Usuário Registrado com Sucesso !!!',
+              "Sucesso",
+              "Usuário Registrado com Sucesso!!!",
               [
                 {
-                  text: 'Ok',
-                  onPress: () => navigation.navigate('Login'),
+                  text: "Ok",
+                  onPress: () => navigation.navigate("Login"),
                 },
               ],
               { cancelable: false }
             );
-          } else alert('Erro ao tentar Registrar o Usuário !!!');
+          } else alert("Erro ao tentar Registrar o Usuário!!!");
         }
       );
     });
@@ -175,7 +174,7 @@ const OwnerRegistration = () => {
           outlineColor="#182E3A"
         />
 
-        <DefaultButton text={"Cadastrar"}  onPress={registerOwner} />
+        <DefaultButton text={"Cadastrar"} onPress={registerOwner} />
       </View>
     </ScrollView>
   );

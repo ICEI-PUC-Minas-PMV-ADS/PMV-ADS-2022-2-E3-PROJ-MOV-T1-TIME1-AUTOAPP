@@ -8,7 +8,7 @@ import CancelButton from "../../Components/Buttons/Cancel";
 import Nav from "../../Components/NavBar";
 import { styles } from "./style";
 
-import { DatabaseConnection } from '../../Database/connection';
+import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
 
 const currentUser = {
@@ -19,22 +19,19 @@ const currentUser = {
 };
 
 const PersonalInformation = ({ route }) => {
-  
-  try{
-    let current = route.params.currentUser
-    console.log("router: ", current)
+  try {
+    let current = route.params.currentUser;
+    console.log("router: ", current);
 
-    currentUser.userId = current.userId
-    currentUser.name = current.name
-    currentUser.email = current.email
-    currentUser.document = current.document
-    currentUser.cell = current.cell
-    console.log("PersonalInformation: ", currentUser)
-  }catch(err){
-    console.log(err)
+    currentUser.userId = current.userId;
+    currentUser.name = current.name;
+    currentUser.email = current.email;
+    currentUser.document = current.document;
+    currentUser.cell = current.cell;
+    console.log("PersonalInformation: ", currentUser);
+  } catch (err) {
+    console.log(err);
   }
-
-
 
   const navigation = useNavigation();
   const [name, setName] = useState(currentUser.name);
@@ -43,24 +40,22 @@ const PersonalInformation = ({ route }) => {
   const [document, setDocument] = useState(currentUser.document);
   const [id, setUserId] = useState(currentUser.userId);
 
-
   let updateUser = () => {
     console.log(name, email, cell, document, id);
 
     db.transaction((tx) => {
       tx.executeSql(
-        'UPDATE user_auto_app set name=?, email=? , cell=?, document=?  WHERE user_id=?',
+        "UPDATE user_auto_app set name=?, email=? , cell=?, document=?  WHERE user_id=?",
         [name, email, cell, document, id],
         (tx, results) => {
           let len = results.rowsAffected;
 
           if (len > 0) {
-            alert('Usuário Atualizado !');
-            navigation.navigate('Login')
-          } else{
-            alert('Erro ao atualizar o usuário');
+            alert("Usuário Atualizado!");
+            navigation.navigate("Login");
+          } else {
+            alert("Erro ao atualizar o usuário");
           }
-
         }
       );
     });
@@ -69,19 +64,19 @@ const PersonalInformation = ({ route }) => {
   let deleteUser = () => {
     db.transaction((tx) => {
       tx.executeSql(
-        'DELETE FROM user_auto_app where user_id=?',
+        "DELETE FROM user_auto_app where user_id=?",
         [id],
         (tx, results) => {
           let len = results.rowsAffected;
           if (len > 0) {
-            alert('Usuário Apagado !');
-            navigation.navigate('Login')
-          } else alert('Erro ao apagar o usuário');
+            alert("Usuário Apagado!");
+            navigation.navigate("Login");
+          } else alert("Erro ao apagar o usuário");
         }
       );
     });
   };
-  
+
   return (
     <ScrollView>
       <Statusbar />
@@ -134,18 +129,11 @@ const PersonalInformation = ({ route }) => {
           right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
-        <DefaultButton
-          text={"Alterar dados"}
-          onPress={updateUser}
-        />
+        <DefaultButton text={"Alterar dados"} onPress={updateUser} />
 
-        <DefaultButton
-          text={"Deletar a conta"}
-          onPress={deleteUser}
-        />
+        <DefaultButton text={"Deletar a conta"} onPress={deleteUser} />
 
         <CancelButton text={"Sair da conta"} />
-
       </View>
     </ScrollView>
   );

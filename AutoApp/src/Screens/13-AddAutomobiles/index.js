@@ -1,6 +1,6 @@
 import { View, ScrollView } from "react-native";
-import { useNavigation } from '@react-navigation/native'
-import { useState, useEffect } from "react"
+import { useNavigation } from "@react-navigation/native";
+import { useState, useEffect } from "react";
 import { TextInput } from "react-native-paper";
 import DefaultButton from "../../Components/Buttons/Default";
 import CancelButton from "../../Components/Buttons/Cancel";
@@ -17,13 +17,12 @@ const form = {
 };
 
 const AddAutos = () => {
-
   const navigation = useNavigation();
-  const [licencePlate, setLicencePlate] = useState("")
-  const [brand, setBrand] = useState("")
-  const [model, setModel] = useState("")
-  const [version, setVersion] = useState("")
-  const [year, setYear] = useState("")
+  const [licencePlate, setLicencePlate] = useState("");
+  const [brand, setBrand] = useState("");
+  const [model, setModel] = useState("");
+  const [version, setVersion] = useState("");
+  const [year, setYear] = useState("");
 
   useEffect(() => {
     db.transaction(function (txn) {
@@ -44,46 +43,41 @@ const AddAutos = () => {
     });
   }, []);
 
-
   let registerAuto = () => {
-    console.log("registerAuto")
+    console.log("registerAuto");
     db.transaction(function (tx) {
       tx.executeSql(
-        'INSERT INTO car_auto_app ( licencePlate , brand, model, version, year ) VALUES (?,?,?,?,?)',
-        [licencePlate , brand, model, version, year],
+        "INSERT INTO car_auto_app ( licencePlate , brand, model, version, year ) VALUES (?,?,?,?,?)",
+        [licencePlate, brand, model, version, year],
         (tx, results) => {
-          console.log('Results', results.rowsAffected);
-          console.log(results)
+          console.log("Results", results.rowsAffected);
+          console.log(results);
 
           if (results.rowsAffected > 0) {
-
             alert("Carro Registrado com Sucesso !!!");
             navigation.navigate("MyVehicles", {});
-          } else alert('Erro ao tentar Registrar o Carro !!!');
+          } else alert("Erro ao tentar Registrar o Carro!!!");
         }
       );
     });
   };
 
-
-
-  
   return (
     <ScrollView>
       <Statusbar />
       <Nav onPress={() => navigation.navigate("Owners")} />
       <View style={styles.container}>
         <View>
-        <TextInput
-          style={styles.input}
-          label="Placa"
-          placeholder="BRA2E13"
-          onChangeText={(licencePlate) => setLicencePlate(licencePlate)}
-          mode="outlined"
-          activeOutlineColor="#182E3A"
-          outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
-        />
+          <TextInput
+            style={styles.input}
+            label="Placa"
+            placeholder="BRA2E13"
+            onChangeText={(licencePlate) => setLicencePlate(licencePlate)}
+            mode="outlined"
+            activeOutlineColor="#182E3A"
+            outlineColor="#182E3A"
+            right={<TextInput.Icon icon="square-edit-outline" />}
+          />
         </View>
 
         <TextInput
@@ -94,7 +88,7 @@ const AddAutos = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <TextInput
@@ -105,7 +99,7 @@ const AddAutos = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <TextInput
@@ -116,7 +110,7 @@ const AddAutos = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <TextInput
@@ -127,7 +121,7 @@ const AddAutos = () => {
           mode="outlined"
           activeOutlineColor="#182E3A"
           outlineColor="#182E3A"
-          right={<TextInput.Icon icon="square-edit-outline" />}  
+          right={<TextInput.Icon icon="square-edit-outline" />}
         />
 
         <DefaultButton text={"Salvar"} onPress={registerAuto} />
