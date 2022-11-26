@@ -31,9 +31,13 @@ A imagem a seguir ilustra o wireframe com imagens das telas reais das seis prime
 
 ## Telas da Aplicação
 
-Na imagem a seguir, apresentamos as seis primeiras telas da aplicação. O arquivo será atualizado conforme desenvolvimento das demais telas.
+Na imagem a seguir, apresentamos as telas da aplicação.
 
 ![Telas](img/Telas1-6.png)
+![Telas2](img/Telas7a9.png)
+![Telas3](img/Telas10a16.png)
+![Telas4](img/Telas17a23.png)
+
 
 # Dashboard com Indicadores de Desempenho e Metas
 
