@@ -7,21 +7,20 @@ O objetivo deste relatório é indicar se a aplicação AutoApp atende aos requi
 | 1 	| Cadastrar perfil 	|
 |:---:	|:---:	|
 |	Requisito	| RF-001 - O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail. |
-| Observação | Na página inicial, a aplicação apresenta a funcionalidade de cadastro, este pode ser realizado ao clicar em "Registre-se" e o usuário é direcionado para uma tela para que possa escolher seu tipo de perfil. Após, há o preenchimento de informações cadastrais (e-mail, nome, CPF, por exemplo). No vídeo, apresentamos a tela pronta com a integração com o banco de dados. |
+| Observação | A aplicação apresenta a funcionalidade de cadastro, que pode ser realizado ao clicar em "Registre-se" e o usuário é direcionado para uma tela para que possa escolher seu tipo de perfil. Em seguida, há o preenchimento de informações cadastrais (e-mail, nome, CPF, por exemplo). No vídeo, apresentamos a tela pronta com a integração com o banco de dados. |
 | Tela |  <img src=img/cadastro.jpg width=20%/>|
 | Vídeo | <video src="https://user-images.githubusercontent.com/81396458/204150803-3bc0b695-b74b-49d9-a477-ccfd4ec49188.mp4">  |
 |  	|  	|
 | 2 | Efetuar login	|
 | Requisito | RF-001	- O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail. |
-| Observação | Também na página inicial, a aplicação apresenta a funcionalidade de login. Após, há o preenchimento dos campos de e-mail e de senha, o usuário é redirecionado para a tela de menu com os serviços da aplicação. No vídeo, apresentamos a tela pronta com a integração com o banco de dados. |
+| Observação | A aplicação apresenta a funcionalidade de Login. Após o preenchimento dos campos de e-mail e de senha, o usuário é redirecionado para a tela de menu com os serviços da aplicação. No vídeo, apresentamos a tela pronta com a integração com o banco de dados. |
 | Tela | <img src=img/selecaoperfil.png width=20%/> |
 | Vídeo | <video src="https://user-images.githubusercontent.com/81396458/204150967-96cc1fac-f3b0-4559-abba-0f8fba1d2df4.mp4">  |
 |  	|  	|
 | 3 | Verificar a funcionalidade de adicionar veículos no aplicativo |
 |Requisito | RF-004 - O sistema deverá permitir a adição de veículos (ano, modelo, placa, etc.), permitindo a exibição de seus dados básicos. |
-| Observação | A aplicação possui um menu com as opções de criar um perfil para seu veículo e outras, como "Buscar serviços". A tela está pronta, com os botões e com a nevegação realizada por meio do react navigation. |
-| Tela | <img src=img/login.jpg width=20%/> |
-| Vídeo | <video src="">  |
+| Observação | Após realizar login e clicar em "Cadastro de Automóveis", o usuário deve preencher os dados do carro para que este seja registrado em nosso sistema, conforme demonstramos no vídeo a seguir.  |
+| Vídeo | <video src="https://user-images.githubusercontent.com/81396458/204151680-9619e1cd-72c0-4ad2-9fed-074bcf596d3f.mp4">  |
 |  	|  	|
 | 4 |  Verificar os lembretes para os usuários |
 |Requisito | RF-008 - O sistema deve emitir lembretes para os usuários.|
