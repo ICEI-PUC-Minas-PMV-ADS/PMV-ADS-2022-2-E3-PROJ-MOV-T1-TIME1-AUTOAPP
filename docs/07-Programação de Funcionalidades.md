@@ -26,7 +26,7 @@ Foi responsável por implementar, na etapa 3, as telas de Login, Meus Veículos,
 <img src=img/anuncio.png width=20%/> <img src=img/servico.png width=20%/> <br>
 Vídeo (Renata): https://youtu.be/Oco76wfoFLg
 
-Vídeo etapa 4 (Renata)
+Vídeo etapa 4 (Renata): https://youtu.be/RBaDQwXapv4
 
 **Kelly Cesário de Oliveira**
 
