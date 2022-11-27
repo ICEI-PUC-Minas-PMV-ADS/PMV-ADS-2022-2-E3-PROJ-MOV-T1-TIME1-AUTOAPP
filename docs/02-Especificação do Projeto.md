@@ -111,10 +111,10 @@ Nesse sentido a ordem de importância das tarefas vai seguindo uma ordem decresc
 | RF-001 | O sistema deverá permitir a criação de um perfil de usuário para o responsável do veículo associado ao seu e-mail. | ALTA | 
 | RF-002 | O sistema deverá permitir a alteração e a exclusão dos dados de usuários, nesse caso, excluindo também qualquer veículo vinculado a ele.   | ALTA | 
 | RF-003 | O sistema deverá permitir a inserção, a alteração e a exclusão dos dados de prestadores de serviços afiliados.   | ALTA | 
-| RF-004 | O sistema deverá permitir a criação de um perfil para o veículo (ano, modelo, cor...), permitindo a exibição de seus dados básicos.   | ALTA |
+| RF-004 | O sistema deverá permitir a adição de veículos (ano, modelo, placa, etc.), permitindo a exibição de seus dados básicos.   | ALTA |
 | RF-005 | O sistema deverá armazenar os dados de revisões e de manutenções efetuadas no veículo. | ALTA |
-| RF-006 | O sistema deverá gerar relatórios sobre os dados preenchidos pelos usuários. | ALTA |
-| RF-007 | O sistema deverá permitir a edição e exclusão dos dados do veículo.   | MÉDIA |
+| RF-006 | O sistema deverá gerar relatórios sobre os dados preenchidos pelos usuários. | MÉDIA |
+| RF-007 | O sistema deverá permitir a edição e a exclusão dos dados do veículo.   | MÉDIA |
 | RF-008 | O sistema deve emitir lembretes para os usuários. | MÉDIA |
 | RF-009 | O sistema deverá permitir a busca de oficinas conveniadas próximas a sua localidade. | BAIXA |
 
