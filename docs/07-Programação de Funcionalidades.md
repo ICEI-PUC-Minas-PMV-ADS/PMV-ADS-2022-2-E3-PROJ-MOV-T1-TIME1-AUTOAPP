@@ -24,39 +24,37 @@ Foi responsável por implementar, na etapa 3, as telas de Login, Meus Veículos,
 
 <img src=img/login.png width=20%/> <img src=img/Veiculo.png width=20%/> <img src=img/Manutencao.png width=20%/>
 <img src=img/anuncio.png width=20%/> <img src=img/servico.png width=20%/> <br>
-Vídeo (Renata): https://youtu.be/Oco76wfoFLg
 
-Vídeo etapa 4 (Renata): https://youtu.be/RBaDQwXapv4
+- Vídeo explicativo sobre a entrega 3 (Renata): https://youtu.be/Oco76wfoFLg
+- Vídeo explicativo sobre a entrega 4 (Renata): https://youtu.be/RBaDQwXapv4
 
 **Kelly Cesário de Oliveira**
 
 Foi responsável por implementar as telas Homescreen (página inicial), ChangeData (alteração de dados pessoais), AddAutomobiles (cadastrar automóveis), MaintenancesDone (cadastrar manutenções realizadas), RegisterService (cadastrar serviço realizado) e RegisterAd (cadastrar anúncio). Também foi responsável pelo desenvolvimento das rotas da aplicação e de alguns componentes, como o carousel, os botões e o navbar.
 
 > - Homescreen: o usuário encontra um carrossel e quatro botões para interagir (meu perfil, buscar serviços, para proprietários e para mecânicos)
-> - ChangeData: o usuário pode alterar seus dados - a tela está em processo de 'mescla' com a tela PersonalInformation, para diminuir o fluxo de cliques.
-> - AddAutomobiles: o usuário realiza o cadastro de seus carros. A interface está feita, mas ainda não há integração completa com o banco de dados.
-> - MaintenancesDone: o usuário realiza o cadastro de suas manutenções realizadas. A interface está feita, mas ainda não há integração completa com o banco de dados.
-> - Register Service: o usuário/mecânico realiza o cadastro de serviços prestados. A interface está feita, mas ainda não há integração completa com o banco de dados.
-> - RegisterAd: o usuário/mecânico realiza o cadastro de anúncios de seus serviços. A interface está 50% feita, mas ainda não há integração completa com o banco de dados.
+> - ChangeData: o usuário pode alterar seus dados - a tela foi mesclada em PersonalInformation, para diminuir o fluxo de cliques.
+> - AddAutomobiles: o usuário realiza o cadastro de seus carros.
+> - MaintenancesDone: o usuário realiza o cadastro de suas manutenções realizadas. 
+> - Register Service: o usuário/mecânico realiza o cadastro de serviços prestados. 
+> - RegisterAd: o usuário/mecânico realiza o cadastro de anúncios de seus serviços.
 
-Vídeo ilustrando as telas desenvolvidas e a navegação funcionando: 
+ - Vídeo ilustrando as telas desenvolvidas e a navegação funcionando: 
 https://user-images.githubusercontent.com/81396458/198849874-0561e1a9-f3ac-49c0-85ec-a302d0b9fb62.mp4
-
-Vídeo (Kelly): https://www.youtube.com/watch?v=rMqXpYxdWtA&ab_channel=KellyCes%C3%A1riodeOliveira
-
-Vídeo 4 Etapa (Kelly): https://youtu.be/ncl2uGM_lV0
+- Vídeo explicativo sobre a entrega 3 (Kelly): https://www.youtube.com/watch?v=rMqXpYxdWtA&ab_channel=KellyCes%C3%A1riodeOliveira
+- Vídeo explicativo sobre a entrega 4 (Kelly): https://youtu.be/ncl2uGM_lV0
 
 **Pedro Daniel Jardim**
 
 - Fui responsável por implementar na etapa 3 o crud da tela de login, cadastro e edicao do usuário e também pelo Carrosel de carros e manutenções. 
 - Fui responsável por implementar na etapa 4 o crud da tela de manuntencao, servicos e cadastro de carros.
 
-- Vídeo explicativo sobre a entrega 3: https://youtu.be/XITN36u-qhw
-- Video explicativo sobre a entrega 4: https://youtu.be/_AT62EUJQZk
+- Vídeo explicativo sobre a entrega 3 (Pedro): https://youtu.be/XITN36u-qhw
+- Video explicativo sobre a entrega 4 (Pedro): https://youtu.be/_AT62EUJQZk
 
 **Cristiano Ridolfi**
 
-Vídeo (Cristiano): https://www.youtube.com/watch?v=-p5x0wrVo3Y 
+- Vídeo explicativo sobre a entrega 3 (Cristiano): https://www.youtube.com/watch?v=-p5x0wrVo3Y 
 
 **Michelle Leal Rodrigues** 
 
@@ -68,5 +66,4 @@ Responsável por implementar as telas ChooseProfile (escolha seu perfil), Person
 > -	ModalMyServices: o usuário vê com detalhes os dados dos serviços realizados em seu veículo. Interface pronta, e integração com banco de dados em desenvolvimento.
 > -	ModalMyAds: o mecânico visualiza os detalhes referentes ao anúncio postado, e seu alcance desde a data de publicação. Interface pronta, e integração com banco de dados em desenvolvimento.
 
-Vídeo (Michelle): https://youtu.be/7i-FB8eXjZk
-
+- Vídeo explicativo sobre a entrega 3 (Michelle): https://youtu.be/7i-FB8eXjZk
