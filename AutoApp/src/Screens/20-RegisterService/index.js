@@ -71,7 +71,7 @@ const AddServices = () => {
         <View>
           <TextInput
             style={styles.input}
-            label="Nome do Servico"
+            label="Nome do Serviço"
             onChangeText={(serviceName) => setServiceName(serviceName)}
             mode="outlined"
             activeOutlineColor="#182E3A"
@@ -82,7 +82,7 @@ const AddServices = () => {
 
         <TextInput
           style={styles.input}
-          label="Descricao do Servico"
+          label="Descrição do Serviço"
           onChangeText={(serviceDescription) =>
             setServiceDescription(serviceDescription)
           }
@@ -94,7 +94,7 @@ const AddServices = () => {
 
         <TextInput
           style={styles.input}
-          label="Valor dos Servico"
+          label="Valor dos Serviço"
           onChangeText={(servicePrice) => setServicePrice(servicePrice)}
           mode="outlined"
           activeOutlineColor="#182E3A"
