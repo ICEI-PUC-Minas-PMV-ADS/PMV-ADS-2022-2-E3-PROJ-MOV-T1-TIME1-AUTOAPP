@@ -66,4 +66,5 @@ Responsável por implementar as telas ChooseProfile (escolha seu perfil), Person
 > -	ModalMyServices: o usuário vê com detalhes os dados dos serviços realizados em seu veículo. Interface pronta, e integração com banco de dados em desenvolvimento.
 > -	ModalMyAds: o mecânico visualiza os detalhes referentes ao anúncio postado, e seu alcance desde a data de publicação. Interface pronta, e integração com banco de dados em desenvolvimento.
 
-- Vídeo explicativo sobre a entrega 3 (Michelle): https://youtu.be/7i-FB8eXjZk
+- Vídeo explicativo sobre a entrega 3 (Michelle): https://youtu.be/JXwfETgcTYo
+- Vídeo explicativo sobre a entrega 4 (Michelle): https://youtu.be/3tdSsGIDfi4
