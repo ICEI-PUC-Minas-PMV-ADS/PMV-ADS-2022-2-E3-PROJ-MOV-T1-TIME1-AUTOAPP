@@ -44,6 +44,8 @@ https://user-images.githubusercontent.com/81396458/198849874-0561e1a9-f3ac-49c0-
 
 Vídeo (Kelly): https://www.youtube.com/watch?v=rMqXpYxdWtA&ab_channel=KellyCes%C3%A1riodeOliveira
 
+Vídeo 4 Etapa (Kelly): https://youtu.be/ncl2uGM_lV0
+
 **Pedro Daniel Jardim**
 
 - Fui responsável por implementar na etapa 3 o crud da tela de login, cadastro e edicao do usuário e também pelo Carrosel de carros e manutenções. 
