@@ -55,6 +55,7 @@ https://user-images.githubusercontent.com/81396458/198849874-0561e1a9-f3ac-49c0-
 **Cristiano Ridolfi**
 
 - Vídeo explicativo sobre a entrega 3 (Cristiano): https://www.youtube.com/watch?v=-p5x0wrVo3Y 
+- Vídeo explicativo sobre a entrega 4 (Cristiano): https://youtu.be/n2RHwpt9mIo
 
 **Michelle Leal Rodrigues** 
 
