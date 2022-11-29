@@ -38,4 +38,4 @@ Portanto, ter um local de fácil acesso dessas informações é indispensável p
 
 ## Público-Alvo
 
-O público-alvo da aplicação são pessoas que possuem algum veículo e gostariam de ser notificadas quanto às revisões pelo celular, assim como manter um histórico organizado desses dados.
+O público-alvo da aplicação são pessoas que possuem algum veículo e gostariam de manter um histórico de dados organizado referentes a serviços realizados no automóvel.
