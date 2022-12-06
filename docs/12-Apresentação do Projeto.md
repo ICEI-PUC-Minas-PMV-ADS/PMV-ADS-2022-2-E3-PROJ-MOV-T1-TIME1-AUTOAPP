@@ -40,6 +40,20 @@ Para o design das telas, utilizamos o [Figma](https://www.figma.com/). Nele, foi
 
 ### Status Atual das Contribuições dos Membros do Time no Github e Comentários Adicionais sobre as Participações Individuais
 
+|Atividade|Executores |Status              |
+|--------------------|------------------------------------|----------------------------------------|
+|Documentação| Michelle | OK |
+|Especificações do projeto | Cristiano, Kelly, Luís Galdino, Pedro e Renata | OK |
+|Metodologia| Renata | ok |
+|Projeto de Interface| Kelly, Luís Galdino e Michelle| ok |
+|Arquitetura de solução| Pedro e Cristiano | ok |
+|Template Padrão| Kelly e MIchelle | ok |
+|Programação de funcionalidades| Todos do grupo | ok |
+|Plano e registro de testes de software| Kelly | ok |
+|Plano e registro de testes de usabilidade| Michelle e Renata | ok |
+|Apresentação do projeto (slides, vídeo e texto)| Kelly, Michelle e Renata | ok |
+**OBS.**: O aluno Luís Galdino esteve presente e contribuiu com o grupo até a etapa 3.
+
 ### Análise Crítica e Proposta de Melhoria do Projeto Arquitetural e Implementação
 
 Este tópico dialoga diretamente com nosso quadro visual atual de gestão de trabalho no Github. Algumas issues, como a emissão de PDF contendo todo o histórico de manutenções e revisões realizadas em um determinado automóvel, não foram finalizadas. Entendemos, com esse caso, por exemplo, que há a necessidade da continuidade dos estudos relacionados ao React Native para melhor compreender o que essa biblioteca é capaz e como podemos nos aproveitar disso. 
