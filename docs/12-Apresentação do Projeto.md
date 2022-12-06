@@ -23,6 +23,19 @@ https://www.youtube.com/watch?v=1PsBZ03cjW4&feature=youtu.be&ab_channel=Michelle
 ## Considerações Finais 
 ### Avaliação dos Frameworks Utilizados
 
+## Tecnologias Utilizadas
+
+Neste projeto, utilizamos o [React](https://pt-br.reactjs.org/) / [React Native](https://reactnative.dev/), uma biblioteca escrita utilizando a linguagem JavaScript para criar interfaces componentizadas e reutilizáveis. Por meio dessa tecnologia, construímos componentes reutilizáveis (atomizados e dinâmicos) e as páginas de toda a aplicação.
+
+Utilizamos também o [Expo](https://expo.dev/) para, principalmente, construir (_buildar_) a aplicação para diferentes dispositivos Android e IOS, sem a necessidade de utilizar ambientes de desenvolvimento especializados, como o Android Studio e o XCode. Essa ferramenta foi importante para a visualização e simulação do aplicativo em um ambiente real. Com o Expo, foi possível testar toda a aplicação.
+
+Usamos o [React Native Paper](https://callstack.github.io/react-native-paper/), uma coleção de componentes já prontos para uso. Usamos, especialmente, os componentes de input e de ícones (como o TAB).
+
+O IDE de desenvolvimento foi o [Visual Studio Code](https://code.visualstudio.com/), um IDE que já trabalhamos antes nos semestres anteriores.
+
+Para o design das telas, utilizamos o [Figma](https://www.figma.com/). Nele, foi possível criar um design system e indicar as fontes, seus tamanhos e suas variações utilizadas no AutoApp de forma dinâmica e de fácil compreensão.
+
+
 ### Quadro Visual Atual de Gestão de Trabalho no Github
 ![Kanban](https://user-images.githubusercontent.com/81396458/205773209-2107a6be-8428-4bea-a759-ccec6c319e9e.png)
 
