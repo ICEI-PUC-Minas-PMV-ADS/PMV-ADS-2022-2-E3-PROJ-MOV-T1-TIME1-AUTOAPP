@@ -13,6 +13,8 @@ AutoApp
 Como template padrão, adotamos uma identidade visual caracterizada pela paleta de cores Gulf Oil Powder, uma homenagem ao Ford GT40. 
 
 ## Slides
+[Apresentação.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2022-2-E3-PROJ-MOV-T1-TIME1-AUTOAPP/files/10159251/Apresentacao.pdf)
+
 
 ## Vídeo da Apresentação
 
